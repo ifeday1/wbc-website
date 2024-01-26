@@ -1,0 +1,105 @@
+/* Carousel.css */
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  width: 100%;
+  position: relative;
+}
+
+.carousel-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+
+}
+
+.carousel-text h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFF;
+text-align: center;
+font-size: 100px;
+font-style: normal;
+font-weight: 700;
+line-height: 100px;
+}
+
+.carousel-text p {
+  font-size: 16px;
+}
+
+/* 
+.slick-prev,
+.slick-next {
+  font-size: 24px;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+} */
+.welcome{
+  color: #0666BA;
+text-align: center;
+font-family: "Mr Dafoe";
+font-size: 76px;
+font-weight: 400;
+text-transform: lowercase;
+}
+@media screen and (max-width:940px) {
+    .welcome {
+font-size: 40px;
+    }
+  }
+  @media screen and (max-width:656px) {
+    .welcome {
+font-size: 25px;
+    }
+  }
+.winners{
+  color: #0666BA;
+text-align: center;
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+}
+@media screen and (max-width:940px) {
+    .winners {
+font-size: 40px;
+    }
+  }
+  @media screen and (max-width:656px) {
+    .winners {
+font-size: 20px;
+    }
+  }
+
+
+@media screen and (max-width:940px) {
+    .carousel-text h3  {
+font-size: 80px;
+    }
+  }
+  @media screen and (max-width:656px) {
+    .carousel-text h3 {
+font-size: 25px;
+line-height: normal;
+
+    }
+  }
