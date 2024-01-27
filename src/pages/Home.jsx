@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from '../components/Carousel';
 import ReadMore from '../components/ReadMore';
 import Pastor from '../assests/Pastor.jpeg';
+import Footer from '../components/Footer';
 
 const Home = () => {
   const loremIpsum =
@@ -77,7 +78,6 @@ const Home = () => {
               amet, consectetur adipiscing elit. Nullam non tLorem ipsum dolor
               sit amet, consectetur adipiscing elit. Nullam non tLorem ipsum
               dolor sit amet, consectetur adipiscing elit. Nullam non t
-              
             </p>
           </div>
           <div className=' flex-1 md:flex-item p-10 rounded-md text-center flex-1/2'>
@@ -93,6 +93,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 };
