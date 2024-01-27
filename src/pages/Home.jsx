@@ -1,9 +1,13 @@
 import React from 'react';
 import Carousel from '../components/Carousel';
 import ReadMore from '../components/ReadMore';
+import Pastor from '../assests/Pastor.jpeg';
 
 const Home = () => {
   const loremIpsum =
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non tortor vitae eros tristique euismod. Sed eget odio vel dolor fringilla efficitur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non tLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non tLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non tLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non tLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non t';
+
+  const pastor =
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non tortor vitae eros tristique euismod. Sed eget odio vel dolor fringilla efficitur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non tLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non tLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non tLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non tLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non t';
 
   return (
@@ -50,22 +54,41 @@ const Home = () => {
       </div>
 
       {/* message from our pastor */}
-      <div className='bg-gray-200 min-h-screen flex items-center justify-around gap-4 pt-8'>
+      <div className='flex flex-col items-center px-6 md:flex-row md:justify-around gap-4 pt-8 px-32'>
         <div className='flex flex-col  md:flex-row md: justify-evenly gap-4'>
-          <div className='flex-item bg-blue-500 p-4 rounded-md '>
-            <h2 className='text-3xl font-bold mb-2'>Message from Our Pastor</h2>
+          <div className='flex-item bg-blue-500 p-4 rounded-md flex-1'>
+            <h2 className='text-3xl font-medium mb-2 text-blue'>
+              Message from Our Pastor
+            </h2>
             <p className='text-gray-700'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              non tortor vitae eros tristique euismod. Sed eget odio vel dolor
+              fringilla efficitur.Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Nullam non tLorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Nullam non tLorem ipsum dolor sit
+              amet, consectetur adipiscing elit. Nullam non tLorem ipsum dolor
+              sit amet, consectetur adipiscing elit. Nullam non tLorem ipsum
+              dolor sit amet, consectetur adipiscing elit. Nullam non t Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit. Nullam non
+              tortor vitae eros tristique euismod. Sed eget odio vel dolor
+              fringilla efficitur.Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Nullam non tLorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Nullam non tLorem ipsum dolor sit
+              amet, consectetur adipiscing elit. Nullam non tLorem ipsum dolor
+              sit amet, consectetur adipiscing elit. Nullam non tLorem ipsum
+              dolor sit amet, consectetur adipiscing elit. Nullam non t
+              
             </p>
           </div>
-          <div className='flex-item bg-blue-500 p-4 rounded-md text-center'>
+          <div className=' flex-1 md:flex-item p-10 rounded-md text-center flex-1/2'>
             <img
-              src='https://via.placeholder.com/150' // Replace with the actual image URL
-              alt='Flex Item 2'
-              className='mb-2 rounded-full'
+              src={Pastor}
+              alt='pastors image'
+              className='mb-2 pl-18 rounded-md  h-auto '
             />
-            <p className='text-gray-700'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <p className=' font-semibold'>
+              Rev Olusola Oladeni, Ph.D <br></br>
+              <span className=' font-medium'>Church Pastor</span>
             </p>
           </div>
         </div>
