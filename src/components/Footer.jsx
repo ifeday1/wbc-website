@@ -15,16 +15,16 @@ const Footer = () => {
           <div>
             <h3 className='text-lg font-semibold mb-2 '>Quick Navigation</h3>
             <div className='flex flex-col'>
-              <a href='#' className='text-white mb-1'>
+              <a href='/about' className='text-white mb-1'>
                 About Us
               </a>
-              <a href='#' className='text-white mb-1'>
+              <a href='/Miniseries' className='text-white mb-1'>
                 Miniseries
               </a>
-              <a href='#' className='text-white mb-1'>
+              <a href='/event' className='text-white mb-1'>
                 Event
               </a>
-              <a href='#' className='text-white mb-1'>
+              <a href='/contact' className='text-white mb-1'>
                 Contact
               </a>
             </div>

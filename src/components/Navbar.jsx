@@ -109,7 +109,7 @@ const Navbar = () => {
           </li>
           <li className={styles['nav-link']}>
             {' '}
-            <NavLink to='giving'>Giving</NavLink>{' '}
+            <NavLink to='/giving'>Giving</NavLink>{' '}
           </li>
 
           <li className={styles['nav-link']}>

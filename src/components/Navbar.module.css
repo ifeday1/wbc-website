@@ -36,6 +36,7 @@
   padding: 5px;
   align-items: center;
   gap: 0.4rem;
+  font-family: 'Montserrat', sans-serif;
 }
 .nav-link:hover {
   cursor: pointer;
@@ -123,7 +124,7 @@
     position: fixed;
     height: 68px;
     backdrop-filter: blur(4px);
-    border-bottom: 1px solid #5aee55;
+ 
   }
   .navbar-dropDown {
     background-color: #f3fff3;

@@ -1,5 +1,6 @@
 /* Carousel.css */
 .carousel-container {
+padding-top: 50px;
   width: 100%;
   overflow: hidden;
 }
