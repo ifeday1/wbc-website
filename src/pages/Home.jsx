@@ -34,12 +34,20 @@ const Home = () => {
           </p>
           <div className='flex flex-col items-center md:flex-row md:justify-around gap-4 pt-8'>
             <div className='flex-item bg-white px-16  py-5 rounded-md text-center'>
-              <div className='square mb-2 flex flex-row items-center'>
+              <div className='square mb-2 flex flex-col '>
                 <p className='text-white bg-blue px-7 py-7 rounded-md font-semibold'>
                   Sun
                 </p>
-                <p className='text-black ml-8 font-semibold'>
+                <p className='text-black  font-semibold'>
                   Combined service <span className=' font-medium'>8:00am</span>
+                </p>
+                <p className='text-black  font-semibold'>
+                  English Service
+                  <span className=' font-medium'>7:00am</span>
+                </p>
+                <p className='text-black  font-semibold'>
+                  Yoruba Service
+                  <span className=' font-medium'>9:00am</span>
                 </p>
               </div>
             </div>
@@ -98,7 +106,6 @@ const Home = () => {
       </div>
 
       <Footer />
- 
     </div>
   );
 };
