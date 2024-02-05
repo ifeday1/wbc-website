@@ -1,10 +1,54 @@
-import React from 'react';
+import { React, useState } from 'react';
 import Con from '../assests/contact.jpg';
 import Loc from '../assests/Loc.png';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import { useForm, ValidationError } from '@formspree/react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const showToast = () => {
+    if (
+      !formData.name ||
+      !formData.email ||
+      !formData.phone ||
+      !formData.message
+    ) {
+      toast({
+        title: 'Fill empty fields',
+        status: 'warning',
+        duration: 3000,
+        isClosable: true,
+      });
+    } else {
+      toast({
+        title: 'Sent',
+        description: 'Your message has been sent successfully.',
+        status: 'success',
+        duration: 5000,
+        isClosable: true,
+      });
+    }
+  };
+  const [state, handleSubmit] = useForm('xqkrpddv');
+  if (state.succeeded) {
+    return <p>Thanks for joining!</p>;
+  }
   return (
     <>
       <Navbar />
@@ -115,33 +159,49 @@ const Contact = () => {
 
       <div className='bg-white p-6 shadow-lg rounded-md'>
         {/* First Flex Item - Form Inputs (Row) */}
-        <div className='flex flex-row mb-4'>
+        <form
+          className='flex flex-row mb-4'
+          as='form'
+          action='https://formspree.io/f/xqkrpddv'
+          method='POST'
+          spacing='2'
+          onSubmit={handleSubmit}
+          //onClick={showToast}
+        >
           <div className='flex flex-col flex-grow mr-4'>
             <h2 className='text-2xl font-semibold mb-4'>Contact Information</h2>
 
             {/* Name Input */}
             <div className='mb-4'>
-              <label htmlFor='name' className='block text-gray-600'>
-                Name
-              </label>
+              <label className='block text-gray-600'>Name</label>
               <input
                 type='text'
-                id='name'
                 name='name'
+                value={formData.name}
+                onChange={handleChange}
+                id='name'
                 className='border p-2 w-full rounded'
               />
             </div>
 
             {/* Email Input */}
+
             <div className='mb-4'>
               <label htmlFor='email' className='block text-gray-600'>
                 Email
               </label>
               <input
                 type='email'
-                id='email'
                 name='email'
+                value={formData.email}
+                onChange={handleChange}
+                id='email'
                 className='border p-2 w-full rounded'
+              />
+              <ValidationError
+                prefix='Email'
+                field='email'
+                errors={state.errors}
               />
             </div>
 
@@ -152,8 +212,10 @@ const Contact = () => {
               </label>
               <input
                 type='tel'
-                id='phone'
                 name='phone'
+                value={formData.phone}
+                onChange={handleChange}
+                id='phone'
                 className='border p-2 w-full rounded'
               />
             </div>
@@ -164,23 +226,37 @@ const Contact = () => {
                 Message
               </label>
               <textarea
-                id='message'
                 name='message'
+                value={formData.message}
+                onChange={handleChange}
+                id='message'
                 rows='4'
                 className='border p-2 w-full rounded'
               ></textarea>
+              <ValidationError
+                prefix='Message'
+                field='message'
+                errors={state.errors}
+              />
             </div>
+            <button
+              className=' bg-blue text-white p-4 text-center cursor-pointer hover:bg-slate-900'
+              type='submit'
+              disabled={state.submitting}
+            >
+              Submit
+            </button>
           </div>
 
           {/* Second Flex Item - Image with Border Radius (Column) */}
           <div className='flex items-center justify-center'>
             <img
-              src='your-image.jpg' // Replace with the path to your image
+              src={Loc} // Replace with the path to your image
               alt='Image'
-              className='w-32 h-32 rounded-md mb-4'
+              className=' w-96 h-auto rounded-md mb-4'
             />
           </div>
-        </div>
+        </form>
       </div>
       <Footer />
     </>

@@ -6,7 +6,7 @@ import $ from 'jquery';
 import Slider from 'react-slick';
 
 import Slider1 from '../assests/Slide1.jpg';
-import Slider2 from '../assests/Slide2.svg';
+import Slider2 from '../assests/Building.jpg';
 
 const Carousel = () => {
   const settings = {
@@ -28,11 +28,14 @@ const Carousel = () => {
           <img src={Slider1} alt='Slide 1' />
           <div className='carousel-text'>
             <h3>WELCOME TO CHURCH</h3>
-            <p>Your text here...</p>
+            <p>
+              Bringing souls to the heart of Christ, walking in faith guided by
+              his light.<br></br> A body of Christ with Jesus as the head.
+            </p>
           </div>
         </div>
         <div className='carousel-slide'>
-          <img src={Slider1} alt='Slide 2' />
+          <img src={Slider2} alt='church building' />
           <div className='carousel-text'>
             <h3>Slide 2</h3>
             <p>Your text here...</p>

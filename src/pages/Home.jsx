@@ -8,7 +8,7 @@ import Contact from './Contact';
 
 const Home = () => {
   const loremIpsum =
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non tortor vitae eros tristique euismod. Sed eget odio vel dolor fringilla efficitur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non tLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non tLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non tLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non tLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non t';
+    'At Winners Baptist Church, we believe in God and are geared towards raising a godly generation, we are one body in Christ, relating in brotherly love and living as Christ has taught us to.We are in Christ therefore have become new creatures. A body devoted to the work of God, doing his will and walking in line with his  commandments. A bible believing church committed to populate the kingdom of God. Here at Miracle Square, we hold discipleship classes to aid spiritual growth, organize the life of  every christian and make us better versions of ourselves. We are grateful for the love God has showed upon us and we believe in the name of Jesus.';
 
   const pastor =
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non tortor vitae eros tristique euismod. Sed eget odio vel dolor fringilla efficitur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non tLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non tLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non tLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non tLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non t';
