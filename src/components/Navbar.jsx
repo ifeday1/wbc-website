@@ -19,12 +19,18 @@ const Navbar = () => {
     setNavMenu(!navMenu);
   };
   const toggleResources = () => {
+    setAboutDisplay(false);
+    setEventDisplay(false);
     setResourcesDisplay(!resourcesDisplay);
   };
   const toggleEvent = () => {
+    setAboutDisplay(false);
+    setResourcesDisplay(false);
     setEventDisplay(!eventDisplay);
   };
   const toggleAbout = () => {
+    setEventDisplay(false);
+    setResourcesDisplay(false);
     setAboutDisplay(!aboutDisplay);
   };
   return (
@@ -44,7 +50,7 @@ const Navbar = () => {
           <li onClick={toggleAbout} className={styles['nav-link']}>
             {' '}
             <NavLink
-              to='/about'
+              to=''
               className={
                 aboutDisplay === true ? `${styles['project-active']}` : ''
               }
@@ -66,7 +72,7 @@ const Navbar = () => {
           <li onClick={toggleEvent} className={styles['nav-link']}>
             {' '}
             <NavLink
-              to='/events'
+              to=''
               className={
                 eventDisplay === true ? `${styles['project-active']}` : ''
               }
@@ -88,7 +94,7 @@ const Navbar = () => {
           <li onClick={toggleResources} className={styles['nav-link']}>
             {' '}
             <NavLink
-              to='/resources'
+              to=''
               className={
                 resourcesDisplay === true ? `${styles['project-active']}` : ''
               }
@@ -148,6 +154,42 @@ const Navbar = () => {
           </ul>
         </div>
       )}
+      {aboutDisplay && (
+        <div className={styles['about-container']}>
+          <ul>
+            <li className={styles['project-list']}>
+              {' '}
+              <NavLink to='/projects/solar-borehole'>
+                Solar Boreholes
+              </NavLink>{' '}
+            </li>
+            <li className={styles['project-list']}>
+              {' '}
+              <NavLink to='/projects/empowerment-project'>
+                Empowerment Projects
+              </NavLink>{' '}
+            </li>
+          </ul>
+        </div>
+      )}
+      {resourcesDisplay && (
+        <div className={styles['resources-container']}>
+          <ul>
+            <li className={styles['project-list']}>
+              {' '}
+              <NavLink to='/projects/solar-borehole'>
+                Our Resources
+              </NavLink>{' '}
+            </li>
+            <li className={styles['project-list']}>
+              {' '}
+              <NavLink to='/projects/empowerment-project'>
+                all resource
+              </NavLink>{' '}
+            </li>
+          </ul>
+        </div>
+      )}
 
       {navMenu && (
         <div className={styles['navbar-dropDown']}>
@@ -159,7 +201,7 @@ const Navbar = () => {
             <li onClick={toggleAbout} className={styles['nav-link']}>
               {' '}
               <NavLink
-                to='/about'
+                to=''
                 className={
                   aboutDisplay === true ? `${styles['project-active']}` : ''
                 }
@@ -193,7 +235,7 @@ const Navbar = () => {
             <li onClick={toggleEvent} className={styles['nav-link']}>
               {' '}
               <NavLink
-                to='/events'
+                to=''
                 className={
                   eventDisplay === true ? `${styles['project-active']}` : ''
                 }
@@ -227,7 +269,7 @@ const Navbar = () => {
             <li onClick={toggleResources} className={styles['nav-link']}>
               {' '}
               <NavLink
-                to='/resources'
+                to=''
                 className={
                   resourcesDisplay === true ? `${styles['project-active']}` : ''
                 }

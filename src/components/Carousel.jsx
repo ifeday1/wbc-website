@@ -28,7 +28,7 @@ const Carousel = () => {
           <img src={Slider1} alt='Slide 1' />
           <div className='carousel-text'>
             <h3>WELCOME TO CHURCH</h3>
-            <p>
+            <p className=' text-[10px] md:text-[5px]'>
               Bringing souls to the heart of Christ, walking in faith guided by
               his light.<br></br> A body of Christ with Jesus as the head.
             </p>

@@ -31,19 +31,19 @@
   line-height: 22px;
   margin-left: 30px;
   font-family: "Archivo", sans-serif;
-  color: #0666BA;
+  color: #0666ba;
   display: flex;
   padding: 5px;
   align-items: center;
   gap: 0.4rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .nav-link:hover {
   cursor: pointer;
 }
 
 .project-active {
-  color: #0666BA;
+  color: #0666ba;
 }
 /* Navigation Donation BTN */
 .nav-btn {
@@ -51,32 +51,41 @@
   font-weight: 500;
   font-size: 16px;
   background-color: #fff;
-  color: #0666BA;
+  color: #0666ba;
   padding: 15px 30px;
   border-radius: 25px;
   line-height: 22px;
   transition: all 0.6s;
-  
 }
 .nav-btn:hover {
   cursor: pointer;
   background-color: #e6ffe0;
-  color: #0666BA;
-  
+  color: #0666ba;
 }
 
 .active {
-  color: #0666BA;
+  color: #0666ba;
 }
-.projects-container {
+.projects-container,
+.about-container,
+.resources-container {
+  padding: 20px;
   position: fixed;
   z-index: 50;
-  left: 40%;
   top: 77px;
   width: 240px;
   box-shadow: 0px 12px 16px -4px rgba(53, 53, 53, 0.05);
   border-radius: 8px;
-  background-color: #f3fff3;
+  background-color: #fff;
+}
+.projects-container {
+  right: 30%;
+}
+.about-container {
+  right: 40%;
+}
+.resources-container {
+  right: 20%;
 }
 .donate-projects-container {
   position: fixed;
@@ -87,7 +96,6 @@
   box-shadow: 0px 12px 16px -4px rgba(53, 53, 53, 0.05);
   border-radius: 8px;
   background-color: #f3fff3;
-
 }
 .project-list {
   list-style: none;
@@ -124,7 +132,6 @@
     position: fixed;
     height: 68px;
     backdrop-filter: blur(4px);
- 
   }
   .navbar-dropDown {
     background-color: #f3fff3;
@@ -184,6 +191,11 @@
     line-height: 16px;
     text-align: center;
     color: #023003;
+  }
+  .projects-container,
+  .about-container,
+  .resources-container {
+    display: none;
   }
 }
 @media screen and (min-width: 480px) {
