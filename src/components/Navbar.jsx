@@ -45,7 +45,7 @@ const Navbar = () => {
         <ul className={styles['nav-links']}>
           <li className={styles['nav-link']}>
             {' '}
-            <NavLink to='/'>Home</NavLink>{' '}
+            <NavLink to='/'>HOME</NavLink>{' '}
           </li>
           <li onClick={toggleAbout} className={styles['nav-link']}>
             {' '}
@@ -55,7 +55,7 @@ const Navbar = () => {
                 aboutDisplay === true ? `${styles['project-active']}` : ''
               }
             >
-              About
+              ABOUT
             </NavLink>
             {aboutDisplay ? (
               <FontAwesomeIcon
@@ -77,7 +77,7 @@ const Navbar = () => {
                 eventDisplay === true ? `${styles['project-active']}` : ''
               }
             >
-              Events
+              EVENTS
             </NavLink>
             {eventDisplay ? (
               <FontAwesomeIcon
@@ -99,7 +99,7 @@ const Navbar = () => {
                 resourcesDisplay === true ? `${styles['project-active']}` : ''
               }
             >
-              Resources
+              RESOURCES
             </NavLink>
             {resourcesDisplay ? (
               <FontAwesomeIcon
@@ -115,12 +115,12 @@ const Navbar = () => {
           </li>
           <li className={styles['nav-link']}>
             {' '}
-            <NavLink to='/giving'>Giving</NavLink>{' '}
+            <NavLink to='/giving'>GIVING</NavLink>{' '}
           </li>
 
           <li className={styles['nav-link']}>
             {' '}
-            <NavLink to='/contact'> Contact</NavLink>
+            <NavLink to='/contact'> CONTACT</NavLink>
           </li>
         </ul>
 
@@ -136,42 +136,69 @@ const Navbar = () => {
           )}{' '}
         </div>
       </div>
+
+      {aboutDisplay && (
+        <div className={styles['about-container']}>
+          <ul>
+            <li className={styles['project-list']}>
+              {' '}
+              <NavLink to='/about-the-church'>
+                ABOUT THE CHURCH
+              </NavLink>{' '}
+            </li>
+            <li className={styles['project-list']}>
+              {' '}
+              <NavLink to='/projects/empowerment-project'>
+                MINISTERIES
+              </NavLink>{' '}
+            </li>
+            <li className={styles['project-list']}>
+              {' '}
+              <NavLink to='/projects/empowerment-project'>
+                MINISTERS
+              </NavLink>{' '}
+            </li>
+            <li className={styles['project-list']}>
+              {' '}
+              <NavLink to='/projects/empowerment-project'>
+                DIACONATES
+              </NavLink>{' '}
+            </li>
+          </ul>
+        </div>
+      )}
+
       {eventDisplay && (
         <div className={styles['projects-container']}>
           <ul>
             <li className={styles['project-list']}>
               {' '}
               <NavLink to='/projects/solar-borehole'>
-                Solar Boreholes
+                ABOUT THE CHURCH
               </NavLink>{' '}
             </li>
             <li className={styles['project-list']}>
               {' '}
               <NavLink to='/projects/empowerment-project'>
-                Empowerment Projects
-              </NavLink>{' '}
-            </li>
-          </ul>
-        </div>
-      )}
-      {aboutDisplay && (
-        <div className={styles['about-container']}>
-          <ul>
-            <li className={styles['project-list']}>
-              {' '}
-              <NavLink to='/projects/solar-borehole'>
-                Solar Boreholes
+                MINISTERIES
               </NavLink>{' '}
             </li>
             <li className={styles['project-list']}>
               {' '}
               <NavLink to='/projects/empowerment-project'>
-                Empowerment Projects
+                MINISTERS
+              </NavLink>{' '}
+            </li>
+            <li className={styles['project-list']}>
+              {' '}
+              <NavLink to='/projects/empowerment-project'>
+                DIACONATES
               </NavLink>{' '}
             </li>
           </ul>
         </div>
       )}
+
       {resourcesDisplay && (
         <div className={styles['resources-container']}>
           <ul>
