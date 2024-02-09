@@ -142,27 +142,19 @@ const Navbar = () => {
           <ul>
             <li className={styles['project-list']}>
               {' '}
-              <NavLink to='/about-the-church'>
-                ABOUT THE CHURCH
-              </NavLink>{' '}
+              <NavLink to='/about-the-church'>ABOUT THE CHURCH</NavLink>{' '}
             </li>
             <li className={styles['project-list']}>
               {' '}
-              <NavLink to='/projects/empowerment-project'>
-                MINISTERIES
-              </NavLink>{' '}
+              <NavLink to='/ministries'>MINISTERIES</NavLink>{' '}
             </li>
             <li className={styles['project-list']}>
               {' '}
-              <NavLink to='/projects/empowerment-project'>
-                MINISTERS
-              </NavLink>{' '}
+              <NavLink to='/ministers'>MINISTERS</NavLink>{' '}
             </li>
             <li className={styles['project-list']}>
               {' '}
-              <NavLink to='/projects/empowerment-project'>
-                DIACONATES
-              </NavLink>{' '}
+              <NavLink to='/diaconates'>DIACONATES</NavLink>{' '}
             </li>
           </ul>
         </div>
