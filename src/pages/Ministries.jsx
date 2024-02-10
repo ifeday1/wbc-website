@@ -5,7 +5,7 @@ const Ministries = () => {
   return (
     <>
     <Navbar/>
-    
+    <h1>Ministeies</h1>
     </>
   )
 };
