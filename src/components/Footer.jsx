@@ -8,7 +8,7 @@ import Youtube from '../assests/youtube 2.png';
 const Footer = () => {
   return (
     <>
-      <div className='flex flex-col  sm:flex-row justify-between p-4 py-28 bg-gray-800 text-white'>
+      <div className='flex flex-col  sm:flex-row justify-between p-4 py-28 bg-gray-800 text-white mt-10'>
         {/* First Flex Item with Logo */}
         <div className='flex-none flex-1 mb-2 sm:mb-0'>
           <img src={Logo} alt='Logo' className=' w-24 h-auto mx-0 md:mx-28' />

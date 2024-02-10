@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from '../components/Carousel';
 import ReadMore from '../components/ReadMore';
-import Pastor from '../assests/Pastor.jpeg';
+import Pastor from '../assests/pastor1.svg';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import Contact from './Contact';
@@ -95,9 +95,9 @@ const Home = () => {
             <img
               src={Pastor}
               alt='pastors image'
-              className='mb-2 pl-18 rounded-md  h-auto '
+              className='mb-2 pl-18 md:pl-32 rounded-md  h-auto '
             />
-            <p className=' font-semibold'>
+            <p className=' font-semibold pl-18 md:pl-32'>
               Rev Olusola Oladeni, Ph.D <br></br>
               <span className=' font-medium'>Church Pastor</span>
             </p>
