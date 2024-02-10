@@ -146,7 +146,7 @@ const Navbar = () => {
             </li>
             <li className={styles['project-list']}>
               {' '}
-              <NavLink to='/ministries'>MINISTERIES</NavLink>{' '}
+              <NavLink to='/ministries'>MINISTRIES</NavLink>{' '}
             </li>
             <li className={styles['project-list']}>
               {' '}
