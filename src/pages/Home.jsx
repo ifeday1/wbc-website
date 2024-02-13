@@ -105,6 +105,184 @@ const Home = () => {
         </div>
       </div>
 
+      <div>
+        <h1 className=' mt-20 text-4xl font-bold text-blue text-center'>
+          Our Core Values
+        </h1>
+        <p className='text-gray-600 text-center text-[10px] md:text-[15px]'>
+          Supporting our adopted Mission Statement, the goals of<br></br>{' '}
+          Winners Baptist Church comprises:
+        </p>
+
+        <div class='flex flex-wrap justify-center mt-14'>
+          <div class='w-full md:w-1/2 lg:w-1/4 p-4'>
+            <div class='bg-blue rounded-lg p-4 flex flex-col justify-center w-auto h-80'>
+              <svg
+                xmlns='http://www.w3.org/2000/svg'
+                class='icon icon-tabler icon-tabler-heart'
+                width='50'
+                height='40'
+                opacity='50'
+                viewBox='0 0 24 24'
+                stroke-width='1.5'
+                stroke='#ffffff'
+                fill='none'
+                stroke-linecap='round'
+                stroke-linejoin='round'
+              >
+                <path stroke='none' d='M0 0h24v24H0z' fill='none' />
+                <path d='M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572' />
+              </svg>
+              <div class='mx-4 text-white'>
+                <h4 class='text-lg font-bold pt-5'> Love </h4>
+                <p class='mt-2'>
+                  Encouraging ourselves in brotherly love and bringing hearts to
+                  Christ. Living as Christ wants us to as he has commanded that
+                  we should love as He loved us.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class='w-full md:w-1/2 lg:w-1/4 p-4'>
+            <div class='bg-blue rounded-lg p-4 flex items-center justify-center w-auto h-80'>
+              <div class='mx-4  text-white'>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  class='icon icon-tabler icon-tabler-heart'
+                  width='50'
+                  height='40'
+                  opacity='96'
+                  viewBox='0 0 24 24'
+                  stroke-width='1.5'
+                  stroke='#ffffff'
+                  fill='none'
+                  stroke-linecap='round'
+                  stroke-linejoin='round'
+                >
+                  <path stroke='none' d='M0 0h24v24H0z' fill='none' />
+                  <path d='M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572' />
+                  <path d='M12 6l-3.293 3.293a1 1 0 0 0 0 1.414l.543 .543c.69 .69 1.81 .69 2.5 0l1 -1a3.182 3.182 0 0 1 4.5 0l2.25 2.25' />
+                  <path d='M12.5 15.5l2 2' />
+                  <path d='M15 13l2 2' />
+                </svg>
+                <h4 class='text-lg font-bold pt-5'>Care</h4>
+                <p class='mt-2'>
+                  As we value others in humility, we are ready to help and share
+                  with others. Inculcating the spirit of empathy as God helps
+                  us.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class='w-full md:w-1/2 lg:w-1/4 p-4'>
+            <div class='bg-blue rounded-lg p-4 flex items-center justify-center w-auto h-80'>
+              <div class='mx-4  text-white'>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  class='icon icon-tabler icon-tabler-heart'
+                  width='50'
+                  height='40'
+                  opacity='96'
+                  viewBox='0 0 24 24'
+                  stroke-width='1.5'
+                  stroke='#ffffff'
+                  fill='none'
+                  stroke-linecap='round'
+                  stroke-linejoin='round'
+                >
+                  <path stroke='none' d='M0 0h24v24H0z' fill='none' />
+                  <path d='M7 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0' />
+                  <path d='M5 22v-5l-1 -1v-4a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4l-1 1v5' />
+                  <path d='M17 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0' />
+                  <path d='M15 22v-4h-2l2 -6a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1l2 6h-2v4' />
+                </svg>
+                <h4 class='text-lg font-bold pt-5'>
+                  {' '}
+                  Concern for People's Welfare
+                </h4>
+                <p class='mt-2'>
+                  Imbibing the spirit of kindness and generosity in us.Willing
+                  to lend a hand and provide support.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class='w-full md:w-1/2 lg:w-1/4 p-4'>
+            <div class='bg-blue rounded-lg p-4 flex items-center justify-center w-auto h-80'>
+              <div class='mx-4  text-white'>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  class='icon icon-tabler icon-tabler-heart'
+                  width='50'
+                  height='40'
+                  opacity='96'
+                  viewBox='0 0 24 24'
+                  stroke-width='1.5'
+                  stroke='#ffffff'
+                  fill='none'
+                  stroke-linecap='round'
+                  stroke-linejoin='round'
+                >
+                  <path stroke='none' d='M0 0h24v24H0z' fill='none' />
+                  <path d='M19 4v16h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12z' />
+                  <path d='M19 16h-12a2 2 0 0 0 -2 2' />
+                  <path d='M12 7v6' />
+                  <path d='M10 9h4' />
+                </svg>
+                <h4 class='text-lg font-bold pt-5'>Commitment Jesus Christ</h4>
+                <p class='mt-2'>Putting Christ first in all we do!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className='bg-light mt-20 py-3'>
+        <h4 className=' mt-20 text-4xl font-bold text-blue text-center'>
+          Our Ministries
+        </h4>
+        <div class='flex flex-wrap justify-center'>
+          <div class='flex flex-col items-center p-4 md:w-1/3'>
+            <img
+              src='image1.jpg'
+              alt='Image 1'
+              class='w-24 h-24 rounded-full mb-4'
+            />
+            <h4 class='text-lg font-bold'>Heading 1</h4>
+            <p class='mt-2 text-center'>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+
+          <div class='flex flex-col items-center p-4 md:w-1/3'>
+            <img
+              src='image2.jpg'
+              alt='Image 2'
+              class='w-24 h-24 rounded-full mb-4'
+            />
+            <h4 class='text-lg font-bold'>Heading 2</h4>
+            <p class='mt-2 text-center'>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+
+          <div class='flex flex-col items-center p-4 md:w-1/3'>
+            <img
+              src='image3.jpg'
+              alt='Image 3'
+              class='w-24 h-24 rounded-full mb-4'
+            />
+            <h4 class='text-lg font-bold'>Heading 3</h4>
+            <p class='mt-2 text-center'>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+      </div>
+
       <Footer />
     </div>
   );
