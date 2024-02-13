@@ -4,7 +4,7 @@ import ReadMore from '../components/ReadMore';
 import Pastor from '../assests/pastor1.svg';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
-import Contact from './Contact';
+import Teens from '../assests/Teens.svg';
 
 const Home = () => {
   const loremIpsum =
@@ -106,7 +106,7 @@ const Home = () => {
       </div>
 
       <div>
-        <h1 className=' mt-20 text-4xl font-bold text-blue text-center'>
+        <h1 className='  text-4xl font-bold text-blue text-center'>
           Our Core Values
         </h1>
         <p className='text-gray-600 text-center text-[10px] md:text-[15px]'>
@@ -246,37 +246,68 @@ const Home = () => {
         </h4>
         <div class='flex flex-wrap justify-center'>
           <div class='flex flex-col items-center p-4 md:w-1/3'>
-            <img
-              src='image1.jpg'
-              alt='Image 1'
-              class='w-24 h-24 rounded-full mb-4'
-            />
-            <h4 class='text-lg font-bold'>Heading 1</h4>
+            <img src={Teens} alt='Image 1' class=' w-80 h-80 rounded-full' />
+            <h4 class='text-lg font-bold'>Teenagers Ministry</h4>
             <p class='mt-2 text-center'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
+              orci feugiat, bibendum mauris vel, ultrices ipsum. Quisque luctus
+              ipsum id justo vestibulum...
             </p>
           </div>
 
           <div class='flex flex-col items-center p-4 md:w-1/3'>
-            <img
-              src='image2.jpg'
-              alt='Image 2'
-              class='w-24 h-24 rounded-full mb-4'
-            />
-            <h4 class='text-lg font-bold'>Heading 2</h4>
+            <img src={Teens} alt='Image 1' class=' w-80 h-80 rounded-full' />
+            <h4 class='text-lg font-bold'>Teenagers Ministry</h4>
             <p class='mt-2 text-center'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
+              orci feugiat, bibendum mauris vel, ultrices ipsum. Quisque luctus
+              ipsum id justo vestibulum...
             </p>
           </div>
 
           <div class='flex flex-col items-center p-4 md:w-1/3'>
-            <img
-              src='image3.jpg'
-              alt='Image 3'
-              class='w-24 h-24 rounded-full mb-4'
-            />
-            <h4 class='text-lg font-bold'>Heading 3</h4>
+            <img src={Teens} alt='Image 1' class=' w-80 h-80 rounded-full' />
+            <h4 class='text-lg font-bold'>Teenagers Ministry</h4>
             <p class='mt-2 text-center'>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
+              orci feugiat, bibendum mauris vel, ultrices ipsum. Quisque luctus
+              ipsum id justo vestibulum...
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className='mt-14'>
+        <h1 className='  text-4xl font-bold text-blue text-center'>
+          Discover the Journey to Christ
+        </h1>
+        <p className='text-gray-600 text-center text-[10px] md:text-[15px]'>
+          God so loved the world that he gave his one and only Son, that
+          <br></br> whoever believes in him shall not perish but have eternal
+          life.<br></br> - John 3:16
+        </p>
+
+        <div class='flex flex-wrap justify-center gap-4 bg-gray-200 rounded-lg p-4 mt-10'>
+          <div class='w-full md:w-44 bg-blue p-4'>
+            <h1 class='text-xl font-bold'>Heading 1</h1>
+            <h3 class='text-lg font-semibold'>Subheading 1</h3>
+            <p class='mt-2'>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+
+          <div class='w-full md:w-44 bg-gray-200 p-4'>
+            <h1 class='text-xl font-bold'>Heading 2</h1>
+            <h3 class='text-lg font-semibold'>Subheading 2</h3>
+            <p class='mt-2'>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+
+          <div class='w-full md:w-44 bg-gray-200 p-4'>
+            <h1 class='text-xl font-bold'>Heading 3</h1>
+            <h3 class='text-lg font-semibold'>Subheading 3</h3>
+            <p class='mt-2'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
           </div>
