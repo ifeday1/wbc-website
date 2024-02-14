@@ -5,6 +5,7 @@ import Pastor from '../assests/pastor1.svg';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import Teens from '../assests/Teens.svg';
+import Pic from '../assests/churin.svg';
 
 const Home = () => {
   const loremIpsum =
@@ -274,6 +275,12 @@ const Home = () => {
               ipsum id justo vestibulum...
             </p>
           </div>
+          <a
+            href='/ministries'
+            class='bg-blue hover:bg-blue-700 p-18 mt-10 text-white font-bold py-2 px-4 rounded'
+          >
+            More
+          </a>
         </div>
       </div>
 
@@ -287,30 +294,43 @@ const Home = () => {
           life.<br></br> - John 3:16
         </p>
 
-        <div class='flex flex-wrap justify-center gap-4 bg-gray-200 rounded-lg p-4 mt-10'>
-          <div class='w-full md:w-44 bg-blue p-4'>
-            <h1 class='text-xl font-bold'>Heading 1</h1>
-            <h3 class='text-lg font-semibold'>Subheading 1</h3>
+        <div class='flex flex-wrap text-white justify-center gap-6  rounded-lg p-4 mt-10'>
+          <div class=' md:w-44 text-white bg-gave p-4 rounded-lg w-auto h-96 '>
+            <h1 class='text-4xl font-bold pb-16 pt-8'>01</h1>
+            <h3 class='text-lg font-semibold'>Accept that you are a sinner</h3>
             <p class='mt-2'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Roman 3:23 - For all have sinned and fall short of the glory of
+              God
             </p>
           </div>
 
-          <div class='w-full md:w-44 bg-gray-200 p-4'>
-            <h1 class='text-xl font-bold'>Heading 2</h1>
-            <h3 class='text-lg font-semibold'>Subheading 2</h3>
-            <p class='mt-2'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
+          <div class=' mt-1 md:mt-20 md:w-44 bg-green p-4 rounded-lg w-auto h-96'>
+            <h1 class='text-4xl font-bold pb-16 pt-8'>02</h1>
+            <h3 class='text-lg font-semibold'>Accept Christ as your Lord</h3>
+            <p class='mt-2'>John 3:16 - Come to Christ for Life</p>
           </div>
 
-          <div class='w-full md:w-44 bg-gray-200 p-4'>
-            <h1 class='text-xl font-bold'>Heading 3</h1>
-            <h3 class='text-lg font-semibold'>Subheading 3</h3>
-            <p class='mt-2'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
+          <div class=' md:w-44 bg-pink p-4 rounded-lg w-auto h-96'>
+            <h1 class='text-4xl font-bold pb-16 pt-8'>03</h1>
+            <h3 class='text-lg font-semibold'>Join a Fellowship</h3>
+            <p class='mt-2'>Find a bible believing church around you</p>
           </div>
+        </div>
+      </div>
+
+      <div className='flex justify-center items-center flex-col'>
+        <h1 className='  pt-14 text-4xl font-bold text-blue text-center'>
+          Church in pictures
+        </h1>
+        <p className='text-gray-600 pb-10  text-center text-[10px] md:text-[15px]'>
+          Have a glimse of what our worship service look like
+        </p>
+        <div>
+          <img
+            src={Pic}
+            alt='Church in Pictures'
+            class=' p-4 w-[500px] h-[auto] md:w-[1200px] h-auto'
+          />
         </div>
       </div>
 
