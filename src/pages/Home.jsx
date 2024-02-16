@@ -8,6 +8,7 @@ import Teens from '../assests/Teens.svg';
 import Pic from '../assests/churin.svg';
 import WW from '../assests/ww.svg';
 import WW1 from '../assests/ww1.svg';
+import Location from '../components/Location';
 
 const Home = () => {
   const loremIpsum =
@@ -405,6 +406,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <Location />
 
       <Footer />
     </div>

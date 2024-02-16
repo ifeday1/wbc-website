@@ -6,6 +6,8 @@ import Footer from '../components/Footer';
 import { useForm, ValidationError } from '@formspree/react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import GoogleMapReact from 'google-map-react';
+import GoogleMap from '../components/GoogleMap';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -258,6 +260,7 @@ const Contact = () => {
           </div>
         </form>
       </div>
+
       <Footer />
     </>
   );
