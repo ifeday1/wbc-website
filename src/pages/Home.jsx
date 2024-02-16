@@ -6,6 +6,8 @@ import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import Teens from '../assests/Teens.svg';
 import Pic from '../assests/churin.svg';
+import WW from '../assests/ww.svg';
+import WW1 from '../assests/ww1.svg';
 
 const Home = () => {
   const loremIpsum =
@@ -331,6 +333,76 @@ const Home = () => {
             alt='Church in Pictures'
             class=' p-4 w-[500px] h-[auto] md:w-[1200px] h-auto'
           />
+        </div>
+      </div>
+
+      <div class='flex flex-wrap justify-center items-center pt-14'>
+        <div class='flex flex-col justify-center  mx-4 my-2 md:w-1/2 lg:w-1/3'>
+          <h2 class='text-4xl font-bold mb-4 text-center text-blue md:text-left'>
+            JOIN THE WINNING
+            <br></br>FAMILY!
+          </h2>
+          <p class='text-lg mb-4'>
+            1 John 5:4 - For everyone born of God overcomes the world. This is
+            the victory that has overcome the world.
+          </p>
+          <button class=' bg-green hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
+            <a href='/contact'>JOIN</a>
+          </button>
+        </div>
+
+        <div class='flex justify-center items-center mx-4 my-2 md:w-1/2 lg:w-1/3'>
+          <img
+            src='your-image.jpg'
+            alt='Your Image'
+            class='max-w-full h-auto'
+          />
+        </div>
+      </div>
+
+      <div className=' bg-light mt-14'>
+        <div class='container mx-auto max-w-screen-lg p-8'>
+          <div class='mb-8'>
+            <h2 class='text-3xl font-bold mb-4 text-center text-blue'>
+              Worship with us
+            </h2>
+            <p class='text-lg text-gray-700 text-center'>
+              Can’t make it to church? Join us online
+            </p>
+          </div>
+
+          <div class='flex justify-between gap-3'>
+            <div class='flex flex-col items-center  bg-white rounded-xl'>
+              <div class='image-container mb-4'>
+                <img src={WW} alt='Image 1' class='w-[500px] h-auto' />
+              </div>
+              <p class='text-lg text-gray-700 text-center  mb-2'>
+                Join our worship service via Youtube
+              </p>
+              <a
+                href='https://youtube.com/@winnersbaptistchurch4964?si=A5EEo-qBgdnu_fc3'
+                class='text-green hover:underline'
+              >
+                Click here to join
+              </a>
+            </div>
+
+            <div class='flex flex-col items-center  bg-white rounded-xl'>
+              <div class='image-container mb-4'>
+                <img src={WW1} alt='' class='w-[500px] h-auto' />
+              </div>
+              <p class='text-lg text-gray-700 items-center  text-center mb-2'>
+                Join our worship service via Facebook live <br></br> (Video and
+                audio)
+              </p>
+              <a
+                href='https://www.facebook.com/winnersbaptistchurch?mibextid=ZbWKwL'
+                class='text-green hover:underline'
+              >
+                Click here to join
+              </a>
+            </div>
+          </div>
         </div>
       </div>
 

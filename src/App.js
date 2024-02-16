@@ -6,6 +6,7 @@ import { Route, BrowserRouter, Routes } from 'react-router-dom';
 import Ministries from './pages/Ministries';
 import Ministers from './pages/ Ministers';
 import Diaconates from './pages/Diaconates';
+import Giving from './pages/Giving';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
 
         {/* Contact */}
         <Route path='/contact' element={<Contact />} />
+
+        {/* Giving */}
+        <Route path='/giving' element={<Giving />} />
       </Routes>
     </div>
   );

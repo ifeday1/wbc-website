@@ -91,6 +91,12 @@ const Navbar = () => {
               />
             )}
           </li>
+
+          <li className={styles['nav-link']}>
+            {' '}
+            <NavLink to='/giving'>GIVING</NavLink>{' '}
+          </li>
+
           <li onClick={toggleResources} className={styles['nav-link']}>
             {' '}
             <NavLink
@@ -99,7 +105,7 @@ const Navbar = () => {
                 resourcesDisplay === true ? `${styles['project-active']}` : ''
               }
             >
-              RESOURCES
+              WBC COMMUNITY
             </NavLink>
             {resourcesDisplay ? (
               <FontAwesomeIcon
@@ -112,10 +118,6 @@ const Navbar = () => {
                 style={{ color: '#74c0fc' }}
               />
             )}
-          </li>
-          <li className={styles['nav-link']}>
-            {' '}
-            <NavLink to='/giving'>GIVING</NavLink>{' '}
           </li>
 
           <li className={styles['nav-link']}>
@@ -168,18 +170,7 @@ const Navbar = () => {
               <NavLink to='/projects/solar-borehole'>
                 ABOUT THE CHURCH
               </NavLink>{' '}
-            </li>
-            <li className={styles['project-list']}>
-              {' '}
-              <NavLink to='/projects/empowerment-project'>
-                MINISTERIES
-              </NavLink>{' '}
-            </li>
-            <li className={styles['project-list']}>
-              {' '}
-              <NavLink to='/projects/empowerment-project'>
-                MINISTERS
-              </NavLink>{' '}
+              <NavLink to='/projects/empowerment-project'>MINISTERS</NavLink>{' '}
             </li>
             <li className={styles['project-list']}>
               {' '}
@@ -197,13 +188,13 @@ const Navbar = () => {
             <li className={styles['project-list']}>
               {' '}
               <NavLink to='/projects/solar-borehole'>
-                Our Resources
+                WINNERS BC CAREERS
               </NavLink>{' '}
             </li>
             <li className={styles['project-list']}>
               {' '}
               <NavLink to='/projects/empowerment-project'>
-                all resource
+                WINNERS FC
               </NavLink>{' '}
             </li>
           </ul>
