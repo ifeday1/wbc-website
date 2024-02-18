@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import ChurchImage from '../assests/church.png';
 import Teens from '../assests/Teens.svg';
+import Footer from '../components/Footer';
 
 const Ministries = () => {
   return (
@@ -199,6 +200,8 @@ const Ministries = () => {
           </p>
         </div>
       </div>
+
+      <Footer />
     </>
   );
 };

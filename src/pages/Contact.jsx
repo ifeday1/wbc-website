@@ -8,6 +8,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import GoogleMapReact from 'google-map-react';
 import GoogleMap from '../components/GoogleMap';
+import Location from '../components/Location';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -67,7 +68,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className='flex flex-col lg:px-32 sm:flex-row justify-between p-4 text-white px-5'>
+      <div className='flex flex-col lg:px-32 sm:flex-row justify-between p-4 text-white px-5 mt-14'>
         {/* First Flex Item - Location */}
         <div className='flex-shrink-0 mb-4 sm:mb-0'>
           <div className='flex items-center bg-blue p-4 rounded-md'>
@@ -159,7 +160,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className='bg-white p-6 shadow-lg rounded-md'>
+      <div className='bg-white p-6 shadow-lg rounded-md bg-grey-400 mt-10'>
         {/* First Flex Item - Form Inputs (Row) */}
         <form
           className='flex flex-row mb-4'
@@ -170,7 +171,7 @@ const Contact = () => {
           onSubmit={handleSubmit}
           //onClick={showToast}
         >
-          <div className='flex flex-col flex-grow mr-4'>
+          <div className='flex flex-col flex-grow mr-4 '>
             <h2 className='text-2xl font-semibold mb-4'>Contact Information</h2>
 
             {/* Name Input */}
@@ -260,6 +261,8 @@ const Contact = () => {
           </div>
         </form>
       </div>
+
+      <Location />
 
       <Footer />
     </>
