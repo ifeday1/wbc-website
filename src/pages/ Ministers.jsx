@@ -18,7 +18,11 @@ const Ministers = () => {
         <div class='absolute top-0 left-0 w-full h-full flex items-center justify-center text-center'>
           <div class='text-center text-white pt-24'>
             <h2 class='text-1xl font-bold md:text-4xl '>MINISTERS</h2>
-            <p class='mt-2'>Additional text here</p>
+            <p class='mt-2'>
+              <span className=' text-4xl font-semibold '>A</span>
+              nd I will give you pastors according to mine heart, which shall<br></br>
+              feed you with knowledge and understanding. Jeremiah 3:15
+            </p>
           </div>
         </div>
       </div>

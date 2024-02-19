@@ -8,6 +8,8 @@ import Teens from '../assests/Teens.svg';
 import Pic from '../assests/churin.svg';
 import WW from '../assests/ww.svg';
 import WW1 from '../assests/ww1.svg';
+import Join from '../assests/join.svg';
+
 import Location from '../components/Location';
 
 const Home = () => {
@@ -353,11 +355,7 @@ const Home = () => {
         </div>
 
         <div class='flex justify-center items-center mx-4 my-2 md:w-1/2 lg:w-1/3'>
-          <img
-            src='your-image.jpg'
-            alt='Your Image'
-            class='max-w-full h-auto'
-          />
+          <img src={Join} alt='Your Image' class='max-w-full h-auto' />
         </div>
       </div>
 

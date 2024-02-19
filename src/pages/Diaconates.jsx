@@ -12,7 +12,14 @@ const Diaconates = () => {
         <div class='absolute top-0 left-0 w-full h-full flex items-center justify-center text-center'>
           <div class='text-center text-white pt-24'>
             <h2 class='text-1xl font-bold md:text-4xl '>DIACONATES</h2>
-            <p class='mt-2'>Additional text here</p>
+            <p class='mt-2'>
+              <span className=' text-4xl font-semibold '>K</span>
+              eep watch over yourselves and all the flock of which the Holy
+              <br></br>
+              spirit has made you overseers. Be shepherds of the church of God,
+              <br></br>
+              which he brought with his own blood. Acts 20:28.
+            </p>
           </div>
         </div>
       </div>
