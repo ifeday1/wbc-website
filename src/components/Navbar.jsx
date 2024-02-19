@@ -206,7 +206,7 @@ const Navbar = () => {
           <ul className={styles['mobile-nav-links']}>
             <li className={styles['nav-link']}>
               {' '}
-              <NavLink to='/'>Home</NavLink>{' '}
+              <NavLink to='/'>HOME</NavLink>{' '}
             </li>
             <li onClick={toggleAbout} className={styles['nav-link']}>
               {' '}
@@ -216,7 +216,7 @@ const Navbar = () => {
                   aboutDisplay === true ? `${styles['project-active']}` : ''
                 }
               >
-                About
+                ABOUT
               </NavLink>
               {aboutDisplay ? (
                 <FontAwesomeIcon
@@ -233,24 +233,36 @@ const Navbar = () => {
             {aboutDisplay && (
               <li className={styles['nav-sub-link']}>
                 {' '}
-                <NavLink to=''>lorem</NavLink>{' '}
+                <NavLink to='/about-the-church'>ABOUT THE CHURCH</NavLink>{' '}
               </li>
             )}
             {aboutDisplay && (
               <li className={styles['nav-sub-link']}>
                 {' '}
-                <NavLink to=''>ipsum</NavLink>{' '}
+                <NavLink to='/ministries'>MINISTRIES</NavLink>{' '}
+              </li>
+            )}
+            {aboutDisplay && (
+              <li className={styles['nav-sub-link']}>
+                {' '}
+                <NavLink to='/ministers'>MINISTERS</NavLink>{' '}
+              </li>
+            )}
+            {aboutDisplay && (
+              <li className={styles['nav-sub-link']}>
+                {' '}
+                <NavLink to='/diaconates'>DIACONATES</NavLink>{' '}
               </li>
             )}
             <li onClick={toggleEvent} className={styles['nav-link']}>
               {' '}
               <NavLink
-                to=''
+                to='/events'
                 className={
                   eventDisplay === true ? `${styles['project-active']}` : ''
                 }
               >
-                Events
+                EVENTS
               </NavLink>
               {eventDisplay ? (
                 <FontAwesomeIcon
@@ -270,12 +282,7 @@ const Navbar = () => {
                 <NavLink to=''>lorem</NavLink>{' '}
               </li>
             )}
-            {eventDisplay && (
-              <li className={styles['nav-sub-link']}>
-                {' '}
-                <NavLink to=''>ipsum</NavLink>{' '}
-              </li>
-            )}
+       
             <li onClick={toggleResources} className={styles['nav-link']}>
               {' '}
               <NavLink
@@ -284,7 +291,7 @@ const Navbar = () => {
                   resourcesDisplay === true ? `${styles['project-active']}` : ''
                 }
               >
-                Resources
+                WBC COMMUNITY
               </NavLink>
               {resourcesDisplay ? (
                 <FontAwesomeIcon
@@ -301,23 +308,23 @@ const Navbar = () => {
             {resourcesDisplay && (
               <li className={styles['nav-sub-link']}>
                 {' '}
-                <NavLink to=''>Lorem</NavLink>{' '}
+                <NavLink to='/winnersbc-career'>WINNERS BC CAREER</NavLink>{' '}
               </li>
             )}
             {resourcesDisplay && (
               <li className={styles['nav-sub-link']}>
                 {' '}
-                <NavLink to=''>ipsum</NavLink>{' '}
+                <NavLink to='/winners-fc'>WINNERS FC</NavLink>{' '}
               </li>
             )}
             <li className={styles['nav-link']}>
               {' '}
-              <NavLink to='giving'>Giving</NavLink>{' '}
+              <NavLink to='/giving'>GIVING</NavLink>{' '}
             </li>
 
             <li className={styles['nav-link']}>
               {' '}
-              <NavLink to='/contact'> Contact</NavLink>
+              <NavLink to='/contact'> CONTACT</NavLink>
             </li>
           </ul>
           {/* <ul className={styles["mobile-nav-links"]}>

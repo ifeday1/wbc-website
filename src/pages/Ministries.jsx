@@ -20,8 +20,8 @@ const Ministries = () => {
         <div class='absolute top-0 left-0 w-full h-full flex items-center justify-center text-center'>
           <div class='text-center text-white pt-24'>
             <h2 class='text-1xl font-bold md:text-4xl '>MINISTRIES</h2>
-            <p class='mt-2'>
-              <span className=' text-4xl font-semibold '>T</span>
+            <p class='mt-2 text-[10px] md:text-[15px]'>
+              <span className=' text-[10px] md:text-4xl font-semibold '>T</span>
               herefore, my beloved brethren, be steadfast, immovable, always
               <br></br>
               abounding in the work of the the Lord, knowing that your toil is

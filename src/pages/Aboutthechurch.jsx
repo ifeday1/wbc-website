@@ -15,7 +15,7 @@ const Aboutthechurch = () => {
         <div class='absolute top-0 left-0 w-full h-full flex items-center justify-center text-center'>
           <div class='text-center text-white pt-24'>
             <h2 class='text-1xl font-bold md:text-4xl '>ABOUT THE CHURCH</h2>
-            <p class='mt-2'>Additional text here</p>
+            <p class='mt-2 text-[10px] md:text-[15px]'>Additional text here</p>
           </div>
         </div>
       </div>
