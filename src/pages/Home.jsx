@@ -9,6 +9,7 @@ import Pic from '../assests/churin.svg';
 import WW from '../assests/ww.svg';
 import WW1 from '../assests/ww1.svg';
 import Join from '../assests/join.svg';
+import Bsf from '../assests/bsf.svg';
 
 import Location from '../components/Location';
 
@@ -255,29 +256,34 @@ const Home = () => {
             <img src={Teens} alt='Image 1' class=' w-80 h-80 rounded-full' />
             <h4 class='text-lg font-bold'>Teenagers Ministry</h4>
             <p class='mt-2 text-center'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
-              orci feugiat, bibendum mauris vel, ultrices ipsum. Quisque luctus
-              ipsum id justo vestibulum...
+              Raising a Generation of trailblazers between ages 13-18,
+              Intellectuals and hearts who longs for the things of God and as
+              the presence of God never leaves our midst, we welcome all
+              secondary school students, secondary school leavers and
+              undergraduates. The word of the Lord remains in our hearts.
             </p>
           </div>
 
           <div class='flex flex-col items-center p-4 md:w-1/3'>
             <img src={Teens} alt='Image 1' class=' w-80 h-80 rounded-full' />
-            <h4 class='text-lg font-bold'>Teenagers Ministry</h4>
+            <h4 class='text-lg font-bold'>Youth Ministry</h4>
             <p class='mt-2 text-center'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
-              orci feugiat, bibendum mauris vel, ultrices ipsum. Quisque luctus
-              ipsum id justo vestibulum...
+              Welcome to Winning Youth - Where Champions Are Forged! Winning
+              Youth Family We are thrilled to welcome you to the Winning Youth
+              department, a dynamic and empowering community where champions are
+              forged, dreams are realized, and excellence is celebrated...
             </p>
           </div>
 
           <div class='flex flex-col items-center p-4 md:w-1/3'>
-            <img src={Teens} alt='Image 1' class=' w-80 h-80 rounded-full' />
-            <h4 class='text-lg font-bold'>Teenagers Ministry</h4>
+            <img src={Bsf} alt='Image 1' class=' w-80 h-80 rounded-full' />
+            <h4 class='text-lg font-bold'>BSF</h4>
             <p class='mt-2 text-center'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
-              orci feugiat, bibendum mauris vel, ultrices ipsum. Quisque luctus
-              ipsum id justo vestibulum...
+              Baptist Student Fellowship(BSF)is a division under missionary
+              organization department of Nigeria Baptist Convention that is
+              responsible for ministering to students.To lead students to a
+              commitment to Jesus Christ as Saviour and Lord,Involve them in
+              biblical truth and Christian Discipleship...
             </p>
           </div>
           <a

@@ -46,24 +46,29 @@ const Aboutthechurch = () => {
       <div class='flex '>
         <div className='flex flex-col'>
           <div class='flex-1 p-4 px-4 md:px-16'>
-            <h3 class='text-lg font-bold'>Heading Here</h3>
+            <h3 class='text-lg font-bold text-blue'>Our Vision</h3>
             <p class='mt-2'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
-              orci feugiat, bibendum mauris vel, ultrices ipsum.
+              To raise a transformed community of people - <br></br>a blameless
+              Church who will positively transform her generation.
             </p>
           </div>
           <div class='flex-1 p-4 px-4 md:px-16'>
-            <h3 class='text-lg font-bold'>Heading Here</h3>
+            <h3 class='text-lg font-bold text-blue'>Our Mission</h3>
             <p class='mt-2'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
-              orci feugiat, bibendum mauris vel, ultrices ipsum.
+              Bringing people to Jesus and membership in His family; developing
+              <br></br>
+              them to Christ-like maturity, and to equip them for the ministries
+              <br></br>
+              in the Church, and their life's missions in the world in order to
+              <br></br>
+              glorify the Lord's name now and in future
             </p>
           </div>
           <div class='flex-1 p-4 px-4 md:px-16'>
-            <h3 class='text-lg font-bold'>Heading Here</h3>
+            <h3 class='text-lg font-bold text-blue'>Core Values</h3>
             <p class='mt-2'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
-              orci feugiat, bibendum mauris vel, ultrices ipsum.
+              Love, Care, Concern for People's Welfare, Commitment and Undecided<br></br>
+              Loyalty to Jesus Christ and His teaching.
             </p>
           </div>
         </div>
