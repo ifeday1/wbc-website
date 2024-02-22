@@ -30,13 +30,9 @@ const Home = () => {
     <div>
       <Navbar />
       <Carousel />
-      <div data-aos='fade-right'>
-        <h1 data-aos='fade-left' className='welcome'>
-          WELCOME TO
-        </h1>
-        <p data-aos='fade-left' className='winners'>
-          Winners Baptist Church, Bariga
-        </p>
+      <div>
+        <h1 className='welcome'>WELCOME TO</h1>
+        <p className='winners'>Winners Baptist Church, Bariga</p>
       </div>
       <div>
         <ReadMore text={loremIpsum} maxLength={150} />
@@ -348,7 +344,7 @@ const Home = () => {
         </p>
         <div>
           <img
-            src={Pic}
+       
             alt='Church in Pictures'
             class=' p-4 w-[500px] h-[auto] md:w-[1200px] h-auto'
           />
