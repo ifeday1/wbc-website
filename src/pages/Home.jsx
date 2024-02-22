@@ -1,4 +1,4 @@
-import React from 'react';
+import { React } from 'react';
 import Carousel from '../components/Carousel';
 import ReadMore from '../components/ReadMore';
 import Pastor from '../assests/pastor1.svg';
@@ -10,21 +10,33 @@ import WW from '../assests/ww.svg';
 import WW1 from '../assests/ww1.svg';
 import Join from '../assests/join.svg';
 import Bsf from '../assests/bsf.svg';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 import Location from '../components/Location';
+import { useEffect } from 'react';
 
 const Home = () => {
+  //useEffect
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   const loremIpsum =
     'At Winners Baptist Church, we believe in God and are geared towards raising a godly generation, we are one body in Christ, relating in brotherly love and living as Christ has taught us to.We are in Christ therefore have become new creatures. A body devoted to the work of God, doing his will and walking in line with his  commandments. A bible believing church committed to populate the kingdom of God. Here at Miracle Square, we hold discipleship classes to aid spiritual growth, organize the life of  every christian and make us better versions of ourselves. We are grateful for the love God has showed upon us and we believe in the name of Jesus.';
 
- 
   return (
     <div>
       <Navbar />
       <Carousel />
-      <div>
-        <h1 className='welcome'>WELCOME TO</h1>
-        <p className='winners'>Winners Baptist Church, Bariga</p>
+      <div data-aos='fade-right'>
+        <h1 data-aos='fade-left' className='welcome'>
+          WELCOME TO
+        </h1>
+        <p data-aos='fade-left' className='winners'>
+          Winners Baptist Church, Bariga
+        </p>
       </div>
       <div>
         <ReadMore text={loremIpsum} maxLength={150} />

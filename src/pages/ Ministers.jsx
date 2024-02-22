@@ -5,6 +5,8 @@ import Pastormrs from '../assests/pastormrs.svg';
 import CImage from '../assests/church.png';
 import Preach from '../assests/Preach.svg';
 import Preach1 from '../assests/Preach1.svg';
+// import 'aos/dist/aos.css';
+// import AOS from 'aos';
 
 import Footer from '../components/Footer';
 
