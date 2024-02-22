@@ -36,20 +36,19 @@ const Ministers = () => {
         </div>
         <div class='lg:w-1/2 p-4'>
           <p class='mt-2'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper
-            quis lectus nulla at. Quam pellentesque nec nam aliquam sem et.
-            Senectus et netus et malesuada fames ac turpis egestas maecenas. Leo
-            duis ut diam quam nulla porttitor massa id. Elit scelerisque mauris
-            pellentesque pulvinar pellentesque habitant morbi tristique
-            senectus. Imperdiet nulla malesuada pellentesque elit eget gravida
-            cum. Dictumst vestibulum rhoncus est pellentesque. Augue lacus
-            viverra vitae congue eu consequat ac. Odio ut sem nulla pharetra
-            diam sit. Sed vulputate mi sit amet mauris. In arcu cursus euismod
-            quis. Habitant morbi tristique senectus et netus et malesuada fames.
-            Ultricies mi quis hendrerit dolor magna eget est. Eu tincidunt
-            tortor aliquam nulla facilisi cras. Volutpat maecenas volutpat
-            blandit{' '}
+            Oladeni, Ola Olusola, PhD, is the Senior Pastor of Winners Baptist
+            Church, Bariga, New-Garage, Lagos. He is a Teacher, Preacher,
+            Psychologist, Gerontologist, Author and marriage Counsellor. In
+            addition to Nigeria Certificate in Education (N.C.E), Dr Sola
+            Oladeni holds a Bachelor of Art (B. A), Master of Education (M. Ed)
+            and Doctor of Philosophy (Ph. D) from the University of Ibadan. He
+            also holds a Bachelor of Theology (B. Th) and Master of Theology (M.
+            Th) from The Nigerian Baptist Theological Seminary, Ogbomoso. He
+            coordinates MARFAM Life Counselling Ministry International (MLCMI),
+            a ministry that is focused on marriage enrichment and marital
+            Counselling; other counselling services and lots more. He’s married
+            to his heart-throb Esther Adegbenjo and they are blessed with
+            biological children and many spiritual children.
           </p>
         </div>
       </div>
@@ -62,20 +61,20 @@ const Ministers = () => {
         </div>
         <div class='lg:w-1/2 p-4'>
           <p class='mt-2'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper
-            quis lectus nulla at. Quam pellentesque nec nam aliquam sem et.
-            Senectus et netus et malesuada fames ac turpis egestas maecenas. Leo
-            duis ut diam quam nulla porttitor massa id. Elit scelerisque mauris
-            pellentesque pulvinar pellentesque habitant morbi tristique
-            senectus. Imperdiet nulla malesuada pellentesque elit eget gravida
-            cum. Dictumst vestibulum rhoncus est pellentesque. Augue lacus
-            viverra vitae congue eu consequat ac. Odio ut sem nulla pharetra
-            diam sit. Sed vulputate mi sit amet mauris. In arcu cursus euismod
-            quis. Habitant morbi tristique senectus et netus et malesuada fames.
-            Ultricies mi quis hendrerit dolor magna eget est. Eu tincidunt
-            tortor aliquam nulla facilisi cras. Volutpat maecenas volutpat
-            blandit{' '}
+            Revd. Adegbenjo Esther Oladeni is a Baptist-trained pastor. She is
+            currently the Teenagers’ Pastor of Winners Baptist Church, Bariga
+            Lagos. She is a trained teacher and counsellor. She attended Ilorin
+            Teachers College. In addition to Nigeria Certificate in Education
+            (NCE), she holds her Bachelor of Education (B.Ed) in counselling
+            from the University of Ado Ekiti. Esther holds her Bachelor in
+            Religious Education (B.Re) from the Baptist College of Theology
+            Lagos and her Master of Education (M.Ed) in Guidance and Counselling
+            from the University of Lagos. Esther is the author of several books.
+            She is a member of MARFAM Life Counselling Ministry International
+            (MLCMI), a ministry that is focused on marriage enrichment and other
+            counselling services. Adegbenjo is happily married to Olusola
+            Oladeni, and the marriage is blessed with both biological and
+            spiritual children.
           </p>
         </div>
       </div>

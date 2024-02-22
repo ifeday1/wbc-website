@@ -6,8 +6,7 @@ import Footer from '../components/Footer';
 import { useForm, ValidationError } from '@formspree/react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import GoogleMapReact from 'google-map-react';
-import GoogleMap from '../components/GoogleMap';
+
 import Location from '../components/Location';
 
 const Contact = () => {

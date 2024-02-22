@@ -23,21 +23,50 @@ const Aboutthechurch = () => {
       <div class=' bg-white p-4 px-4 md:px-16'>
         <h3 class='text-lg font-bold text-blue md:text-2xl'>HISTORY</h3>
         <p class='mt-2 text-left'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec orci
-          feugiat, bibendum mauris vel, ultrices ipsum. Quisque luctus ipsum id
-          justo vestibulum, at bibendum ipsum viverra. Maecenas venenatis arcu
-          at libero euismod, sed fermentum ligula lobortis. Nulla vitae sapien
-          eget enim vestibulum volutpat. In hac habitasse platea dictumst. In
-          vel mi vitae est placerat tempus ut eget sapien. Nam eu felis quis
-          libero viverra tincidunt nec eu metus. Integer accumsan, justo eu
-          posuere bibendum, mi nulla vulputate urna, nec volutpat sapien felis
-          vel nulla. Nullam consequat magna vel ex dignissim, eget sodales
-          tortor facilisis. Vivamus vehicula euismod ex, eu ultricies dui.
-          Integer suscipit nulla eget augue facilisis, sed euismod ipsum
-          rhoncus. Ut sit amet lacinia mi. Nullam auctor, libero et tincidunt
-          congue, lorem velit ullamcorper sapien, ut accumsan dui quam id
-          tortor. Nullam nec diam a purus pharetra mattis. Nam maximus dapibus
-          velit, id cursus dolor mollis et.
+          “Then the eleven disciples went to Galilee, to the mountain where
+          Jesus had told them to go. When they saw him, they worshipped him; but
+          some doubted. Then, Jesus came to them and said, “All authority in
+          heaven and on earth has been given to me. Therefore go and make
+          disciples of all nations, baptizing them in the name of the Father and
+          of the son and the Holy Spirit, and teaching them to obey everything I
+          have commanded you. And surely I am with you always, to the very end
+          of the age” (Matthew 28:16 -20). <br></br>
+          <br></br>
+          It may not matter where you started; what matters is where you end. In
+          response to the above instruction Jesus Christ gave the disciples, and
+          having realized that the instruction was and is not only to the
+          disciples, the Church Training Programme unit, now known as
+          Discipleship Training Ministry, of Somolu Baptist Church, now Christ
+          Victory Baptist Church, Somolu was inspired by the Holy Spirit to go
+          to Apelehin Area to start a church. To pursue the vision, on 18 March
+          1964, the Church Training Programme unit of Christ Victory Baptist
+          Church came for evangelism at the Apelehin area of Bariga, Lagos,
+          Nigeria. The Church started in a shop located at Shogbamu Street. The
+          church kept on growing physically and spiritually as new members were
+          joined. Hence, when the shop could not contain the members, in 1972,
+          they agreed to move from the shop to where the church is, by the grace
+          of God, at No 5, Adebayo Adekoya Street, Near Jolad Hospital, Bariga.
+          <br></br>
+          <br></br>
+          Winners Baptist Church, Bariga, is made up of Units and Organisations.
+          Some of them include: The Youth Organisation of the Church, also known
+          as The Winning Youths is vibrantly doing well. The Baptist Students
+          Fellowship, known as the Winning Students, is exceptionally balanced
+          academically and spiritually. The Teens Ministry of the Church, known
+          as The Winning Teens are extraordinarily wonderful. The Children
+          Ministry, known as The Winning Children are spiritually growing in
+          grace and wisdom. The Women Missionary Organization, known as the
+          Winning Women are shining Stars for the Lord. The Men Missionary
+          Union, known as the Winning Men are doing great for the Lord. The
+          winners’ Voices, that is the church Choir, are glorious in their deeds
+          and ministration. It will interest you to know that the Church has a
+          Career Community, through which a good number of youths have been
+          assisted to secure jobs. The Winners Football Team are strong and
+          striving among local football teams, and it has been a platform for
+          recruiting footballers for international teams. There are lots of
+          things to know about Winners Baptist Church, which you may not know
+          until you become part of this caring, loving, concern for people’s
+          welfare family.
         </p>
       </div>
 
@@ -67,7 +96,8 @@ const Aboutthechurch = () => {
           <div class='flex-1 p-4 px-4 md:px-16'>
             <h3 class='text-lg font-bold text-blue'>Core Values</h3>
             <p class='mt-2'>
-              Love, Care, Concern for People's Welfare, Commitment and Undecided<br></br>
+              Love, Care, Concern for People's Welfare, Commitment and Undecided
+              <br></br>
               Loyalty to Jesus Christ and His teaching.
             </p>
           </div>
