@@ -1,14 +1,14 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import ChurchImage from '../assests/church.png';
-import Teens from '../assests/Teens.svg';
-import Mmu from '../assests/mmu.svg';
-import Wmu from '../assests/wmu.svg';
-import Ra from '../assests/ra.svg';
-import Ga from '../assests/ga.svg';
-import Lydia from '../assests/lydia.svg';
-import Bsf from '../assests/bsf.svg';
-import Evangelism from '../assests/evangelism.svg';
+import Teens from '../assests/youth.png';
+import Mmu from '../assests/mmu.png';
+import Wmu from '../assests/wmu.png';
+import Ra from '../assests/ra.png';
+import Ga from '../assests/ga.png';
+import Lydia from '../assests/lydia.png';
+import Bsf from '../assests/bsf.png';
+import Evangelism from '../assests/envangelism.png';
 import Footer from '../components/Footer';
 
 const Ministries = () => {

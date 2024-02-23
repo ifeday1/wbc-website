@@ -1,14 +1,14 @@
 import { React } from 'react';
 import Carousel from '../components/Carousel';
 import ReadMore from '../components/ReadMore';
-import Pastor from '../assests/pastor1.svg';
+import Pastor from '../assests/pastor.png';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import Teens from '../assests/Teens.svg';
-import Pic from '../assests/churin.svg';
-import WW from '../assests/ww.svg';
-import WW1 from '../assests/ww1.svg';
-import Join from '../assests/join.svg';
+import Pic from '../assests/Pic.png';
+import WW from '../assests/WW.png';
+import WW1 from '../assests/WW1.png';
+import Join from '../assests/Join.png';
 import Bsf from '../assests/bsf.svg';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
@@ -344,7 +344,7 @@ const Home = () => {
         </p>
         <div>
           <img
-       
+            src={Pic}
             alt='Church in Pictures'
             class=' p-4 w-[500px] h-[auto] md:w-[1200px] h-auto'
           />

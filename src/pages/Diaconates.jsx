@@ -1,12 +1,11 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import ChurchImage from '../assests/church.png';
-import Pastor1 from '../assests/pastor2.svg';
-import Muyiwa from '../assests/muyiwa.svg';
-import Faj from '../assests/Faj.svg';
+import Muyiwa from '../assests/muyiwa.png';
+import Faj from '../assests/faj.png';
 import Oke from '../assests/oke.svg';
-import Alabi from '../assests/alabi.svg';
-import Ilori from '../assests/ilori.svg';
+import Alabi from '../assests/alabi.png';
+import Ilori from '../assests/ilori.png';
 import Footer from '../components/Footer';
 
 const Diaconates = () => {

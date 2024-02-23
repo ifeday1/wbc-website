@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import Give from '../assests/give.svg';
+import Give from '../assests/youth.png';
 import Location from '../components/Location';
 
 const Giving = () => {
