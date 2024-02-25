@@ -49,7 +49,7 @@ const Contact = () => {
   };
   const [state, handleSubmit] = useForm('xqkrpddv');
   if (state.succeeded) {
-    return <p>Thanks for your response!</p>;
+    return <p>Thanks for your response!!</p>;
   }
   return (
     <>
