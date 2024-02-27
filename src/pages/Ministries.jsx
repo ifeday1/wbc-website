@@ -230,21 +230,13 @@ const Ministries = () => {
         <div class='md:w-1/2 p-4'>
           <h4 class='text-lg font-bold text-blue'>ROYAL AMBASSADOR</h4>
           <p class='mt-2 text-left'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
-            orci feugiat, bibendum mauris vel, ultrices ipsum. Quisque luctus
-            ipsum id justo vestibulum, at bibendum ipsum viverra. Maecenas
-            venenatis arcu at libero euismod, sed fermentum ligula lobortis.
-            Nulla vitae sapien eget enim vestibulum volutpat. In hac habitasse
-            platea dictumst. In vel mi vitae est placerat tempus ut eget sapien.
-            Nam eu felis quis libero viverra tincidunt nec eu metus. Integer
-            accumsan, justo eu posuere bibendum, mi nulla vulputate urna, nec
-            volutpat sapien felis vel nulla. Nullam consequat magna vel ex
-            dignissim, eget sodales tortor facilisis. Vivamus vehicula euismod
-            ex, eu ultricies dui. Integer suscipit nulla eget augue facilisis,
-            sed euismod ipsum rhoncus. Ut sit amet lacinia mi. Nullam auctor,
-            libero et tincidunt congue, lorem velit ullamcorper sapien, ut
-            accumsan dui quam id tortor. Nullam nec diam a purus pharetra
-            mattis. Nam maximus dapibus velit, id cursus dolor mollis et.
+            The royal ambassador is a ministry under the Men Missionary Union of
+            the Nigeria Baptist Convention. This ministry is mostly for boys
+            under the ages of 10-25 years which is divided into the intermediate
+            and the senior royal ambassador with the aim of touching life of
+            boys and impacting the enternity of men. The motto of the royal
+            ambassador can be found in the book of 2 Corinthians 5:20 which says
+            " WE ARE AMBASSADORS FOR CHRIST"
           </p>
         </div>
       </div>

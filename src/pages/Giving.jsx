@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import Give from '../assests/youth.png';
+import Give from '../assests/give.svg';
 import Location from '../components/Location';
 
 const Giving = () => {
@@ -45,7 +45,7 @@ const Giving = () => {
         </div>
       </div>
 
-      <Location/>
+      <Location />
       <Footer />
     </>
   );

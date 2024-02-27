@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 
 import ChurchImage from '../assests/church.png';
 import Footer from '../components/Footer';
-import Pastor from '../assests/Pastor.jpeg';
+import About from '../assests/about.png';
 
 const Aboutthechurch = () => {
   return (
@@ -72,40 +72,32 @@ const Aboutthechurch = () => {
 
       <div class=''></div>
 
-      <div class='flex '>
-        <div className='flex flex-col'>
-          <div class='flex-1 p-4 px-4 md:px-16'>
-            <h3 class='text-lg font-bold text-blue'>Our Vision</h3>
-            <p class='mt-2'>
-              To raise a transformed community of people - <br></br>a blameless
-              Church who will positively transform her generation.
-            </p>
-          </div>
-          <div class='flex-1 p-4 px-4 md:px-16'>
-            <h3 class='text-lg font-bold text-blue'>Our Mission</h3>
-            <p class='mt-2'>
-              Bringing people to Jesus and membership in His family; developing
-              <br></br>
-              them to Christ-like maturity, and to equip them for the ministries
-              <br></br>
-              in the Church, and their life's missions in the world in order to
-              <br></br>
-              glorify the Lord's name now and in future
-            </p>
-          </div>
-          <div class='flex-1 p-4 px-4 md:px-16'>
-            <h3 class='text-lg font-bold text-blue'>Core Values</h3>
-            <p class='mt-2'>
-              Love, Care, Concern for People's Welfare, Commitment and Undecided
-              <br></br>
-              Loyalty to Jesus Christ and His teaching.
-            </p>
-          </div>
-        </div>
-
-        <div class='flex-1 p-4'>
-          <img src={Pastor} alt='Image 1' class=' w-32 h-32' />
-        </div>
+      <div class='flex-1 p-4 px-4 m-auto items-center justify-center text-center md:px-16'>
+        <h3 class='text-lg font-bold text-blue'>Our Vision</h3>
+        <p class='mt-2'>
+          To raise a transformed community of people - <br></br>a blameless
+          Church who will positively transform her generation.
+        </p>
+      </div>
+      <div class='flex-1 p-4 px-4 m-auto items-center justify-center text-center md:px-16'>
+        <h3 class='text-lg font-bold text-blue'>Our Mission</h3>
+        <p class='mt-2'>
+          Bringing people to Jesus and membership in His family; developing
+          <br></br>
+          them to Christ-like maturity, and to equip them for the ministries
+          <br></br>
+          in the Church, and their life's missions in the world in order to
+          <br></br>
+          glorify the Lord's name now and in future
+        </p>
+      </div>
+      <div class='flex-1 p-4 px-4 m-auto items-center justify-center text-center md:px-16'>
+        <h3 class='text-lg font-bold text-blue'>Core Values</h3>
+        <p class='mt-2'>
+          Love, Care, Concern for People's Welfare, Commitment and Undecided
+          <br></br>
+          Loyalty to Jesus Christ and His teaching.
+        </p>
       </div>
 
       <Footer />
