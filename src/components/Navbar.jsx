@@ -187,15 +187,11 @@ const Navbar = () => {
           <ul>
             <li className={styles['project-list']}>
               {' '}
-              <NavLink to='/projects/solar-borehole'>
-                WINNERS BC CAREERS
-              </NavLink>{' '}
+              <NavLink to='/winnersbc-career'>WINNERS BC CAREERS</NavLink>{' '}
             </li>
             <li className={styles['project-list']}>
               {' '}
-              <NavLink to='/projects/empowerment-project'>
-                WINNERS FC
-              </NavLink>{' '}
+              <NavLink to='/winners-fc'>WINNERS FC</NavLink>{' '}
             </li>
           </ul>
         </div>
@@ -282,7 +278,7 @@ const Navbar = () => {
                 <NavLink to=''>lorem</NavLink>{' '}
               </li>
             )}
-       
+
             <li onClick={toggleResources} className={styles['nav-link']}>
               {' '}
               <NavLink
