@@ -130,7 +130,7 @@ const Diaconates = () => {
             leader and usher in winners Baptist church bariga Lagos
           </p>
         </div>
-        <div class='md:w-1/2 bg-blue rounded-3xl'>
+        <div class='md:w-1/2 bg-blue rounded-3xl mb-10'>
           <div class='relative'>
             <img src={Ilori} alt='Image 1' class='w-full h-auto' />
             <div class='absolute bottom-0 left-48 bg-white bg-opacity-50 text-black  p-4'>

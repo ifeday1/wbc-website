@@ -81,7 +81,7 @@ const Ministers = () => {
         </div>
       </div>
 
-      <div class='flex flex-col lg:flex-row pt-10 justify-between'>
+      <div class='flex flex-col lg:flex-row pt-10 justify-between mb-10'>
         <div class='lg:w-1/2p-4 px-4 md:px-16'>
           <img src={Preach} alt='Pastor image' class='w-[500px] h-{0px}' />
         </div>

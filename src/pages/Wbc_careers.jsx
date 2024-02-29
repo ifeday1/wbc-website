@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import Icon from '../assests/Link.svg';
 import Sola from '../assests/s.png';
 import Car from '../assests/car.png';
+import Man from '../assests/m.png';
 
 import Ore from '../assests/o.png';
 import Ava from '../assests/ava.png';
@@ -114,7 +115,7 @@ const Wbc_careers = () => {
         </div>
       </div>
 
-      <div class='flex flex-col md:flex-row py-24 mt-28 justify-around p-4 px-4 md:px-48 bg-ly'>
+      <div class='flex flex-col md:flex-row  mt-28 justify-around p-4 px-4 md:px-48 bg-ly'>
         <div class='md:w-1/2 p-4'>
           <p class='mt-2 text-left mb-7 text-dark-blue'>
             In the fast-paced landscape of professional development, Winners BC
@@ -128,14 +129,14 @@ const Wbc_careers = () => {
             href=''
             class='bg-white text-darkblue font-medium py-2 px-4 rounded transition-transform duration-300 ease-in-out transform hover:translate-y-1 hover:shadow-md'
           >
-            Join U
+            Join Us
           </a>
         </div>
         <div class='md:w-1/2 p-4'>
           <img
-            src=''
-            alt='teenagers'
-            class='w-[600px] h-[auto] pb-1 pl-1 md:pl-20 mb:pb-48'
+            src={Man}
+            alt='Man'
+            class='w-[600px] h-[auto]  pb-1 pl-1 md:pl-20 mb:pb-48'
           />
         </div>
       </div>

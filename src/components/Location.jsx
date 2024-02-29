@@ -4,7 +4,7 @@ import Teens from '../assests/Teens.svg';
 const Location = () => {
   return (
     <>
-      <div class='flex flex-col md:flex-row pt-10 justify-around p-4 px-4 md:px-48'>
+      <div class='flex flex-col md:flex-row pt-10 mb-10 justify-around p-4 px-4 md:px-48'>
         <div class='md:w-1/2 p-4'>
           <h5 class='text-lg font-bold text-blue'>Our Meeting</h5>
           <h2 class='text-5xl font-bold text-black mb-10'>Location</h2>

@@ -265,7 +265,7 @@ const Ministries = () => {
         </div>
       </div>
       {/* new */}
-      <div class='flex flex-col md:flex-row pt-10  p-4 px-4 md:px-16'>
+      <div class='flex flex-col mb-10 md:flex-row pt-10  p-4 px-4 md:px-16'>
         <div class='md:w-1/2 p-4'>
           <img
             src={Lydia}
