@@ -73,19 +73,19 @@ const Diaconates = () => {
           <div class='relative'>
             <img src={Alabi} alt='Image 1' class='w-full h-auto' />
             <div class='absolute bottom-0 left-48 bg-white bg-opacity-50 text-black  p-4'>
-              <h4 class='text-lg font-bold'>MUYIWA DAYO FOLASIRE</h4>
+              <h4 class='text-lg font-bold'>RACHEAL OLAYINKA ALABI</h4>
             </div>
           </div>
           <p class='mt-8 text-center text-white px-12'>
-            Is an astute investment and portfolio analyst with special interest
-            in investments banking and reporting. Mr. Folasire has served in
-            several capacity in a Baptist local church, ranging from RA
-            President, Youth Secretary, Church Financial Secretary and
-            Treasurer. He is a Sunday teacher and a thoroughly discipled leader
-            with Master Life certificate. He became a deacon under the
-            ordination of Revd Dr Oladeni in 2017 at Winners Baptist Church, New
-            Garage, Bariga. His presently the Chief Auditor and Deaconate
-            Chairperson in Winners Baptist Church, New Garage, Bariga.
+            Is a teacher and a business woman. She has served in various
+            departments in the church, she has served as a choir mistress, WMU
+            secretary, Lydia adviser and church secretary. She became a
+            deaconess under the leadership of Revd Dr. Sola Oladeni in December
+            2019 at Winners Baptist Church, New Garage, Bariga, Lagos. She is
+            currently the Church choir Council Coordinator, Choir member,
+            Discipleship Training Ministry (DTM) coordinator and Girls Auxiliary
+            (G.A) counsellor in Winners Baptist church, New Garage, Bariga,
+            Lagos.
           </p>
         </div>
         <div class='md:w-1/2 bg-blue rounded-3xl'>

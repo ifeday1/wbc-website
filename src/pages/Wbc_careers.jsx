@@ -10,6 +10,7 @@ import Ore from '../assests/o.png';
 import Ava from '../assests/ava.png';
 import Ava1 from '../assests/ava1.png';
 
+
 const Wbc_careers = () => {
   return (
     <>

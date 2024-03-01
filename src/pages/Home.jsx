@@ -39,7 +39,7 @@ const Home = () => {
       </div>
 
       {/* worship */}
-      <div className=' bg-light p-28 mt-14'>
+      <div className=' bg-light p-28 mt-14 mb-14'>
         <div className='text-center mb-4'>
           <h1 className='text-4xl font-bold text-blue'>Worship Avenue</h1>
           <p className='text-gray-600'>
@@ -79,7 +79,7 @@ const Home = () => {
       </div>
 
       {/* message from our pastor */}
-      <div className='flex flex-col items-center px-6 md:flex-row md:justify-around gap-4 pt-8 px-32'>
+      {/* <div className='flex flex-col items-center px-6 md:flex-row md:justify-around gap-4 pt-8 px-32'>
         <div className='flex flex-col  md:flex-row md: justify-evenly gap-4'>
           <div className='flex-item bg-blue-500 p-4 rounded-md flex-1'>
             <h2 className='text-3xl font-medium mb-2 text-blue'>
@@ -116,7 +116,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div>
         <h1 className='  text-4xl font-bold text-blue text-center'>

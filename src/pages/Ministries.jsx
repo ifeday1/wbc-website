@@ -276,21 +276,30 @@ const Ministries = () => {
         <div class='md:w-1/2 p-4'>
           <h4 class='text-lg font-bold text-blue'>LYDIA</h4>
           <p class='mt-2 text-left'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
-            orci feugiat, bibendum mauris vel, ultrices ipsum. Quisque luctus
-            ipsum id justo vestibulum, at bibendum ipsum viverra. Maecenas
-            venenatis arcu at libero euismod, sed fermentum ligula lobortis.
-            Nulla vitae sapien eget enim vestibulum volutpat. In hac habitasse
-            platea dictumst. In vel mi vitae est placerat tempus ut eget sapien.
-            Nam eu felis quis libero viverra tincidunt nec eu metus. Integer
-            accumsan, justo eu posuere bibendum, mi nulla vulputate urna, nec
-            volutpat sapien felis vel nulla. Nullam consequat magna vel ex
-            dignissim, eget sodales tortor facilisis. Vivamus vehicula euismod
-            ex, eu ultricies dui. Integer suscipit nulla eget augue facilisis,
-            sed euismod ipsum rhoncus. Ut sit amet lacinia mi. Nullam auctor,
-            libero et tincidunt congue, lorem velit ullamcorper sapien, ut
-            accumsan dui quam id tortor. Nullam nec diam a purus pharetra
-            mattis. Nam maximus dapibus velit, id cursus dolor mollis et.
+            The Lydia Auxiliary is a dynamic ministry operating under the
+            umbrella of the Women Missionary Union within the Nigeria Baptist
+            Convention. Dedicated to nurturing young women from adolescence
+            until marriage, this auxiliary provides a platform for personal
+            development, spiritual growth, and service to others.
+            <br></br>
+            Mission: The primary aim of the Lydia Auxiliary is to guide and
+            empower young ladies to uphold purity and righteousness, preparing
+            them to be vessels of honor in service to the Lord Jesus Christ.
+            Rooted in biblical teachings, the ministry seeks to instill values
+            of integrity, virtue, and spiritual insight into the lives of its
+            members. Membership Steps: The Lydia Auxiliary offers a structured
+            progression for its members, comprising three distinct stages:
+            Service Award Honour Award The Career Missionary Motto and
+            Symbolism: Inspired by Acts 26:18a, the motto of the Lydia Auxiliary
+            encapsulates its core mission: "To open their eyes and to turn them
+            from darkness to light." Symbolically represented by the colors
+            white and purple, white signifies purity, while purple signifies
+            royalty, reflecting the ministry's commitment to upholding moral
+            excellence and embracing the identity of daughters of the King. In
+            essence, the Lydia Auxiliary serves as a beacon of guidance and
+            empowerment for young women, fostering a community of faith,
+            service, and spiritual growth as they navigate the journey from
+            adolescence to adulthood.
           </p>
         </div>
       </div>
