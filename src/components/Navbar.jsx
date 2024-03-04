@@ -69,27 +69,9 @@ const Navbar = () => {
               />
             )}
           </li>
-          <li onClick={toggleEvent} className={styles['nav-link']}>
+          <li className={styles['nav-link']}>
             {' '}
-            <NavLink
-              to=''
-              className={
-                eventDisplay === true ? `${styles['project-active']}` : ''
-              }
-            >
-              EVENTS
-            </NavLink>
-            {eventDisplay ? (
-              <FontAwesomeIcon
-                icon={faChevronUp}
-                style={{ color: '#106fb8' }}
-              />
-            ) : (
-              <FontAwesomeIcon
-                icon={faChevronDown}
-                style={{ color: '#74c0fc' }}
-              />
-            )}
+            <NavLink to='/event'>EVENTS</NavLink>
           </li>
 
           <li className={styles['nav-link']}>
@@ -164,21 +146,7 @@ const Navbar = () => {
 
       {eventDisplay && (
         <div className={styles['projects-container']}>
-          <ul>
-            <li className={styles['project-list']}>
-              {' '}
-              <NavLink to='/projects/solar-borehole'>
-                ABOUT THE CHURCH
-              </NavLink>{' '}
-              <NavLink to='/projects/empowerment-project'>MINISTERS</NavLink>{' '}
-            </li>
-            <li className={styles['project-list']}>
-              {' '}
-              <NavLink to='/projects/empowerment-project'>
-                DIACONATES
-              </NavLink>{' '}
-            </li>
-          </ul>
+       
         </div>
       )}
 
@@ -272,12 +240,6 @@ const Navbar = () => {
                 />
               )}
             </li>
-            {eventDisplay && (
-              <li className={styles['nav-sub-link']}>
-                {' '}
-                <NavLink to=''>lorem</NavLink>{' '}
-              </li>
-            )}
 
             <li onClick={toggleResources} className={styles['nav-link']}>
               {' '}

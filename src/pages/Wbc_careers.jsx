@@ -9,6 +9,10 @@ import Man from '../assests/m.png';
 import Ore from '../assests/o.png';
 import Ava from '../assests/ava.png';
 import Ava1 from '../assests/ava1.png';
+import Carol2 from '../assests/carol2.png';
+import Carol1 from '../assests/carol1.png';
+import Carol3 from '../assests/carol3.png';
+import Carol4 from '../assests/carola4.png';
 
 
 const Wbc_careers = () => {
@@ -139,6 +143,34 @@ const Wbc_careers = () => {
             alt='Man'
             class='w-[600px] h-[auto]  pb-1 pl-1 md:pl-20 mb:pb-48'
           />
+        </div>
+      </div>
+
+      <div>
+        <h1 className='  text-4xl font-bold text-darkblue text-center mt-14'>
+          Winners BC Career Fair 2024
+        </h1>
+        <p className='text-gray-600 text-center text-[10px] md:text-[15px]'>
+          A recruiting event in which employers and recruiters meet with
+          <br></br>
+          potential employees and where job seekers find more about job
+          openings.
+        </p>
+
+        <div class='flex flex-wrap justify-center mt-14'>
+          <div class='w-full md:w-1/2 lg:w-1/4 p-4'>
+            <img src={Carol1} />
+          </div>
+
+          <div class='w-full md:w-1/2 lg:w-1/4 p-4'>
+            <img src={Carol2} />
+          </div>
+          <div class='w-full md:w-1/2 lg:w-1/4 p-4'>
+            <img src={Carol3} />
+          </div>
+          <div class='w-full md:w-1/2 lg:w-1/4 p-4'>
+            <img src={Carol4} />
+          </div>
         </div>
       </div>
 
