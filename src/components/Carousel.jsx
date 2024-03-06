@@ -8,6 +8,7 @@ import Slider from 'react-slick';
 import Slider1 from '../assests/Slide1.jpg';
 import Slider2 from '../assests/Building.jpg';
 import Slider3 from '../assests/slide3.jpg';
+import Slider4 from '../assests/slide4.jpg';
 
 const Carousel = () => {
   const settings = {
@@ -29,17 +30,17 @@ const Carousel = () => {
           <img src={Slider1} alt='Slide 1' />
           <div className='carousel-text'>
             <h3>WELCOME TO CHURCH</h3>
-            <p className=' text-[10px] md:text-[5px]'>
+            <p>
               Bringing souls to the heart of Christ, walking in faith guided by
               his light.<br></br> A body of Christ with Jesus as the head.
             </p>
           </div>
         </div>
         <div className='carousel-slide'>
-          <img src={Slider2} alt='church building' />
+          <img src={Slider4} alt='church building' />
           <div className='carousel-text'>
-            <h3>TRUST IN GOD</h3>
-            <p>Don’t let your hearts be troubled</p>
+            {/* <h3>TRUST IN GOD</h3>
+            <p>Don’t let your hearts be troubled</p> */}
           </div>
         </div>
         <div className='carousel-slide'>

@@ -100,7 +100,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className=' text-center text-white  bg-gray-800 text-1xl py-5'>
+      <div className=' text-center text-white  bg-gray-800 text-1xl py-5 px-6'>
         ©Winners Baptist Church. All Right Reserved 2024.
       </div>
     </>
