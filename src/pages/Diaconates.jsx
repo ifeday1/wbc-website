@@ -2,11 +2,11 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import ChurchImage from '../assests/church.png';
 // import Muyiwa from '../assests/Muyiwa.png';
-import Faj from '../assests/Faj.png';
-import Oke from '../assests/oke.svg';
-import Alabi from '../assests/alabi.png';
-import Ilori from '../assests/ilori.png';
-import Bak from '../assests/Bak.png';
+// import Faj from '../assests/Faj.png';
+// import Oke from '../assests/oke.svg';
+// import Alabi from '../assests/alabi.png';
+// import Ilori from '../assests/ilori.png';
+// import Bak from '../assests/Bak.png';
 
 import Footer from '../components/Footer';
 
@@ -53,7 +53,7 @@ const Diaconates = () => {
         </div>
         <div class='md:w-1/2 bg-blue rounded-3xl'>
           <div class='relative'>
-            <img src={Faj} alt='Image 1' class='w-full h-auto' />
+            <img src="" alt='Image 1' class='w-full h-auto' />
             <div class='absolute bottom-0 left-48 bg-white bg-opacity-50 text-black  p-4'>
               <h4 class='text-lg font-bold'>ADENIKE FLORENCE FAJEMBOLA</h4>
             </div>
@@ -73,7 +73,7 @@ const Diaconates = () => {
       <div class='flex flex-col md:flex-row gap-6 pt-10  p-4 px-4 md:px-16'>
         <div class='md:w-1/2 bg-blue rounded-3xl'>
           <div class='relative'>
-            <img src={Alabi} alt='Image 1' class='w-full h-auto' />
+            <img src="" alt='Image 1' class='w-full h-auto' />
             <div class='absolute bottom-0 left-48 bg-white bg-opacity-50 text-black  p-4'>
               <h4 class='text-lg font-bold'>RACHEAL OLAYINKA ALABI</h4>
             </div>
@@ -92,7 +92,7 @@ const Diaconates = () => {
         </div>
         <div class='md:w-1/2 bg-blue rounded-3xl'>
           <div class='relative'>
-            <img src={Oke} alt='Image 1' class='w-full h-auto' />
+            <img src="" alt='Image 1' class='w-full h-auto' />
             <div class='absolute bottom-0 left-48 bg-white bg-opacity-50 text-black  p-4'>
               <h4 class='text-lg font-bold'>OLAYINKA ABOSEDE OKEGBOLA</h4>
             </div>
@@ -116,7 +116,7 @@ const Diaconates = () => {
       <div class='flex flex-col md:flex-row gap-6 pt-10  p-4 px-4 md:px-16'>
         <div class='md:w-1/2 bg-blue rounded-3xl'>
           <div class='relative'>
-            <img src={Bak} alt='Image 1' class='w-full h-auto' />
+            <img src="" alt='Image 1' class='w-full h-auto' />
             <div class='absolute bottom-0 left-48 bg-white bg-opacity-50 text-black  p-4'>
               <h4 class='text-lg font-bold'>BABATUNDE OLAWALE BAKARE</h4>
             </div>
@@ -134,7 +134,7 @@ const Diaconates = () => {
         </div>
         <div class='md:w-1/2 bg-blue rounded-3xl mb-10'>
           <div class='relative'>
-            <img src={Ilori} alt='Image 1' class='w-full h-auto' />
+            <img src="" alt='Image 1' class='w-full h-auto' />
             <div class='absolute bottom-0 left-48 bg-white bg-opacity-50 text-black  p-4'>
               <h4 class='text-lg font-bold'>FLORENCE NDIDI ILORI</h4>
             </div>
