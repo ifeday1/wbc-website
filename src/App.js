@@ -7,8 +7,8 @@ import Ministries from './pages/Ministries';
 import Ministers from './pages/ Ministers';
 import Diaconates from './pages/Diaconates';
 import Giving from './pages/Giving';
-import Wbc_careers from './pages/WbcCareers';
-import Winners_fc from './pages/WinnersFc';
+import WbcCareers from './pages/WbcCareers';
+import WinnersFc from './pages/WinnersFc';
 
 function App() {
   return (
@@ -26,8 +26,8 @@ function App() {
         <Route path='/contact' element={<Contact />} />
 
         {/* Wbc Communties */}
-        <Route path='/winnersbc-career' element={<Wbc_careers />} />
-        <Route path='/winners-fc' element={<Winners_fc />} />
+        <Route path='/winnersbc-career' element={<WbcCareers />} />
+        <Route path='/winners-fc' element={<WinnersFc />} />
 
         {/* Giving */}
         <Route path='/giving' element={<Giving />} />

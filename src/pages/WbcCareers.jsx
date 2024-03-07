@@ -106,7 +106,11 @@ const Wbc_careers = () => {
           <div class='w-full md:w-1/2 lg:w-1/4 p-4'>
             <div class=' outline-orange outline outline-offset-2 outline-2 rounded-lg p-4 flex items-center justify-center w-auto h-80'>
               <div class='mx-4  text-darkblue text-center items-center'>
-                <img src={Ava1} className=' w-12 h-auto items-center m-auto' />
+                <img
+                  src={Ava1}
+                  alt='ava'
+                  className=' w-12 h-auto items-center m-auto'
+                />
                 <h4 class='text-lg font-bold pt-5'> Oluwatomisin Sodeinde</h4>
                 <p class='mt-2 text-sm'>
                   My name is Tomi,I heard of winners careers from church friends
@@ -133,9 +137,9 @@ const Wbc_careers = () => {
             continues to play a pivotal role in shaping and advancing careers
             across a multitude of industries.
           </p>
-          <a class='bg-white text-darkblue font-medium py-2 px-4 rounded transition-transform duration-300 ease-in-out transform hover:translate-y-1 hover:shadow-md'>
+          <p class='bg-white text-darkblue font-medium py-2 px-4 rounded transition-transform duration-300 ease-in-out transform hover:translate-y-1 hover:shadow-md'>
             Join Us
-          </a>
+          </p>
         </div>
         <div class='md:w-1/2 p-4'>
           <img

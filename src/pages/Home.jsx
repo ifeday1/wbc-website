@@ -367,7 +367,7 @@ const Home = () => {
         </div>
 
         <div class='flex justify-center items-center mx-4 my-2 md:w-1/2 lg:w-1/3'>
-          <img src={Join} class='max-w-full h-auto' />
+          <img src={Join} alt='join' class='max-w-full h-auto' />
         </div>
       </div>
 
@@ -400,7 +400,7 @@ const Home = () => {
 
             <div class='flex flex-col items-center  bg-white rounded-xl'>
               <div class='image-container mb-4'>
-                <img src={WW1}  class='w-[500px] h-auto' />
+                <img src={WW1} alt='worship' class='w-[500px] h-auto' />
               </div>
               <p class='text-lg text-gray-700 items-center  text-center mb-2'>
                 Join our worship service via Facebook live <br></br> (Video and

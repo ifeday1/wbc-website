@@ -40,15 +40,15 @@ const Footer = () => {
           <div>
             <h3 className='text-lg font-semibold mb-2'>Locate Us</h3>
             <div className='flex flex-col'>
-              <a  className='text-white mb-1'>
+              <p  className='text-white mb-1'>
                 5, Adebayo Adekoya street <br></br>New Garage, Bariga, Lagos
-              </a>
-              <a className='text-white mb-1'>
+              </p>
+              <p className='text-white mb-1'>
                 +234
-              </a>
-              <a className='text-white mb-1'>
+              </p>
+              <p className='text-white mb-1'>
                 winnersbaptistchurch5@gmail.com
-              </a>
+              </p>
             </div>
           </div>
         </div>
