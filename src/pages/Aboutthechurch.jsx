@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 
 import ChurchImage from '../assests/church.png';
 import Footer from '../components/Footer';
-import About from '../assests/about.png';
+
 
 const Aboutthechurch = () => {
   return (

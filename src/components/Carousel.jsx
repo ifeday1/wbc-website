@@ -6,7 +6,7 @@ import $ from 'jquery';
 import Slider from 'react-slick';
 
 import Slider1 from '../assests/Slide1.jpg';
-import Slider2 from '../assests/Building.jpg';
+// import Slider2 from '../assests/Building.jpg';
 import Slider3 from '../assests/slide3.jpg';
 import Slider4 from '../assests/slide4.jpg';
 
