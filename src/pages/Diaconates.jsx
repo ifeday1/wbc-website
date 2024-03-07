@@ -2,14 +2,13 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import churchImage from '../assests/church.png';
 import muyiwa from '../assests/muyiwa.png';
-import Faj from '../assests/faj.png';
+import faj from '../assests/faj.png';
 import oke from '../assests/oke.svg';
 import alabi from '../assests/alabi.png';
 import Ilori from '../assests/ilori.png';
 import bak from '../assests/bak.png';
 
 import Footer from '../components/Footer';
-import { faJ } from '@fortawesome/free-solid-svg-icons';
 
 const Diaconates = () => {
   return (
@@ -54,7 +53,7 @@ const Diaconates = () => {
         </div>
         <div class='md:w-1/2 bg-blue rounded-3xl'>
           <div class='relative'>
-            <img src={faJ} alt=' 1' class='w-full h-auto' />
+            <img src={faj} alt=' 1' class='w-full h-auto' />
             <div class='absolute bottom-0 left-48 bg-white bg-opacity-50 text-black  p-4'>
               <h4 class='text-lg font-bold'>ADENIKE FLORENCE FAJEMBOLA</h4>
             </div>
