@@ -1,14 +1,15 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import ChurchImage from '../assests/church.png';
-// import Muyiwa from '../assests/Muyiwa.png';
-// import Faj from '../assests/Faj.png';
-// import Oke from '../assests/oke.svg';
-// import Alabi from '../assests/alabi.png';
+import Muyiwa from '../assests/muyiwa.png';
+import Faj from '../assests/faj.png';
+import Oke from '../assests/oke.svg';
+import Alabi from '../assests/alabi.png';
 import Ilori from '../assests/ilori.png';
-// import Bak from '../assests/Bak.png';
+import Bak from '../assests/bak.png';
 
 import Footer from '../components/Footer';
+import { faJ } from '@fortawesome/free-solid-svg-icons';
 
 const Diaconates = () => {
   return (
@@ -34,7 +35,7 @@ const Diaconates = () => {
       <div class='flex flex-col md:flex-row gap-6 pt-10  p-4 px-4 md:px-16'>
         <div class='md:w-1/2 bg-blue rounded-3xl'>
           <div class='relative'>
-            <img src='' alt=' 1' class='w-full h-auto' />
+            <img src={Muyiwa} alt=' 1' class='w-full h-auto' />
             <div class='absolute bottom-0 left-48 bg-white bg-opacity-50 text-black  p-4'>
               <h4 class='text-lg font-bold'>MUYIWA DAYO FOLASIRE</h4>
             </div>
@@ -53,7 +54,7 @@ const Diaconates = () => {
         </div>
         <div class='md:w-1/2 bg-blue rounded-3xl'>
           <div class='relative'>
-            <img src='' alt=' 1' class='w-full h-auto' />
+            <img src={faJ} alt=' 1' class='w-full h-auto' />
             <div class='absolute bottom-0 left-48 bg-white bg-opacity-50 text-black  p-4'>
               <h4 class='text-lg font-bold'>ADENIKE FLORENCE FAJEMBOLA</h4>
             </div>
@@ -73,7 +74,7 @@ const Diaconates = () => {
       <div class='flex flex-col md:flex-row gap-6 pt-10  p-4 px-4 md:px-16'>
         <div class='md:w-1/2 bg-blue rounded-3xl'>
           <div class='relative'>
-            <img src='' alt=' 1' class='w-full h-auto' />
+            <img src={Alabi} alt=' 1' class='w-full h-auto' />
             <div class='absolute bottom-0 left-48 bg-white bg-opacity-50 text-black  p-4'>
               <h4 class='text-lg font-bold'>RACHEAL OLAYINKA ALABI</h4>
             </div>
@@ -92,7 +93,7 @@ const Diaconates = () => {
         </div>
         <div class='md:w-1/2 bg-blue rounded-3xl'>
           <div class='relative'>
-            <img src='' alt=' 1' class='w-full h-auto' />
+            <img src={Oke} alt=' 1' class='w-full h-auto' />
             <div class='absolute bottom-0 left-48 bg-white bg-opacity-50 text-black  p-4'>
               <h4 class='text-lg font-bold'>OLAYINKA ABOSEDE OKEGBOLA</h4>
             </div>
@@ -116,7 +117,7 @@ const Diaconates = () => {
       <div class='flex flex-col md:flex-row gap-6 pt-10  p-4 px-4 md:px-16'>
         <div class='md:w-1/2 bg-blue rounded-3xl'>
           <div class='relative'>
-            <img src='' alt=' 1' class='w-full h-auto' />
+            <img src={Bak} alt=' 1' class='w-full h-auto' />
             <div class='absolute bottom-0 left-48 bg-white bg-opacity-50 text-black  p-4'>
               <h4 class='text-lg font-bold'>BABATUNDE OLAWALE BAKARE</h4>
             </div>
