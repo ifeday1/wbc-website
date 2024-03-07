@@ -2,13 +2,13 @@ import './App.css';
 import Aboutthechurch from './pages/Aboutthechurch';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
-import { Route, BrowserRouter, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Ministries from './pages/Ministries';
 import Ministers from './pages/ Ministers';
 import Diaconates from './pages/Diaconates';
 import Giving from './pages/Giving';
-import Wbc_careers from './pages/Wbc_careers';
-import Winners_fc from './pages/Winners_fc';
+import Wbc_careers from './pages/WbcCareers';
+import Winners_fc from './pages/WinnersFc';
 
 function App() {
   return (

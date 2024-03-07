@@ -25,13 +25,13 @@ const Winners_fc = () => {
         </div>
 
         <div class='flex justify-center items-center mx-4 my-2 md:w-1/2 lg:w-1/3'>
-          <img src={Winfc} alt='Your Image' class='w-[6   000px] h-auto' />
+          <img src={Winfc} alt='Your ' class='w-[6   000px] h-auto' />
         </div>
       </div>
 
       <div class='flex flex-wrap justify-center items-center pt-14 md:gap-44'>
         <div class='flex justify-center items-center mx-4 my-2 md:w-1/2 lg:w-1/3'>
-          <img src={Win1} alt='Your Image' class='max-w-full h-auto' />
+          <img src={Win1} alt='Your ' class='max-w-full h-auto' />
         </div>
         <div class='flex flex-col justify-center  mx-4 my-2 md:w-1/2 lg:w-1/3'>
           <p class='text-lg mb-4'>
@@ -58,7 +58,7 @@ const Winners_fc = () => {
           </p>
         </div>
         <div class='flex justify-center items-center mx-4 my-2 md:w-1/2 lg:w-1/3'>
-          <img src={Win2} alt='Your Image' class='max-w-full h-auto' />
+          <img src={Win2} alt='Your ' class='max-w-full h-auto' />
         </div>
       </div>
 
@@ -75,17 +75,17 @@ const Winners_fc = () => {
 
         <div class='flex flex-wrap justify-center mt-14 mb-10'>
           <div class='w-full md:w-1/2 lg:w-1/4 p-4'>
-            <img src={Wcar} />
+            <img src={Wcar} alt='carol' />
           </div>
 
           <div class='w-full md:w-1/2 lg:w-1/4 p-4'>
-            <img src={Wcar1} />
+            <img src={Wcar1} alt='carol' />
           </div>
           <div class='w-full md:w-1/2 lg:w-1/4 p-4'>
-            <img src={Wcar2} />
+            <img src={Wcar2} alt='carol' />
           </div>
           <div class='w-full md:w-1/2 lg:w-1/4 p-4'>
-            <img src={Wcar3} />
+            <img src={Wcar3} alt='carol' />
           </div>
         </div>
       </div>

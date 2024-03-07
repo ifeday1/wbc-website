@@ -4,7 +4,7 @@ import Loc from '../assests/Loc.png';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { useForm, ValidationError } from '@formspree/react';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import Location from '../components/Location';
@@ -24,29 +24,29 @@ const Contact = () => {
     });
   };
 
-  const showToast = () => {
-    if (
-      !formData.name ||
-      !formData.email ||
-      !formData.phone ||
-      !formData.message
-    ) {
-      toast({
-        title: 'Fill empty fields',
-        status: 'warning',
-        duration: 3000,
-        isClosable: true,
-      });
-    } else {
-      toast({
-        title: 'Sent',
-        description: 'Your message has been sent successfully.',
-        status: 'success',
-        duration: 5000,
-        isClosable: true,
-      });
-    }
-  };
+  // const showToast = () => {
+  //   if (
+  //     !formData.name ||
+  //     !formData.email ||
+  //     !formData.phone ||
+  //     !formData.message
+  //   ) {
+  //     toast({
+  //       title: 'Fill empty fields',
+  //       status: 'warning',
+  //       duration: 3000,
+  //       isClosable: true,
+  //     });
+  //   } else {
+  //     toast({
+  //       title: 'Sent',
+  //       description: 'Your message has been sent successfully.',
+  //       status: 'success',
+  //       duration: 5000,
+  //       isClosable: true,
+  //     });
+  //   }
+  // };
   const [state, handleSubmit] = useForm('xqkrpddv');
   if (state.succeeded) {
     return <p>Thanks for your response!!</p>;
@@ -57,7 +57,6 @@ const Contact = () => {
       <div className='relative mb pt-10'>
         <img
           src={Con} // Replace with the path to your image
-          alt='Image'
           className='w-full h-auto'
         />
         <div className='absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center'>
@@ -254,7 +253,6 @@ const Contact = () => {
           <div className='flex items-center justify-center'>
             <img
               src={Loc} // Replace with the path to your image
-              alt='Image'
               className=' w-96 h-auto rounded-md mb-4'
             />
           </div>

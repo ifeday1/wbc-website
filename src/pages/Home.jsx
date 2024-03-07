@@ -1,7 +1,7 @@
 import { React } from 'react';
 import Carousel from '../components/Carousel';
 import ReadMore from '../components/ReadMore';
-import Pastor from '../assests/pastor.png';
+// import Pastor from '../assests/pastor.png';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import Teens from '../assests/Teens.svg';
@@ -259,7 +259,7 @@ const Home = () => {
         </h4>
         <div class='flex flex-wrap justify-center'>
           <div class='flex flex-col items-center p-4 md:w-1/3'>
-            <img src={Teens} alt='Image 1' class=' w-80 h-80 rounded-full' />
+            <img src={Teens} alt=' 1' class=' w-80 h-80 rounded-full' />
             <h4 class='text-lg font-bold'>Teenagers Ministry</h4>
             <p class='mt-2 text-center'>
               Raising a Generation of trailblazers between ages 13-18,
@@ -271,7 +271,7 @@ const Home = () => {
           </div>
 
           <div class='flex flex-col items-center p-4 md:w-1/3'>
-            <img src={Teens} alt='Image 1' class=' w-80 h-80 rounded-full' />
+            <img src={Teens} alt=' 1' class=' w-80 h-80 rounded-full' />
             <h4 class='text-lg font-bold'>Youth Ministry</h4>
             <p class='mt-2 text-center'>
               Welcome to Winning Youth - Where Champions Are Forged! Winning
@@ -282,7 +282,7 @@ const Home = () => {
           </div>
 
           <div class='flex flex-col items-center p-4 md:w-1/3'>
-            <img src={Bsf} alt='Image 1' class=' w-80 h-80 rounded-full' />
+            <img src={Bsf} alt=' 1' class=' w-80 h-80 rounded-full' />
             <h4 class='text-lg font-bold'>BSF</h4>
             <p class='mt-2 text-center'>
               Baptist Student Fellowship(BSF)is a division under missionary
@@ -367,7 +367,7 @@ const Home = () => {
         </div>
 
         <div class='flex justify-center items-center mx-4 my-2 md:w-1/2 lg:w-1/3'>
-          <img src={Join} alt='Your Image' class='max-w-full h-auto' />
+          <img src={Join} class='max-w-full h-auto' />
         </div>
       </div>
 
@@ -385,7 +385,7 @@ const Home = () => {
           <div class='flex justify-between gap-3'>
             <div class='flex flex-col items-center  bg-white rounded-xl'>
               <div class='image-container mb-4'>
-                <img src={WW} alt='Image 1' class='w-[500px] h-auto' />
+                <img src={WW} alt=' 1' class='w-[500px] h-auto' />
               </div>
               <p class='text-lg text-gray-700 text-center  mb-2'>
                 Join our worship service via Youtube
@@ -400,7 +400,7 @@ const Home = () => {
 
             <div class='flex flex-col items-center  bg-white rounded-xl'>
               <div class='image-container mb-4'>
-                <img src={WW1} alt='' class='w-[500px] h-auto' />
+                <img src={WW1}  class='w-[500px] h-auto' />
               </div>
               <p class='text-lg text-gray-700 items-center  text-center mb-2'>
                 Join our worship service via Facebook live <br></br> (Video and

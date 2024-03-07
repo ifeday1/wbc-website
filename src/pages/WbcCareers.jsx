@@ -14,7 +14,6 @@ import Carol1 from '../assests/carol1.png';
 import Carol3 from '../assests/carol3.png';
 import Carol4 from '../assests/carola4.png';
 
-
 const Wbc_careers = () => {
   return (
     <>
@@ -33,7 +32,7 @@ const Wbc_careers = () => {
           </h2>
           <div className=' flex flex-row text-center justify-center md:text-left md:justify-start'>
             <div>
-              <img src={Icon} className=' bg-white ' />
+              <img src={Icon} alt='icon' className=' bg-white ' />
             </div>
             <p class='text-lg mb-8 px-8 bg-white rounded-xl'>
               4k+ <br></br> followers online
@@ -42,13 +41,13 @@ const Wbc_careers = () => {
         </div>
 
         <div class='flex justify-center items-center mx-4 my-2 md:w-1/2 lg:w-1/3'>
-          <img src={Car} alt='Your Image' class='w-[6   000px] h-auto' />
+          <img src={Car} alt='Your ' class='w-[6   000px] h-auto' />
         </div>
       </div>
 
       <div class='flex flex-wrap justify-center items-center pt-14 md:gap-44'>
         <div class='flex justify-center items-center mx-4 my-2 md:w-1/2 lg:w-1/3'>
-          <img src={Sola} alt='Your Image' class='max-w-full h-auto' />
+          <img src={Sola} alt='Your ' class='max-w-full h-auto' />
         </div>
         <div class='flex flex-col justify-center  mx-4 my-2 md:w-1/2 lg:w-1/3'>
           <p class='text-lg mb-4'>
@@ -69,7 +68,7 @@ const Wbc_careers = () => {
           </p>
         </div>
         <div class='flex justify-center items-center mx-4 my-2 md:w-1/2 lg:w-1/3'>
-          <img src={Ore} alt='Your Image' class='max-w-full h-auto' />
+          <img src={Ore} alt='Your ' class='max-w-full h-auto' />
         </div>
       </div>
 
@@ -86,7 +85,11 @@ const Wbc_careers = () => {
           <div class='w-full md:w-1/2 lg:w-1/4 p-4'>
             <div class=' outline-orange outline outline-offset-2 outline-2 rounded-lg p-4 flex items-center justify-center w-auto h-80'>
               <div class='mx-4  text-darkblue text-center items-center'>
-                <img src={Ava} className=' w-12 h-auto items-center m-auto' />
+                <img
+                  src={Ava}
+                  alt='ava'
+                  className=' w-12 h-auto items-center m-auto'
+                />
                 <h4 class='text-lg font-bold pt-5'> Arab Agbaje-Salami</h4>
                 <p class='mt-2 text-sm'>
                   My name is Arab Agbaje-Salami an Accountant. Winners career
@@ -130,10 +133,7 @@ const Wbc_careers = () => {
             continues to play a pivotal role in shaping and advancing careers
             across a multitude of industries.
           </p>
-          <a
-            href=''
-            class='bg-white text-darkblue font-medium py-2 px-4 rounded transition-transform duration-300 ease-in-out transform hover:translate-y-1 hover:shadow-md'
-          >
+          <a class='bg-white text-darkblue font-medium py-2 px-4 rounded transition-transform duration-300 ease-in-out transform hover:translate-y-1 hover:shadow-md'>
             Join Us
           </a>
         </div>
@@ -159,17 +159,17 @@ const Wbc_careers = () => {
 
         <div class='flex flex-wrap justify-center mt-14'>
           <div class='w-full md:w-1/2 lg:w-1/4 p-4'>
-            <img src={Carol1} />
+            <img src={Carol1} alt='carol' />
           </div>
 
           <div class='w-full md:w-1/2 lg:w-1/4 p-4'>
-            <img src={Carol2} />
+            <img src={Carol2} alt='carol' />
           </div>
           <div class='w-full md:w-1/2 lg:w-1/4 p-4'>
-            <img src={Carol3} />
+            <img src={Carol3} alt='carol' />
           </div>
           <div class='w-full md:w-1/2 lg:w-1/4 p-4'>
-            <img src={Carol4} />
+            <img src={Carol4} alt='carol' />
           </div>
         </div>
       </div>

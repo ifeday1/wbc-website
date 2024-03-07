@@ -32,7 +32,7 @@ const Ministers = () => {
 
       <div class='flex flex-col lg:flex-row pt-16'>
         <div class='lg:w-1/2p-4 px-4 md:px-16'>
-          <img src={Pastor1} alt='Pastor image' class='w-[500px] h-{0px}' />
+          <img src={Pastor1} alt='Pastor ' class='w-[500px] h-{0px}' />
           <h5 class='mt-2 text-lg font-bold'>Rev Olusola Oladeni,Ph.D </h5>
           <p class=''>Lead Pastor</p>
         </div>
@@ -57,7 +57,7 @@ const Ministers = () => {
 
       <div class='flex flex-col lg:flex-row pt-16'>
         <div class='lg:w-1/2p-4 px-4 md:px-16'>
-          <img src={Pastormrs} alt='Pastor image' class='w-[500px] h-{0px}' />
+          <img src={Pastormrs} alt='Pastor ' class='w-[500px] h-{0px}' />
           <h5 class='mt-2 text-lg font-bold'>Rev Mrs Esther Oladeni</h5>
           <p class=''> Teenagers Pastor</p>
         </div>
@@ -83,11 +83,11 @@ const Ministers = () => {
 
       <div class='flex flex-col lg:flex-row pt-10 justify-between mb-10'>
         <div class='lg:w-1/2p-4 px-4 md:px-16'>
-          <img src={Preach} alt='Pastor image' class='w-[500px] h-{0px}' />
+          <img src={Preach} alt='Pastor ' class='w-[500px] h-{0px}' />
         </div>
 
         <div class='lg:w-1/2p-4 px-4 md:px-16'>
-          <img src={Preach1} alt='Pastor image' class='w-[500px] h-{0px}' />
+          <img src={Preach1} alt='Pastor ' class='w-[500px] h-{0px}' />
         </div>
       </div>
 

@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './Carousel.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import $ from 'jquery';
 import Slider from 'react-slick';
 
 import Slider1 from '../assests/Slide1.jpg';
