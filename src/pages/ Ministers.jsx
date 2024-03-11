@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Pastor1 from '../assests/pastor2.png';
 import Pastormrs from '../assests/pastormrs.png';
-import CImage from '../assests/church.png';
+import minister from '../assests/ministers.jpg';
 import Preach from '../assests/preach.png';
 import Preach1 from '../assests/preach1.png';
 // import 'aos/dist/aos.css';
@@ -16,7 +16,7 @@ const Ministers = () => {
       <Navbar />
 
       <div class='relative pt-20'>
-        <img src={CImage} alt='church building' />
+        <img src={minister} alt='church building' />
         <div class='absolute top-0 left-0 w-full h-full flex items-center justify-center text-center'>
           <div class='text-center text-white pt-24'>
             <h2 class='text-1xl font-bold md:text-4xl '>MINISTERS</h2>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Teens from '../assests/Teens.svg';
+import church from '../assests/church1.png';
 
 const Location = () => {
   return (
@@ -23,7 +23,7 @@ const Location = () => {
         </div>
         <div class='md:w-1/2 p-4'>
           <img
-            src={Teens}
+            src={church}
             alt='teenagers'
             class='w-[600px] h-[auto] pb-1 pl-1 md:pl-20 mb:pb-48'
           />

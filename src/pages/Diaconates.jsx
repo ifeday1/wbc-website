@@ -1,12 +1,12 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import churchImage from '../assests/church.png';
 import muyiwa from '../assests/muyiwa.png';
 import faj from '../assests/faj.png';
 import oke from '../assests/oke.svg';
 import alabi from '../assests/alabi.png';
 import Ilori from '../assests/ilori.png';
 import bake from '../assests/bake.jpg';
+import deacon from '../assests/deacon.png';
 
 import Footer from '../components/Footer';
 
@@ -15,7 +15,7 @@ const Diaconates = () => {
     <>
       <Navbar />
       <div class='relative pt-20'>
-        <img src={churchImage} alt='church building' />
+        <img src={deacon} alt='church building' />
         <div class='absolute top-0 left-0 w-full h-full flex items-center justify-center text-center'>
           <div class='text-center text-white pt-24'>
             <h2 class='text-1xl font-bold md:text-4xl '>DIACONATES</h2>

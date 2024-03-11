@@ -1,5 +1,5 @@
 import { React, useState } from 'react';
-import Con from '../assests/contact.jpg';
+import ChurchImage from '../assests/church.png';
 import Loc from '../assests/Loc.png';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -56,7 +56,8 @@ const Contact = () => {
       <Navbar />
       <div className='relative mb pt-10'>
         <img
-          src={Con} alt='Con' // Replace with the path to your image
+          src={ChurchImage}
+          alt='Con' // Replace with the path to your image
           className='w-full h-auto'
         />
         <div className='absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center'>
@@ -252,7 +253,8 @@ const Contact = () => {
           {/* Second Flex Item - Image with Border Radius (Column) */}
           <div className='flex items-center justify-center'>
             <img
-              src={Loc} alt='Con' // Replace with the path to your image
+              src={Loc}
+              alt='Con' // Replace with the path to your image
               className=' w-96 h-auto rounded-md mb-4'
             />
           </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import ChurchImage from '../assests/church.png';
 import Teens from '../assests/youth.png';
+import teens from '../assests/teen.png';
 import Mmu from '../assests/mmu.png';
 import Wmu from '../assests/wmu.png';
 import Ra from '../assests/ra.png';
@@ -9,6 +9,8 @@ import Ga from '../assests/ga.png';
 import Lydia from '../assests/lydia.png';
 import Bsf from '../assests/bsf.png';
 import Evangelism from '../assests/envangelism.png';
+import ministry from '../assests/ministry.jpg';
+
 import Footer from '../components/Footer';
 
 const Ministries = () => {
@@ -16,7 +18,7 @@ const Ministries = () => {
     <>
       <Navbar />
       <div class='relative pt-20'>
-        <img src={ChurchImage} alt='church building' />
+        <img src={ministry} alt='church building' />
         <div class='absolute top-0 left-0 w-full h-full flex items-center justify-center text-center'>
           <div class='text-center text-white pt-24'>
             <h2 class='text-1xl font-bold md:text-4xl '>MINISTRIES</h2>
@@ -46,7 +48,7 @@ const Ministries = () => {
         </div>
         <div class='md:w-1/2 p-4'>
           <img
-            src={Teens}
+            src={teens}
             alt='teenagers'
             class='w-[600px] h-[auto] pb-1 pl-1 md:pl-20 mb:pb-48'
           />
@@ -116,21 +118,12 @@ const Ministries = () => {
         <div class='md:w-1/2 p-4'>
           <h4 class='text-lg font-bold text-blue'>MMU MINISTRY</h4>
           <p class='mt-2 text-left'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
-            orci feugiat, bibendum mauris vel, ultrices ipsum. Quisque luctus
-            ipsum id justo vestibulum, at bibendum ipsum viverra. Maecenas
-            venenatis arcu at libero euismod, sed fermentum ligula lobortis.
-            Nulla vitae sapien eget enim vestibulum volutpat. In hac habitasse
-            platea dictumst. In vel mi vitae est placerat tempus ut eget sapien.
-            Nam eu felis quis libero viverra tincidunt nec eu metus. Integer
-            accumsan, justo eu posuere bibendum, mi nulla vulputate urna, nec
-            volutpat sapien felis vel nulla. Nullam consequat magna vel ex
-            dignissim, eget sodales tortor facilisis. Vivamus vehicula euismod
-            ex, eu ultricies dui. Integer suscipit nulla eget augue facilisis,
-            sed euismod ipsum rhoncus. Ut sit amet lacinia mi. Nullam auctor,
-            libero et tincidunt congue, lorem velit ullamcorper sapien, ut
-            accumsan dui quam id tortor. Nullam nec diam a purus pharetra
-            mattis. Nam maximus dapibus velit, id cursus dolor mollis et.
+            Welcome to MMU Ministry, Committed to nurturing faith, fostering
+            fellowship, and serving with compassion, MMU Ministry stands as a
+            beacon of spiritual growth and empowerment. Through meaningful
+            gatherings, heartfelt worship, and impactful outreach initiatives,
+            we strive to inspire and uplift each member on their journey of
+            faith. Join us as we seek to glorify God and spread His love to all.
           </p>
         </div>
       </div>
@@ -176,21 +169,17 @@ const Ministries = () => {
         <div class='md:w-1/2 p-4'>
           <h4 class='text-lg font-bold text-blue'>EVANGELISM MINISTRY</h4>
           <p class='mt-2 text-left'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
-            orci feugiat, bibendum mauris vel, ultrices ipsum. Quisque luctus
-            ipsum id justo vestibulum, at bibendum ipsum viverra. Maecenas
-            venenatis arcu at libero euismod, sed fermentum ligula lobortis.
-            Nulla vitae sapien eget enim vestibulum volutpat. In hac habitasse
-            platea dictumst. In vel mi vitae est placerat tempus ut eget sapien.
-            Nam eu felis quis libero viverra tincidunt nec eu metus. Integer
-            accumsan, justo eu posuere bibendum, mi nulla vulputate urna, nec
-            volutpat sapien felis vel nulla. Nullam consequat magna vel ex
-            dignissim, eget sodales tortor facilisis. Vivamus vehicula euismod
-            ex, eu ultricies dui. Integer suscipit nulla eget augue facilisis,
-            sed euismod ipsum rhoncus. Ut sit amet lacinia mi. Nullam auctor,
-            libero et tincidunt congue, lorem velit ullamcorper sapien, ut
-            accumsan dui quam id tortor. Nullam nec diam a purus pharetra
-            mattis. Nam maximus dapibus velit, id cursus dolor mollis et.
+            Embracing the spirit of outreach and spreading the message of faith,
+            our Evangelism Ministry at Winners Baptist Church stands as a beacon
+            of hope and compassion in our community. Committed to sharing the
+            transformative power of God's love, we embark on a journey of
+            service and discipleship, reaching out to hearts seeking solace and
+            salvation. Through prayer, fellowship, and unwavering dedication, we
+            strive to illuminate paths with the light of Christ, inviting all to
+            experience His grace and mercy. Join us as we walk hand in hand,
+            sharing the Gospel and nurturing souls on their spiritual journey.
+            Together, let's shine brightly as ambassadors of faith, embodying
+            the love that knows no bounds
           </p>
         </div>
       </div>

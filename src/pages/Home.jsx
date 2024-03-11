@@ -10,6 +10,8 @@ import WW from '../assests/WW.png';
 import WW1 from '../assests/WW1.png';
 import Join from '../assests/Join.png';
 import Bsf from '../assests/bsf.svg';
+import teen from '../assests/teen.png';
+
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 
@@ -259,7 +261,7 @@ const Home = () => {
         </h4>
         <div class='flex flex-wrap justify-center'>
           <div class='flex flex-col items-center p-4 md:w-1/3'>
-            <img src={Teens} alt=' 1' class=' w-80 h-80 rounded-full' />
+            <img src={teen} alt=' 1' class=' w-80 h-80 rounded-full' />
             <h4 class='text-lg font-bold'>Teenagers Ministry</h4>
             <p class='mt-2 text-center'>
               Raising a Generation of trailblazers between ages 13-18,
