@@ -68,13 +68,16 @@ const Ministries = () => {
           <p class='mt-2 text-left'>
             Vision: To nurture a generation of children who love and follow
             Jesus, cultivating a foundation of faith, character, and service.
+            <br></br>
             Mission: Empowering children to discover and grow in their
             relationship with God through age-appropriate teaching, engaging
             activities, and a loving community. Core Values: Love and Grace.
+            <br></br>
             Faith Formation: Fostering a deep understanding of God's love and
             biblical principles, laying the groundwork for a lifelong faith
-            journey. ENGAGING CURRICULUM: Children Department is part of of the
-            Family Life Education Division of the Nigerian Baptist Convention.
+            journey.<br></br> Engaging Curriculum: Children Department is part
+            of of the Family Life Education Division of the Nigerian Baptist
+            Convention.<br></br>
             Winners Baptist Children Department is under the Leadership of Rev.
             Mrs. Esther Oladeni, the Family Life Coordinator. We come together
             to fellowship every sunday both for Combined and Separate services,
@@ -99,7 +102,7 @@ const Ministries = () => {
             potential, pursue your dreams, and stand as a testament to the
             extraordinary capabilities within each one of us. Together, let's
             continue to redefine what it means to be a champion! To victory and
-            beyond, Winning Youth
+            beyond, Winning Youth!
           </p>
         </div>
         <div class='md:w-1/2 p-4'>
@@ -179,7 +182,7 @@ const Ministries = () => {
             experience His grace and mercy. Join us as we walk hand in hand,
             sharing the Gospel and nurturing souls on their spiritual journey.
             Together, let's shine brightly as ambassadors of faith, embodying
-            the love that knows no bounds
+            the love that knows no bounds.
           </p>
         </div>
       </div>
@@ -189,14 +192,14 @@ const Ministries = () => {
         <div class='md:w-1/2 p-4'>
           <h4 class='text-lg font-bold text-blue'>BSF </h4>
           <p class='mt-2 text-left'>
-            Baptist Student Fellowship(BSF)is a division under missionary
+            Baptist Student Fellowship (BSF) is a division under missionary
             organization department of Nigeria Baptist Convention that is
-            responsible for ministering to students.To lead students to a
-            commitment to Jesus Christ as Saviour and Lord,Involve them in
+            responsible for ministering to students. To lead students to a
+            commitment to Jesus Christ as Saviour and Lord, Involve them in
             biblical truth and Christian Discipleship and also to lead them to
-            relate academic disciplines to their christian faith.
-            Motto;John13:35 By this all men shall know that ye are my
-            disciples;if ye have love one to another.
+            relate academic disciplines to their christian faith. Motto: By this
+            all men shall know that ye are my disciples; if ye have love one to
+            another (John 13:35).
           </p>
         </div>
         <div class='md:w-1/2 p-4'>
@@ -223,9 +226,9 @@ const Ministries = () => {
             the Nigeria Baptist Convention. This ministry is mostly for boys
             under the ages of 10-25 years which is divided into the intermediate
             and the senior royal ambassador with the aim of touching life of
-            boys and impacting the enternity of men. The motto of the royal
-            ambassador can be found in the book of 2 Corinthians 5:20 which says
-            " WE ARE AMBASSADORS FOR CHRIST"
+            boys and impacting the eternity of men. The motto of the Royal
+            Ambassador can be found in the book of 2 Corinthians 5:20 which says
+            " WE ARE AMBASSADORS FOR CHRIST".
           </p>
         </div>
       </div>
@@ -279,16 +282,6 @@ const Ministries = () => {
             members. Membership Steps: The Lydia Auxiliary offers a structured
             progression for its members, comprising three distinct stages:
             Service Award Honour Award The Career Missionary Motto and
-            Symbolism: Inspired by Acts 26:18a, the motto of the Lydia Auxiliary
-            encapsulates its core mission: "To open their eyes and to turn them
-            from darkness to light." Symbolically represented by the colors
-            white and purple, white signifies purity, while purple signifies
-            royalty, reflecting the ministry's commitment to upholding moral
-            excellence and embracing the identity of daughters of the King. In
-            essence, the Lydia Auxiliary serves as a beacon of guidance and
-            empowerment for young women, fostering a community of faith,
-            service, and spiritual growth as they navigate the journey from
-            adolescence to adulthood.
           </p>
         </div>
       </div>

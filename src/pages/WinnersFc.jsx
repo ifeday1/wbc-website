@@ -49,7 +49,7 @@ const Winners_fc = () => {
           <p class='text-lg mb-4'>
             Winners Football Club uses athletics to cultivate athletic talent
             while also serving as a beacon of hope and mentorship. The group
-            aims to shape students into responsible, ethical, and resilient
+            aims to shape individual into responsible, ethical, and resilient
             members of society by combining sportsmanship with spiritual
             direction. The club's commitment to diversity and emphasis on
             character development through the lens of faith make it an important
@@ -66,12 +66,7 @@ const Winners_fc = () => {
         <h1 className='  text-4xl font-bold text-darkblue text-center mt-14 '>
           Picture excerpts from our training session
         </h1>
-        <p className='text-gray-600 text-center text-[10px] md:text-[15px]'>
-          A recruiting event in which employers and recruiters meet with
-          <br></br>
-          potential employees and where job seekers find more about job
-          openings.
-        </p>
+     
 
         <div class='flex flex-wrap justify-center mt-14 mb-10'>
           <div class='w-full md:w-1/2 lg:w-1/4 p-4'>

@@ -22,15 +22,17 @@ const Aboutthechurch = () => {
 
       <div class=' bg-white p-4 px-4 md:px-16'>
         <h3 class='text-lg font-bold text-blue md:text-2xl'>HISTORY</h3>
-        <p class='mt-2 text-left'>
-          “Then the eleven disciples went to Galilee, to the mountain where
-          Jesus had told them to go. When they saw him, they worshipped him; but
-          some doubted. Then, Jesus came to them and said, “All authority in
-          heaven and on earth has been given to me. Therefore go and make
-          disciples of all nations, baptizing them in the name of the Father and
-          of the son and the Holy Spirit, and teaching them to obey everything I
-          have commanded you. And surely I am with you always, to the very end
-          of the age” (Matthew 28:16 -20). <br></br>
+        <p class='mt-2 '>
+          <p className=' italic'>
+            “Then the eleven disciples went to Galilee, to the mountain where
+            Jesus had told them to go. When they saw him, they worshipped him;
+            but some doubted. Then, Jesus came to them and said, “All authority
+            in heaven and on earth has been given to me. Therefore go and make
+            disciples of all nations, baptizing them in the name of the Father
+            and of the son and the Holy Spirit, and teaching them to obey
+            everything I have commanded you. And surely I am with you always, to
+            the very end of the age” (Matthew 28:16 -20). <br></br>
+          </p>
           <br></br>
           It may not matter where you started; what matters is where you end. In
           response to the above instruction Jesus Christ gave the disciples, and
@@ -58,7 +60,7 @@ const Aboutthechurch = () => {
           grace and wisdom. The Women Missionary Organization, known as the
           Winning Women are shining Stars for the Lord. The Men Missionary
           Union, known as the Winning Men are doing great for the Lord. The
-          winners’ Voices, that is the church Choir, are glorious in their deeds
+          Winners’ Voices, that is the Church Choir, are glorious in their deeds
           and ministration. It will interest you to know that the Church has a
           Career Community, through which a good number of youths have been
           assisted to secure jobs. The Winners Football Team are strong and
@@ -70,29 +72,29 @@ const Aboutthechurch = () => {
         </p>
       </div>
 
-      <div class=' mb-10'>
+      <div class=' mb-10 bg-blue '>
         <div class='flex-1 p-4 px-4 m-auto items-center justify-center text-center  md:px-16'>
-          <h3 class='text-lg font-bold text-blue'>Our Vision</h3>
-          <p class='mt-2'>
+          <h3 class='text-lg font-bold text-white'>Our Vision</h3>
+          <p class='mt-2 text-white'>
             To raise a transformed community of people - <br></br>a blameless
             Church who will positively transform her generation.
           </p>
         </div>
         <div class='flex-1 p-4 px-4 m-auto items-center justify-center text-center md:px-16'>
-          <h3 class='text-lg font-bold text-blue'>Our Mission</h3>
-          <p class='mt-2'>
+          <h3 class='text-lg font-bold text-white'>Our Mission</h3>
+          <p class='mt-2 text-white'>
             Bringing people to Jesus and membership in His family; developing
             <br></br>
             them to Christ-like maturity, and to equip them for the ministries
             <br></br>
             in the Church, and their life's missions in the world in order to
             <br></br>
-            glorify the Lord's name now and in future
+            glorify the Lord's name now and in future.
           </p>
         </div>
         <div class='flex-1 p-4 px-4 m-auto items-center justify-center text-center md:px-16'>
-          <h3 class='text-lg font-bold text-blue'>Core Values</h3>
-          <p class='mt-2'>
+          <h3 class='text-lg font-bold text-white'>Core Values</h3>
+          <p class='mt-2 text-white'>
             Love, Care, Concern for People's Welfare, Commitment and Undecided
             <br></br>
             Loyalty to Jesus Christ and His teaching.

@@ -48,7 +48,7 @@ const Home = () => {
             Fellowship with us on any of these days
           </p>
           <div className='flex flex-col items-center md:flex-row md:justify-around gap-4 pt-8'>
-            <div className='flex-item bg-white px-16  py-5 rounded-md text-center'>
+            <div className='flex-item bg-white px-16  py-5 rounded-md text-center flex flex-col'>
               <div className='square mb-2 flex flex-col '>
                 <p className='text-white bg-blue px-7 py-7 rounded-md font-semibold'>
                   Sun
@@ -181,7 +181,7 @@ const Home = () => {
                   <path d='M12.5 15.5l2 2' />
                   <path d='M15 13l2 2' />
                 </svg>
-                <h4 class='text-lg font-bold pt-5'>Care</h4>
+                <h4 class='text-lg font-bold pt-7 '>Care</h4>
                 <p class='mt-2'>
                   As we value others in humility, we are ready to help and share
                   with others. Inculcating the spirit of empathy as God helps
@@ -247,7 +247,7 @@ const Home = () => {
                   <path d='M12 7v6' />
                   <path d='M10 9h4' />
                 </svg>
-                <h4 class='text-lg font-bold pt-5'>Commitment Jesus Christ</h4>
+                <h4 class='text-lg font-bold pt-5'>Commitment </h4>
                 <p class='mt-2'>Putting Christ first in all we do!</p>
               </div>
             </div>

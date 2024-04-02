@@ -31,8 +31,11 @@ const Giving = () => {
           <h5 class='text-lg font-bold text-blue'>
             Account Name: Winners Baptist Church
           </h5>
-          <h5 class='text-lg font-bold text-blue'>Naira Account: 2003806472</h5>
-          <h5 class='text-lg font-bold text-blue'>USD Account: ------</h5>
+          <h5 class='text-lg font-bold text-blue'>
+            {' '}
+            Account Number: 2003806472
+          </h5>
+          {/* <h5 class='text-lg font-bold text-blue'>USD Account: ------</h5> */}
         </div>
         <div class='md:w-1/2 p-4'>
           <h2 class='text-4xl font-bold text-black mb-10'>Cheque</h2>
@@ -45,7 +48,6 @@ const Giving = () => {
         </div>
       </div>
 
-      <Location />
       <Footer />
     </>
   );
