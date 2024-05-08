@@ -5,11 +5,13 @@ import Footer from '../components/Footer';
 const Event = () => {
   return (
     <>
-    <Navbar/>
-      <div>
-        <h1>WORK IN PROGRESS...</h1>
-      </div>
-      <Footer/>
+      <Navbar />
+      <>
+        <div class='relative pt-20 text-center'>
+          <h1>UPCOMING EVENTS WILL SHOW HERE...</h1>
+        </div>
+      </>
+      <Footer />
     </>
   );
 };

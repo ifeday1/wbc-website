@@ -7,6 +7,7 @@ import Ministries from './pages/Ministries';
 import Ministers from './pages/ Ministers';
 import Diaconates from './pages/Diaconates';
 import Giving from './pages/Giving';
+import Event from './pages/Event';
 import WbcCareers from './pages/WbcCareers';
 import WinnersFc from './pages/WinnersFc';
 
@@ -19,6 +20,7 @@ function App() {
         {/* About */}
         <Route path='/about-the-church' element={<Aboutthechurch />} />
         <Route path='/ministries' element={<Ministries />} />
+        <Route path='/events' element={<Event />} />
         <Route path='/ministers' element={<Ministers />} />
         <Route path='/diaconates' element={<Diaconates />} />
 

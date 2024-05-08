@@ -71,7 +71,7 @@ const Navbar = () => {
           </li>
           <li className={styles['nav-link']}>
             {' '}
-            <NavLink to='/event'>EVENTS</NavLink>
+            <NavLink to='/events'>EVENTS</NavLink>
           </li>
 
           <li className={styles['nav-link']}>
@@ -144,11 +144,7 @@ const Navbar = () => {
         </div>
       )}
 
-      {eventDisplay && (
-        <div className={styles['projects-container']}>
-       
-        </div>
-      )}
+      {eventDisplay && <div className={styles['projects-container']}></div>}
 
       {resourcesDisplay && (
         <div className={styles['resources-container']}>
