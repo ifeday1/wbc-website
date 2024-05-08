@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Give from '../assests/give.svg';
-import Location from '../components/Location';
+// import Location from '../components/Location';
 
 const Giving = () => {
   return (
