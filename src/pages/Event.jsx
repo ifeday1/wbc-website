@@ -7,7 +7,7 @@ const Event = () => {
     <>
       <Navbar />
       <>
-        <div class='relative pt-20 text-c'>
+        <div class='relative pt-20 pb-24 text-c'>
           <h1>UPCOMING EVENTS WILL SHOW HERE...</h1>
         </div>
       </>
