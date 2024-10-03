@@ -49,7 +49,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Fourth Flex Item with Social Icons */}
         <div className='flex mx-0 md:mx-40'>
           <a
             href='https://www.instagram.com/winnersbaptistchurch?igsh=enhwNGZubmV1cWNs'
