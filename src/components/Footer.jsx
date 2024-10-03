@@ -35,7 +35,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Third Flex Item with Heading and Links */}
+   
         <div className='flex-1 mb-2 sm:mb-0 sm:ml-2 sm:mr-0'>
           <div>
             <h3 className='text-lg font-semibold mb-2'>Locate Us</h3>
