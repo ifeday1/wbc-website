@@ -9,12 +9,10 @@ const Footer = () => {
   return (
     <>
       <div className='flex flex-col  sm:flex-row justify-between p-4 py-28 bg-gray-800 text-white'>
-        {/* First Flex Item with Logo */}
         <div className='flex-none flex-1 mb-2 sm:mb-0'>
           <img src={Logo} alt='Logo' className=' w-24 h-auto mx-0 md:mx-28' />
         </div>
 
-        {/* Second Flex Item with Heading and Links */}
         <div className='flex-1 mb-2 sm:mb-0 sm:ml-0 sm:mr-2'>
           <div>
             <h3 className='text-lg font-semibold mb-2 '>Quick Navigation</h3>
@@ -35,7 +33,6 @@ const Footer = () => {
           </div>
         </div>
 
-   
         <div className='flex-1 mb-2 sm:mb-0 sm:ml-2 sm:mr-0'>
           <div>
             <h3 className='text-lg font-semibold mb-2'>Locate Us</h3>
