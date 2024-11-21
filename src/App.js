@@ -10,9 +10,20 @@ import Giving from './pages/Giving';
 import Event from './pages/Event';
 import WbcCareers from './pages/WbcCareers';
 import WinnersFc from './pages/WinnersFc';
+import ReactGA from "react-ga4";
+import { useEffect } from 'react';
 
 
 function App() {
+
+  useEffect(() =>{
+  ReactGA.initialize('G-DF6TRYX1VE ');
+  ReactGA.send({
+    hitType: 'pageview',
+    page: window.location.pathname,
+    title: 'App.jsx',
+  });
+  }, []);
   return (
     <div className='App'>
       <Routes>
