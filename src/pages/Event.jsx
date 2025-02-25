@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import EventCalendar from '../components/EventCalender';
 
 const Event = () => {
   return (
@@ -8,7 +9,7 @@ const Event = () => {
       <Navbar />
       <>
         <div class='relative pt-20 pb-24 text-c'>
-          <h1>UPCOMING EVENTS WILL SHOW HERE...</h1>
+          <EventCalendar />
         </div>
       </>
       <Footer />
