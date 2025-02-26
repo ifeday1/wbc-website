@@ -10,22 +10,24 @@ import Giving from './pages/Giving';
 import Event from './pages/Event';
 import WbcCareers from './pages/WbcCareers';
 import WinnersFc from './pages/WinnersFc';
-import ReactGA from "react-ga4";
+import ReactGA from 'react-ga4';
 import { useEffect } from 'react';
-
+// import { BrowserRouter as Router, } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
+import ScrollToTopButton from './components/ScrollToTopButton';
 
 function App() {
-
-  useEffect(() =>{
-  ReactGA.initialize('G-DF6TRYX1VE ');
-  ReactGA.send({
-    hitType: 'pageview',
-    page: window.location.pathname,
-    title: 'App.jsx',
-  });
+  useEffect(() => {
+    ReactGA.initialize('G-DF6TRYX1VE ');
+    ReactGA.send({
+      hitType: 'pageview',
+      page: window.location.pathname,
+      title: 'App.jsx',
+    });
   }, []);
   return (
     <div className='App'>
+      <ScrollToTop />
       <Routes>
         <Route path='/' element={<Home />} />
 
@@ -46,6 +48,7 @@ function App() {
         {/* Giving */}
         <Route path='/giving' element={<Giving />} />
       </Routes>
+      <ScrollToTopButton />
     </div>
   );
 }
