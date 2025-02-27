@@ -23,8 +23,10 @@ const generateEvents = (daysInMonth) => {
   const events = {
     '2025-03-08': [{ title: 'Winners Workers Seminar', time: '9:30 AM' }],
     '2025-03-22': [{ title: ' Super Power Evening (SPE)', time: '6:00 PM' }],
-    '2025-04-18': [{ title: 'Good Friday.', time: '9:00 AM' }],
+    '2025-03-03': [{ title: ' 3 Days fasting and prayer', time: '6:00 PM' }],
+    '2025-03-24': [{ title: ' 3 Days fasting and prayer', time: '6:00 PM' }],
 
+    '2025-04-18': [{ title: 'Good Friday.', time: '9:00 AM' }],
     '2025-04-21': [{ title: 'Easter Monday', time: '' }],
     '2025-04-25': [{ title: 'Miracle Night', time: '11:50 PM' }],
   };
