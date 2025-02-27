@@ -10,27 +10,33 @@ import {
   isSunday,
   isWednesday,
   getDate,
+  isToday,
 } from 'date-fns';
+
+const specialSundays = {
+  '2025-03-09': [{ title: 'Annual Societal Thanksgiving', time: '8:00 AM' }],
+  '2025-04-06': [{ title: 'Refresh your soul.', time: '8:00 AM' }],
+  '2025-05-12': [{ title: 'Children’s Day Special', time: '8:30 AM' }],
+};
 
 const generateEvents = (daysInMonth) => {
   const events = {
-    '2025-03-10': [{ title: 'Team Meeting', time: '10:00 AM' }],
-    '2025-03-15': [{ title: 'Product Launch', time: '3:00 PM' }],
-    '2025-03-20': [{ title: 'Design Workshop', time: '1:00 PM' }],
-    '2025-03-25': [{ title: 'Finance Webinar', time: '6:30 PM' }],
+    '2025-03-08': [{ title: 'Winners Workers Seminar', time: '9:30 AM' }],
+    '2025-03-22': [{ title: ' Super Power Evening (SPE)', time: '6:00 PM' }],
+    '2025-04-18': [{ title: 'Good Friday.', time: '9:00 AM' }],
+
+    '2025-04-21': [{ title: 'Easter Monday', time: '' }],
+    '2025-04-25': [{ title: 'Miracle Night', time: '11:50 PM' }],
   };
 
   daysInMonth.forEach((day) => {
     const dateKey = format(day, 'yyyy-MM-dd');
     const dayOfMonth = getDate(day);
 
-    // Every 1st Day of the Month - "In the Boat with Jesus" at 6:00 AM
-    if (dayOfMonth === 1) {
-      events[dateKey] = [{ title: 'In the Boat with Jesus', time: '6:00 AM' }];
-    }
-
-    // Every Sunday Service
-    if (isSunday(day)) {
+    // Custom Special Sundays
+    if (isSunday(day) && specialSundays[dateKey]) {
+      events[dateKey] = specialSundays[dateKey];
+    } else if (isSunday(day)) {
       if (dayOfMonth <= 7) {
         events[dateKey] = [{ title: 'Sunday Service', time: '8:00 AM' }];
       } else {
@@ -39,6 +45,11 @@ const generateEvents = (daysInMonth) => {
           { title: 'Yoruba Service', time: '9:00 AM' },
         ];
       }
+    }
+
+    // Every 1st Day of the Month - "In the Boat with Jesus" at 6:00 AM
+    if (dayOfMonth === 1) {
+      events[dateKey] = [{ title: 'In the Boat with Jesus', time: '6:00 AM' }];
     }
 
     // Every Wednesday - Bible Study & Prayer Meeting
@@ -62,13 +73,13 @@ export default function EventCalendar() {
   const events = generateEvents(daysInMonth);
 
   const weekdays = [
-    { full: 'Sunday', short: 'Sun' },
-    { full: 'Monday', short: 'Mon' },
-    { full: 'Tuesday', short: 'Tue' },
-    { full: 'Wednesday', short: 'Wed' },
-    { full: 'Thursday', short: 'Thu' },
-    { full: 'Friday', short: 'Fri' },
-    { full: 'Saturday', short: 'Sat' },
+    'Sunday',
+    'Monday',
+    'Tuesday',
+    'Wednesday',
+    'Thursday',
+    'Friday',
+    'Saturday',
   ];
 
   return (
@@ -96,15 +107,12 @@ export default function EventCalendar() {
       <div className='grid grid-cols-7 text-center font-bold text-gray-700 text-sm md:text-base bg-gray-100 py-3 rounded-lg shadow'>
         {weekdays.map((day, index) => (
           <div key={index} className='py-2'>
-            <span className='hidden sm:inline'>{day.full}</span>
-            <span className='inline sm:hidden'>{day.short}</span>
+            {day}
           </div>
         ))}
       </div>
 
-      {/* Calendar Grid */}
       <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-7 gap-2 mt-2'>
-        {/* Empty spaces for alignment */}
         {Array(firstDayOfMonth)
           .fill(null)
           .map((_, i) => (
@@ -116,7 +124,8 @@ export default function EventCalendar() {
           return (
             <div
               key={dateKey}
-              className='p-4 border rounded-lg bg-white shadow-lg text-center hover:bg-blue-100 transition transform hover:scale-105 flex flex-col justify-between min-h-[120px] md:min-h-[160px]'
+              className={`p-4 border rounded-lg shadow-lg text-center hover:bg-blue-100 transition transform hover:scale-105 flex flex-col justify-between min-h-[120px] md:min-h-[160px] 
+              ${isToday(day) ? 'bg-gray-800 text-white' : 'bg-white'}`}
             >
               <p className='font-bold text-lg md:text-xl'>{format(day, 'd')}</p>
               {events[dateKey]?.map((event, index) => (
