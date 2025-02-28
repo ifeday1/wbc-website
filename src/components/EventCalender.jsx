@@ -136,7 +136,7 @@ export default function EventCalendar() {
                   className='text-xs sm:text-sm md:text-base text-blue-600 mt-2 leading-snug break-words'
                 >
                   {event.title} <br />
-                  <span className='block text-gray-600 text-xs md:text-sm'>
+                  <span className='block text-gray-300 text-xs md:text-sm'>
                     {event.time}
                   </span>
                 </p>
