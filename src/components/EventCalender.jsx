@@ -25,7 +25,7 @@ const generateEvents = (daysInMonth) => {
     '2025-03-22': [{ title: ' Super Power Evening (SPE)', time: '6:00 PM' }],
     '2025-03-03': [{ title: ' 3 Days fasting and prayer', time: '6:00 PM' }],
     '2025-03-04': [{ title: ' 3 Days fasting and prayer', time: '6:00 PM' }],
-    '2025-03-29': [{ title: ' Jehowah Jireh (Evangelism)', time: '10:00 AM' }],
+    '2025-03-29': [{ title: ' Jehovah Jireh (Evangelism)', time: '10:00 AM' }],
 
     '2025-04-18': [{ title: 'Good Friday.', time: '9:00 AM' }],
     '2025-04-21': [{ title: 'Easter Monday', time: '' }],
