@@ -16,19 +16,25 @@ import {
 const specialSundays = {
   '2025-03-09': [{ title: 'Annual Societal Thanksgiving', time: '8:00 AM' }],
   '2025-04-06': [{ title: 'Refresh Your Soul', time: '8:00 AM' }],
-  '2025-05-12': [{ title: 'Children’s Day Special', time: '8:30 AM' }],
+  '2025-05-04': [{ title: 'Everybodys birthday', time: '8:30 AM' }],
+  '2025-05-11': [{ title: 'Mothers Day', time: '8:30 AM' }],
+  '2025-05-25': [{ title: 'Childrens Sunday Thanksgiving.', time: '8:30 AM' }],
+  '2025-06-01': [{ title: 'Youth Week', time: '8:30 AM' }],
+  '2025-06-08': [{ title: 'My family in the mirror', time: '8:30 AM' }],
 };
 
 const generateEvents = (daysInMonth) => {
   const events = {
     '2025-03-08': [{ title: 'Winners Workers Seminar', time: '9:30 AM' }],
-    '2025-03-22': [{ title: 'Super Power Evening (SPE)', time: '6:00 PM' }],
+    '2025-03-28': [{ title: 'Super Power Evening (SPE)', time: '6:00 PM' }],
     '2025-03-03': [{ title: '3 Days Fasting & Prayer', time: '6:00 PM' }],
     '2025-03-04': [{ title: '3 Days Fasting & Prayer', time: '6:00 PM' }],
     '2025-03-29': [{ title: 'Jehovah Jireh (Evangelism)', time: '10:00 AM' }],
     '2025-04-18': [{ title: 'Good Friday', time: '9:00 AM' }],
     '2025-04-21': [{ title: 'Easter Monday', time: '' }],
     '2025-04-25': [{ title: 'Miracle Night', time: '11:50 PM' }],
+    '2025-05-30': [{ title: 'Super Power Evening (SPE', time: '6:00 PM' }],
+    '2025-06-27': [{ title: 'Super Power Evening (SPE', time: '6:00 PM' }],
   };
 
   daysInMonth.forEach((day) => {
