@@ -6,9 +6,9 @@ import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import Teens from '../assests/Teens.webp';
 import Pic from '../assests/Pic.webp';
-import WW from '../assests/WW.webp';
-import WW1 from '../assests/WW1.webp';
-import Join from '../assests/Join.webp';
+import WW from '../assests/ww.webp';
+import WW1 from '../assests/ww1.webp';
+import Join from '../assests/join.webp';
 import Bsf from '../assests/bsf.webp';
 import teen from '../assests/teen.webp';
 
