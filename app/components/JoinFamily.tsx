@@ -54,12 +54,13 @@ const JoinFamily = () => {
           {/* Image */}
           <div className="relative">
             <div className="relative w-full h-[300px] md:h-[400px] lg:h-[450px] rounded-2xl overflow-hidden shadow-2xl">
-              <Image
-                src="/Join.webp"
-                alt="Join the Winners Family"
-                fill
-                className="object-cover"
-              />
+                <Image
+                  src="/Join.webp"
+                  alt="Join the Winners Family"
+                  fill
+                  sizes="100vw"
+                  className="object-cover"
+                />
               {/* Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-green-900/60 via-transparent to-transparent" />
               

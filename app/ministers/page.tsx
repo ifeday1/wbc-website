@@ -13,8 +13,8 @@ const Ministers = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <div className='relative h-[250px] md:h-[350px]'>
-        <Image src='/ministers.webp' alt='Church building' fill className='w-full h-full object-cover' />
+        <div className='relative h-[250px] md:h-[350px]'>
+          <Image src='/ministers.webp' alt='Church building' fill sizes="100vw" className='w-full h-full object-cover' />
         <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center text-center'>
           <div className='text-center text-white px-4'>
             <h2 className='text-1xl font-bold md:text-4xl'>MINISTERS</h2>
@@ -85,17 +85,17 @@ const Ministers = () => {
       <div className='flex flex-col lg:flex-row pt-10 justify-between mb-10'>
         <div className='lg:w-1/2 p-4 px-4 md:px-16'>
           <div className='relative w-full max-w-[500px] h-[300px]'>
-            <Image src='/preach.webp' alt='Church service' fill className='object-cover' />
+            <Image src='/preach.webp' alt='Church service' fill sizes="(max-width: 768px) 100vw, 500px" className='object-cover' />
           </div>
         </div>
         <div className='lg:w-1/2 p-4 px-4 md:px-16'>
           <div className='relative w-full max-w-[500px] h-[300px]'>
-            <Image src='/preach1.webp' alt='Church service' fill className='object-cover' />
+            <Image src='/preach1.webp' alt='Church service' fill sizes="(max-width: 768px) 100vw, 500px" className='object-cover' />
           </div>
         </div>
       </div>
 
-      <Footer />
+      
     </>
   );
 };

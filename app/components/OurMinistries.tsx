@@ -8,42 +8,42 @@ const ministries = [
     name: "Teenagers Ministry",
     shortName: "Teens",
     description: "Raising a Generation of trailblazers between ages 13-18, Intellectuals and hearts who longs for the things of God.",
-    image: "/teen.png",
+    image: "/teen.webp",
     color: "blue"
   },
   {
     name: "Youth Ministry",
     shortName: "Youth",
     description: "Welcome to Winning Youth - Where Champions Are Forged!",
-    image: "/youth.png",
+    image: "/youth.webp",
     color: "green"
   },
   {
     name: "BSF",
     shortName: "BSF",
     description: "Baptist Student Fellowship is a division under missionary organization department.",
-    image: "/bsf.png",
+    image: "/bsf.webp",
     color: "purple"
   },
   {
     name: "Men's Fellowship",
     shortName: "MMU",
     description: "Building strong men of faith through discipleship and fellowship.",
-    image: "/mmu.png",
+    image: "/mmu.webp",
     color: "amber"
   },
   {
     name: "Women's Fellowship",
     shortName: "WMU",
     description: "Empowering women to walk in their calling and giftings.",
-    image: "/wmu.png",
+    image: "/wmu.webp",
     color: "pink"
   },
   {
     name: "Choir & Music",
     shortName: "Worship",
     description: "Leading the congregation in spirit and truth through worship.",
-    image: "/carola4.png",
+    image: "/carola4.webp",
     color: "rose"
   },
 ];
@@ -122,6 +122,7 @@ const OurMinistries = () => {
                     src={ministry.image}
                     alt={ministry.name}
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     className="object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />

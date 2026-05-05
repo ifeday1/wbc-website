@@ -116,7 +116,7 @@ const Navbar = () => {
             <a href="https://x.com/BaptistWinners" target="_blank" rel="noopener noreferrer" className="hover:text-gray-200">
               <TwitterIcon />
             </a>
-            <a href="https://youtube.com/@winnersbaptistchurch4964" target="_blank" rel="noopener noreferrer" className="hover:text-gray-200">
+             <a href="https://youtube.com/@winnersbaptistchurch1" target="_blank" rel="noopener noreferrer" className="hover:text-gray-200">
               <YoutubeIcon />
             </a>
           </div>
@@ -128,7 +128,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-full max-w-7xl mx-auto">
           <Link href="/">
             <div className="w-12 h-12 md:w-16 md:h-16 relative">
-              <Image src="/logo.webp" alt="logo" fill className="object-contain" />
+               <Image src="/logo.webp" alt="logo" fill sizes="(max-width: 768px) 48px, 64px" className="object-contain" />
             </div>
           </Link>
 
@@ -198,7 +198,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between p-4">
             <Link href="/" onClick={() => setNavMenu(false)}>
               <div className="w-12 h-12 relative">
-                <Image src="/logo.webp" alt="logo" fill className="object-contain" />
+                <Image src="/logo.webp" alt="logo" fill sizes="(max-width: 768px) 48px, 64px" className="object-contain" />
               </div>
             </Link>
             <button onClick={() => setNavMenu(false)} className="text-white p-2">
@@ -211,7 +211,7 @@ const Navbar = () => {
             <Link href="/giving" onClick={() => setNavMenu(false)} className="bg-blue-600 hover:bg-blue-700 rounded-lg p-4 text-center transition-colors">
               <span className="text-white font-semibold">Give Online</span>
             </Link>
-            <a href="https://youtube.com/@winnersbaptistchurch4964" target="_blank" rel="noopener noreferrer" className="bg-green-600 hover:bg-green-700 rounded-lg p-4 text-center transition-colors">
+             <a href="https://youtube.com/@winnersbaptistchurch1" target="_blank" rel="noopener noreferrer" className="bg-green-600 hover:bg-green-700 rounded-lg p-4 text-center transition-colors">
               <span className="text-white font-semibold">Watch Live</span>
             </a>
           </div>

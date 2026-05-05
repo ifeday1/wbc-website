@@ -14,7 +14,7 @@ const Diaconates = () => {
 
       {/* Hero Section */}
       <div className='relative h-[250px] md:h-[350px]'>
-        <Image src='/deacon.webp' alt='Church building' fill className='object-cover' />
+        <Image src='/deacon.webp' alt='Church building' fill sizes="100vw" className='object-cover' />
         <div className='absolute inset-0 flex items-center justify-center'>
           <div className='absolute inset-0 bg-gradient-to-t from-black/70 via-black/50 to-transparent' />
           <div className='text-center text-white px-4 relative z-10'>
@@ -35,7 +35,7 @@ const Diaconates = () => {
       <div className='flex flex-col md:flex-row gap-6 pt-10 p-4 px-4 md:px-16'>
         <div className='md:w-1/2 bg-blue-600 rounded-3xl'>
           <div className='relative h-[350px]'>
-            <Image src='/muyiwa.webp' alt='Muyiwa Dayo Folasire' fill className='object-cover' />
+            <Image src='/muyiwa.webp' alt='Muyiwa Dayo Folasire' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
             <div className='absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-white bg-opacity-90 text-black p-4'>
               <h4 className='text-lg font-bold'>MUYIWA DAYO FOLASIRE</h4>
             </div>
@@ -54,7 +54,7 @@ const Diaconates = () => {
         </div>
         <div className='md:w-1/2 bg-blue-600 rounded-3xl'>
           <div className='relative h-[350px]'>
-            <Image src='/faj.webp' alt='Adenike Florence Fajembola' fill className='object-cover' />
+            <Image src='/faj.webp' alt='Adenike Florence Fajembola' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
             <div className='absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-white bg-opacity-90 text-black p-4'>
               <h4 className='text-lg font-bold'>ADENIKE FLORENCE FAJEMBOLA</h4>
             </div>
@@ -74,7 +74,7 @@ const Diaconates = () => {
       <div className='flex flex-col md:flex-row gap-6 pt-10 p-4 px-4 md:px-16'>
         <div className='md:w-1/2 bg-blue-600 rounded-3xl'>
           <div className='relative h-[350px]'>
-            <Image src='/alabi.webp' alt='Rachel Olayinka Alabi' fill className='object-cover' />
+            <Image src='/alabi.webp' alt='Rachel Olayinka Alabi' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
             <div className='absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-white bg-opacity-90 text-black p-4'>
               <h4 className='text-lg font-bold'>RACHEL OLAYINKA ALABI</h4>
             </div>
@@ -93,7 +93,7 @@ const Diaconates = () => {
         </div>
         <div className='md:w-1/2 bg-blue-600 rounded-3xl'>
           <div className='relative h-[350px]'>
-            <Image src='/oke.webp' alt='Olayinka Abosede Okegbola' fill className='object-cover' />
+            <Image src='/oke.webp' alt='Olayinka Abosede Okegbola' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
             <div className='absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-white bg-opacity-90 text-black p-4'>
               <h4 className='text-lg font-bold'>OLAYINKA ABOSEDE OKEGBOLA</h4>
             </div>
@@ -117,7 +117,7 @@ const Diaconates = () => {
       <div className='flex flex-col md:flex-row gap-6 pt-10 p-4 px-4 md:px-16'>
         <div className='md:w-1/2 bg-blue-600 rounded-3xl'>
           <div className='relative h-[350px]'>
-            <Image src='/bake.webp' alt='Babatunde Olawale Bakare' fill className='object-cover' />
+            <Image src='/bake.webp' alt='Babatunde Olawale Bakare' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
             <div className='absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-white bg-opacity-90 text-black p-4'>
               <h4 className='text-lg font-bold'>BABATUNDE OLAWALE BAKARE</h4>
             </div>
@@ -135,7 +135,7 @@ const Diaconates = () => {
         </div>
         <div className='md:w-1/2 bg-blue-600 rounded-3xl mb-10'>
           <div className='relative h-[350px]'>
-            <Image src='/ilori.webp' alt='Florence Ndidi Ilori' fill className='object-cover' />
+            <Image src='/ilori.webp' alt='Florence Ndidi Ilori' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
             <div className='absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-white bg-opacity-90 text-black p-4'>
               <h4 className='text-lg font-bold'>FLORENCE NDIDI ILORI</h4>
             </div>
@@ -156,7 +156,7 @@ const Diaconates = () => {
         </div>
       </div>
 
-      <Footer />
+     
     </>
   );
 };

@@ -7,14 +7,14 @@ const ImageCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   
   const slides = [
-    { image: '/preach.png', alt: 'Preaching' },
-    { image: '/youth.png', alt: 'Youth' },
-    { image: '/preach1.png', alt: 'Preaching' },
-    { image: '/envangelism.png', alt: 'Evangelism' },
-    { image: '/wmu.png', alt: 'Women Ministry' },
-    { image: '/mmu.png', alt: 'Men Ministry' },
-    { image: '/bsf.png', alt: 'BSF' },
-    { image: '/carola4.png', alt: 'Carol Service' },
+    { image: '/preach.webp', alt: 'Preaching' },
+    { image: '/youth.webp', alt: 'Youth' },
+    { image: '/preach1.webp', alt: 'Preaching' },
+    { image: '/envangelism.webp', alt: 'Evangelism' },
+    { image: '/wmu.webp', alt: 'Women Ministry' },
+    { image: '/mmu.webp', alt: 'Men Ministry' },
+    { image: '/bsf.webp', alt: 'BSF' },
+    { image: '/carola4.webp', alt: 'Carol Service' },
   ];
 
   useEffect(() => {
@@ -67,6 +67,7 @@ const ImageCarousel = () => {
                     src={slide.image}
                     alt={slide.alt}
                     fill
+                    sizes="280px"
                     className="object-cover"
                     priority={index === currentSlide}
                   />

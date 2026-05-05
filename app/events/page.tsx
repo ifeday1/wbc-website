@@ -232,7 +232,7 @@ export default function Events() {
               Get Directions
             </Link>
             <a
-              href="https://youtube.com/@winnersbaptistchurch4964"
+               href="https://youtube.com/@winnersbaptistchurch1"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-700 text-white hover:bg-blue-800 font-semibold py-3 px-8 rounded-lg transition-colors border border-blue-400 inline-flex items-center justify-center gap-2"

@@ -13,17 +13,17 @@ const Carousel = () => {
   
   const slides = [
     {
-      image: '/Slide1.jpg',
+      image: '/Slide1.webp',
       title: 'WELCOME TO CHURCH',
       subtitle: 'Bringing souls to the heart of Christ',
     },
     {
-      image: '/slide4.jpg',
+      image: '/slide4.webp',
       title: '',
       subtitle: '',
     },
     {
-      image: '/slide3.jpg',
+      image: '/slide3.webp',
       title: 'THE WINNING FAMILY',
       subtitle: 'In His presence there is fullness of joy',
     },
@@ -154,13 +154,14 @@ const Carousel = () => {
                 transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
               }}
             >
-              <Image
-                src={slide.image}
-                alt={`Slide ${index + 1}`}
-                fill
-                className="object-cover"
-                priority={index === 0}
-              />
+                <Image
+                  src={slide.image}
+                  alt={`Slide ${index + 1}`}
+                  fill
+                  sizes="100vw"
+                  className="object-cover"
+                  priority={index === 0}
+                />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className={`text-center text-white px-4 transition-all duration-700 ${

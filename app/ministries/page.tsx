@@ -14,7 +14,7 @@ const Ministries = () => {
 
       {/* Hero Section */}
       <div className='relative h-[250px] md:h-[350px]'>
-        <Image src='/ministry.webp' alt='Church building' fill className='w-full h-full object-cover' />
+        <Image src='/ministry.webp' alt='Church building' fill sizes="100vw" className='w-full h-full object-cover' />
         <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center text-center'>
           <div className='text-center text-white px-4'>
             <h2 className='text-1xl font-bold md:text-4xl'>MINISTRIES</h2>
@@ -44,7 +44,7 @@ const Ministries = () => {
         </div>
         <div className='md:w-1/2 p-4'>
           <div className='relative w-full h-[300px]'>
-            <Image src='/teen.webp' alt='Teenagers ministry' fill className='object-cover' />
+            <Image src='/teen.webp' alt='Teenagers ministry' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
           </div>
         </div>
       </div>
@@ -53,7 +53,7 @@ const Ministries = () => {
       <div className='flex flex-col md:flex-row pt-10 p-4 px-4 md:px-16'>
         <div className='md:w-1/2 p-4'>
           <div className='relative w-full h-[300px]'>
-            <Image src='/youth.webp' alt='Children ministry' fill className='object-cover' />
+            <Image src='/youth.webp' alt='Children ministry' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
           </div>
         </div>
         <div className='md:w-1/2 p-4'>
@@ -100,7 +100,7 @@ const Ministries = () => {
         </div>
         <div className='md:w-1/2 p-4'>
           <div className='relative w-full h-[300px]'>
-            <Image src='/Teen.webp' alt='Youth ministry' fill className='object-cover' />
+            <Image src='/Teen.webp' alt='Youth ministry' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
           </div>
         </div>
       </div>
@@ -109,7 +109,7 @@ const Ministries = () => {
       <div className='flex flex-col md:flex-row pt-10 p-4 px-4 md:px-16'>
         <div className='md:w-1/2 p-4'>
           <div className='relative w-full h-[300px]'>
-            <Image src='/mmu.webp' alt='MMU ministry' fill className='object-cover' />
+            <Image src='/mmu.webp' alt='MMU ministry' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
           </div>
         </div>
         <div className='md:w-1/2 p-4'>
@@ -148,7 +148,7 @@ const Ministries = () => {
         </div>
         <div className='md:w-1/2 p-4'>
           <div className='relative w-full h-[300px]'>
-            <Image src='/wmu.webp' alt='WMU ministry' fill className='object-cover' />
+            <Image src='/wmu.webp' alt='WMU ministry' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
           </div>
         </div>
       </div>
@@ -157,7 +157,7 @@ const Ministries = () => {
       <div className='flex flex-col md:flex-row pt-10 p-4 px-4 md:px-16'>
         <div className='md:w-1/2 p-4'>
           <div className='relative w-full h-[300px]'>
-            <Image src='/envangelism.webp' alt='Evangelism ministry' fill className='object-cover' />
+             <Image src='/envangelism.webp' alt='Evangelism ministry' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
           </div>
         </div>
         <div className='md:w-1/2 p-4'>
@@ -195,7 +195,7 @@ const Ministries = () => {
         </div>
         <div className='md:w-1/2 p-4'>
           <div className='relative w-full h-[300px]'>
-            <Image src='/bsf.webp' alt='Baptist Student Fellowship' fill className='object-cover' />
+             <Image src='/bsf.webp' alt='Baptist Student Fellowship' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
           </div>
         </div>
       </div>
@@ -204,7 +204,7 @@ const Ministries = () => {
       <div className='flex flex-col md:flex-row pt-10 p-4 px-4 md:px-16'>
         <div className='md:w-1/2 p-4'>
           <div className='relative w-full h-[300px]'>
-            <Image src='/ra.webp' alt='Royal Ambassadors' fill className='object-cover' />
+             <Image src='/ra.webp' alt='Royal Ambassadors' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
           </div>
         </div>
         <div className='md:w-1/2 p-4'>
@@ -238,7 +238,7 @@ const Ministries = () => {
         </div>
         <div className='md:w-1/2 p-4'>
           <div className='relative w-full h-[300px]'>
-            <Image src='/ga.webp' alt='Girls Auxiliary' fill className='object-cover' />
+             <Image src='/ga.webp' alt='Girls Auxiliary' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
           </div>
         </div>
       </div>
@@ -247,7 +247,7 @@ const Ministries = () => {
       <div className='flex flex-col mb-10 md:flex-row pt-10 p-4 px-4 md:px-16'>
         <div className='md:w-1/2 p-4'>
           <div className='relative w-full h-[300px]'>
-            <Image src='/lydia.webp' alt='Lydia Auxiliary' fill className='object-cover' />
+             <Image src='/lydia.webp' alt='Lydia Auxiliary' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
           </div>
         </div>
         <div className='md:w-1/2 p-4'>
@@ -271,7 +271,7 @@ const Ministries = () => {
         </div>
       </div>
 
-      <Footer />
+      
     </>
   );
 };

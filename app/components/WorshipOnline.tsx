@@ -6,8 +6,8 @@ const platforms = [
   {
     name: 'YouTube',
     description: 'Join our worship service via YouTube',
-    image: '/WW.png',
-    link: 'https://youtube.com/@winnersbaptistchurch4964',
+     image: '/ww.webp',
+     link: 'https://youtube.com/@winnersbaptistchurch1',
     color: 'red',
     icon: (
       <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
@@ -18,7 +18,7 @@ const platforms = [
   {
     name: 'Facebook',
     description: 'Join our worship service via Facebook Live',
-    image: '/WW1.png',
+     image: '/ww1.webp',
     link: 'https://www.facebook.com/winnersbaptistchurch',
     color: 'blue',
     icon: (
@@ -78,6 +78,7 @@ const WorshipOnline = () => {
                     src={platform.image}
                     alt={platform.name}
                     fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />

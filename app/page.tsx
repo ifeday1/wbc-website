@@ -37,7 +37,7 @@ export default function Home() {
             LEARN MORE
           </Link>
           <Link
-            href="https://youtube.com/@winnersbaptistchurch4964"
+            href="https://youtube.com/@winnersbaptistchurch1"
             target="_blank"
             rel="noopener noreferrer"
             className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold py-3 px-8 rounded-lg transition-colors flex items-center justify-center gap-2"

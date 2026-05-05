@@ -131,7 +131,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="https://youtube.com/@winnersbaptistchurch4964?si=kPQBGupVaIP_0JuG"
+                href="https://youtube.com/@winnersbaptistchurch1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-[#FF0000] hover:bg-[#CC0000] rounded-lg transition-colors"

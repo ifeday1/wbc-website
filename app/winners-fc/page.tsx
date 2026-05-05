@@ -77,7 +77,7 @@ const Winners_fc = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      
     </>
   );
 };

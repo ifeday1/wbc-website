@@ -166,7 +166,7 @@ const Wbc_careers = () => {
         </div>
       </div>
 
-      <Footer />
+      
     </>
   );
 };

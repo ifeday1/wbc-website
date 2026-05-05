@@ -64,12 +64,13 @@ const ChurchPictures = () => {
               key={index}
               className="relative h-32 md:h-40 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow cursor-pointer group"
             >
-              <Image
-                src={img.src}
-                alt={img.alt}
-                fill
-                className="object-cover group-hover:scale-110 transition-transform duration-300"
-              />
+               <Image
+                 src={img.src}
+                 alt={img.alt}
+                 fill
+                 sizes="(max-width: 768px) 50vw, 25vw"
+                 className="object-cover group-hover:scale-110 transition-transform duration-300"
+               />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors" />
             </div>
           ))}
