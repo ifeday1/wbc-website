@@ -4,10 +4,10 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
 
-import Slider1 from '../assests/Slide1.jpg';
-// import Slider2 from '../assests/Building.jpg';
-import Slider3 from '../assests/slide3.jpg';
-import Slider4 from '../assests/slide4.jpg';
+import Slider1 from '../assests/Slide1.webp';
+// import Slider2 from '../assests/Building.webp';
+import Slider3 from '../assests/slide3.webp';
+import Slider4 from '../assests/slide4.webp';
 
 const Carousel = () => {
   const settings = {

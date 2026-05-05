@@ -1,13 +1,13 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import Winfc from '../assests/winnfc.png';
-import Win1 from '../assests/win1.png';
-import Win2 from '../assests/win2.png';
-import Wcar from '../assests/Wcar.png';
-import Wcar1 from '../assests/Wcar1.png';
-import Wcar2 from '../assests/Wcar2.png';
-import Wcar3 from '../assests//Wcar3.png';
+import Winfc from '../assests/winnfc.webp';
+import Win1 from '../assests/win1.webp';
+import Win2 from '../assests/win2.webp';
+import Wcar from '../assests/Wcar.webp';
+import Wcar1 from '../assests/Wcar1.webp';
+import Wcar2 from '../assests/Wcar2.webp';
+import Wcar3 from '../assests//Wcar3.webp';
 
 const Winners_fc = () => {
   return (

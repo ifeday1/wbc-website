@@ -1,10 +1,10 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import Pastor1 from '../assests/pastor2.png';
-import Pastormrs from '../assests/pastormrs.png';
-import minister from '../assests/ministers.jpg';
-import Preach from '../assests/preach.png';
-import Preach1 from '../assests/preach1.png';
+import Pastor1 from '../assests/pastor2.webp';
+import Pastormrs from '../assests/pastormrs.webp';
+import minister from '../assests/ministers.webp';
+import Preach from '../assests/preach.webp';
+import Preach1 from '../assests/preach1.webp';
 // import 'aos/dist/aos.css';
 // import AOS from 'aos';
 

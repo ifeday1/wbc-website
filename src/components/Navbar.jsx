@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import logo from '../assests/logo.png';
+import logo from '../assests/logo.webp';
 import styles from './Navbar.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -300,9 +300,9 @@ const Navbar = () => {
                 Projects
               </span>
               {projectDisplay ? (
-                <img src="/dropup_btn.svg" alt="dropdown_icon" />
+                <img src="/dropup_btn.webp" alt="dropdown_icon" />
               ) : (
-                <img src="/dropdown_btn.svg" alt="dropdown_icon" />
+                <img src="/dropdown_btn.webp" alt="dropdown_icon" />
               )}
             </li>
             

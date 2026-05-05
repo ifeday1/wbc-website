@@ -1,6 +1,6 @@
 import { React, useState } from 'react';
-import ChurchImage from '../assests/church.png';
-import Loc from '../assests/Loc.png';
+import ChurchImage from '../assests/church.webp';
+import Loc from '../assests/Loc.webp';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { useForm, ValidationError } from '@formspree/react';
@@ -121,7 +121,7 @@ const Contact = () => {
         <div className='flex-shrink-0'>
           <div
             className='flex items-center bg-green p-4 rounded-md'
-            style={{ backgroundImage: 'url(location-image.jpg)' }}
+            style={{ backgroundImage: 'url(location-image.webp)' }}
           >
             <div className='mr-4'>
               <svg
