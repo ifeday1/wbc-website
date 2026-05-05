@@ -1,9 +1,9 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 
-import ChurchImage from '../assests/church.png';
+import ChurchImage from '../assests/church.webp';
 import Footer from '../components/Footer';
-// import About from '../assests/about.png';
+// import About from '../assests/about.webp';
 
 const Aboutthechurch = () => {
   return (
