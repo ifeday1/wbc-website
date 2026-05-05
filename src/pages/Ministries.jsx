@@ -1,15 +1,15 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import Teens from '../assests/youth.webp';
-import teens from '../assests/teen.webp';
-import Mmu from '../assests/mmu.webp';
-import Wmu from '../assests/wmu.webp';
-import Ra from '../assests/ra.webp';
-import Ga from '../assests/ga.webp';
-import Lydia from '../assests/lydia.webp';
-import Bsf from '../assests/bsf.webp';
-import Evangelism from '../assests/envangelism.webp';
-import ministry from '../assests/ministry.webp';
+import Teens from '../assets/youth.webp';
+import teens from '../assets/teen.webp';
+import Mmu from '../assets/mmu.webp';
+import Wmu from '../assets/wmu.webp';
+import Ra from '../assets/ra.webp';
+import Ga from '../assets/ga.webp';
+import Lydia from '../assets/lydia.webp';
+import Bsf from '../assets/bsf.webp';
+import Evangelism from '../assets/envangelism.webp';
+import ministry from '../assets/ministry.webp';
 
 import Footer from '../components/Footer';
 

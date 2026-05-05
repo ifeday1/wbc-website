@@ -2,7 +2,7 @@ const sharp = require('sharp');
 const fs = require('fs');
 const path = require('path');
 
-const dir = './src/assests';
+const dir = './src/assets';
 
 async function forceCompress() {
     const files = fs.readdirSync(dir);

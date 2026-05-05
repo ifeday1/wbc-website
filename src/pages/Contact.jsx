@@ -1,6 +1,6 @@
 import { React, useState } from 'react';
-import ChurchImage from '../assests/church.webp';
-import Loc from '../assests/Loc.webp';
+import ChurchImage from '../assets/church.webp';
+import Loc from '../assets/Loc.webp';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { useForm, ValidationError } from '@formspree/react';

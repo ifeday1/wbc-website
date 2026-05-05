@@ -1,5 +1,5 @@
 import React from 'react';
-import church from '../assests/church1.webp';
+import church from '../assets/church1.webp';
 
 const Location = () => {
   return (

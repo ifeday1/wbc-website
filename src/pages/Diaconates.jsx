@@ -1,12 +1,12 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import muyiwa from '../assests/muyiwa.webp';
-import faj from '../assests/faj.webp';
-import oke from '../assests/oke.webp';
-import alabi from '../assests/alabi.webp';
-import Ilori from '../assests/ilori.webp';
-import bake from '../assests/bake.webp';
-import deacon from '../assests/deacon.webp';
+import muyiwa from '../assets/muyiwa.webp';
+import faj from '../assets/faj.webp';
+import oke from '../assets/oke.webp';
+import alabi from '../assets/alabi.webp';
+import Ilori from '../assets/ilori.webp';
+import bake from '../assets/bake.webp';
+import deacon from '../assets/deacon.webp';
 
 import Footer from '../components/Footer';
 

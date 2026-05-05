@@ -1,9 +1,9 @@
 import React from 'react';
-import Logo from '../assests/logo.webp';
-import Instagram from '../assests/instagram.webp';
-import Facebook from '../assests/facebook 2.webp';
-import X from '../assests/twitter 2.webp';
-import Youtube from '../assests/youtube 2.webp';
+import Logo from '../assets/logo.webp';
+import Instagram from '../assets/instagram.webp';
+import Facebook from '../assets/facebook 2.webp';
+import X from '../assets/twitter 2.webp';
+import Youtube from '../assets/youtube 2.webp';
 
 const Footer = () => {
   return (

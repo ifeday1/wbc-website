@@ -1,18 +1,18 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import Icon from '../assests/Link.webp';
-import Sola from '../assests/s.webp';
-import Car from '../assests/car.webp';
-import Man from '../assests/m.webp';
+import Icon from '../assets/Link.webp';
+import Sola from '../assets/s.webp';
+import Car from '../assets/car.webp';
+import Man from '../assets/m.webp';
 
-import Ore from '../assests/o.webp';
-import Ava from '../assests/ava.webp';
-import Ava1 from '../assests/ava1.webp';
-import Carol2 from '../assests/carol2.webp';
-import Carol1 from '../assests/carol1.webp';
-import Carol3 from '../assests/carol3.webp';
-import Carol4 from '../assests/carola4.webp';
+import Ore from '../assets/o.webp';
+import Ava from '../assets/ava.webp';
+import Ava1 from '../assets/ava1.webp';
+import Carol2 from '../assets/carol2.webp';
+import Carol1 from '../assets/carol1.webp';
+import Carol3 from '../assets/carol3.webp';
+import Carol4 from '../assets/carola4.webp';
 
 const Wbc_careers = () => {
   return (

@@ -1,16 +1,16 @@
 import { React } from 'react';
 import Carousel from '../components/Carousel';
 import ReadMore from '../components/ReadMore';
-// import Pastor from '../assests/pastor.webp';
+// import Pastor from '../assets/pastor.webp';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
-import Teens from '../assests/Teens.webp';
-import Pic from '../assests/Pic.webp';
-import WW from '../assests/ww.webp';
-import WW1 from '../assests/ww1.webp';
-import Join from '../assests/join.webp';
-import Bsf from '../assests/bsf.webp';
-import teen from '../assests/teen.webp';
+import Teens from '../assets/Teens.webp';
+import Pic from '../assets/Pic.webp';
+import WW from '../assets/ww.webp';
+import WW1 from '../assets/ww1.webp';
+import Join from '../assets/join.webp';
+import Bsf from '../assets/bsf.webp';
+import teen from '../assets/teen.webp';
 
 import 'aos/dist/aos.css';
 import AOS from 'aos';
