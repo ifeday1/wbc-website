@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@theme {
-  --color-blue: #106fb8;
-  --perspective-1000: 1000px;
-}
-
 body {
   background: #ffffff;
   color: #171717;
