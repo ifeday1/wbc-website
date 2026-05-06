@@ -7,9 +7,9 @@ const ImageCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   
   const slides = [
-    { image: '/preach.webp', alt: 'Preaching' },
+    { image: '/Preach.webp', alt: 'Preaching' },
     { image: '/youth.webp', alt: 'Youth' },
-    { image: '/preach1.webp', alt: 'Preaching' },
+    { image: '/Preach1.webp', alt: 'Preaching' },
     { image: '/envangelism.webp', alt: 'Evangelism' },
     { image: '/wmu.webp', alt: 'Women Ministry' },
     { image: '/mmu.webp', alt: 'Men Ministry' },
