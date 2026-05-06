@@ -55,7 +55,7 @@ const JoinFamily = () => {
           <div className="relative">
             <div className="relative w-full h-[300px] md:h-[400px] lg:h-[450px] rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/Join.webp"
+                  src="/join.webp"
                   alt="Join the Winners Family"
                   fill
                   sizes="100vw"

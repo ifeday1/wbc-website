@@ -100,7 +100,7 @@ const Ministries = () => {
         </div>
         <div className='md:w-1/2 p-4'>
           <div className='relative w-full h-[300px]'>
-            <Image src='/Teen.webp' alt='Youth ministry' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
+            <Image src='/teen.webp' alt='Youth ministry' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
           </div>
         </div>
       </div>

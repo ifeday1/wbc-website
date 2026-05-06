@@ -85,12 +85,12 @@ const Ministers = () => {
       <div className='flex flex-col lg:flex-row pt-10 justify-between mb-10'>
         <div className='lg:w-1/2 p-4 px-4 md:px-16'>
           <div className='relative w-full max-w-[500px] h-[300px]'>
-            <Image src='/preach.webp' alt='Church service' fill sizes="(max-width: 768px) 100vw, 500px" className='object-cover' />
+            <Image src='/Preach.webp' alt='Church service' fill sizes="(max-width: 768px) 100vw, 500px" className='object-cover' />
           </div>
         </div>
         <div className='lg:w-1/2 p-4 px-4 md:px-16'>
           <div className='relative w-full max-w-[500px] h-[300px]'>
-            <Image src='/preach1.webp' alt='Church service' fill sizes="(max-width: 768px) 100vw, 500px" className='object-cover' />
+            <Image src='/Preach1.webp' alt='Church service' fill sizes="(max-width: 768px) 100vw, 500px" className='object-cover' />
           </div>
         </div>
       </div>

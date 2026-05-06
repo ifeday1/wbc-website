@@ -57,7 +57,7 @@ const ChurchPictures = () => {
           {[
             { src: '/church1.webp', alt: 'Worship Service' },
             { src: '/slide3.webp', alt: 'Congregation' },
-            { src: '/preach1.webp', alt: 'Preaching' },
+            { src: '/Preach1.webp', alt: 'Preaching' },
             { src: '/youth.webp', alt: 'Youth Service' },
           ].map((img, index) => (
             <div 
