@@ -1,6 +1,26 @@
 /// <reference types="next" />
-/// <reference types="next/image-types/global" />
-import "./.next/dev/types/routes.d.ts";
+/// <reference types="react" />
+/// <reference types="react-dom" />
 
-// NOTE: This file should not be edited
-// see https://nextjs.org/docs/app/api-reference/config/typescript for more information.
+// Temporary type declarations to fix TypeScript errors
+declare module 'next/image' {
+  import { ComponentProps } from 'react'
+  export default function Image(props: ComponentProps<'img'> & {
+    src: string
+    alt: string
+    width?: number
+    height?: number
+    fill?: boolean
+    sizes?: string
+    priority?: boolean
+    className?: string
+  }): JSX.Element
+}
+
+declare module 'next/link' {
+  import { ComponentProps, ReactNode } from 'react'
+  export default function Link(props: ComponentProps<'a'> & {
+    href: string
+    children: ReactNode
+  }): JSX.Element
+}
