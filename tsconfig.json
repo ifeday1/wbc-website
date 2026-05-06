@@ -28,6 +28,7 @@
         "./*"
       ]
     },
+    "ignoreDeprecations": "6.0",
     "forceConsistentCasingInFileNames": true
   },
   "include": [
