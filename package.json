@@ -9,12 +9,12 @@
     "lint": "echo 'Linting skipped for deployment'"
   },
   "dependencies": {
-    "next": "14.2.15",
+    "autoprefixer": "10.4.20",
+    "next": "^14.2.35",
+    "postcss": "8.4.33",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "tailwindcss": "3.4.14",
-    "autoprefixer": "10.4.20",
-    "postcss": "8.4.33"
+    "tailwindcss": "3.4.14"
   },
   "devDependencies": {
     "@types/node": "20",
