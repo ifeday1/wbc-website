@@ -149,7 +149,13 @@ const Footer = () => {
       <div className="bg-gray-900 py-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-2">
           <p className="text-sm text-gray-400">
-            © Winners Baptist Church. All Rights Reserved 2026. Designed By <Link href="https://www.bestricky.vercel.app" target="_blank" className="text-blue-400 hover:text-blue-300 transition-colors">
+            © Winners Baptist Church. All Rights Reserved 2026. Designed By <Link href="https://web-portfilo-git-master-ifeday1.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-green-400 hover:text-green-300 transition-colors"
+              >
+                Ifeday Concepts
+            </Link> and build by <Link href="https://www.bestricky.vercel.app" target="_blank" className="text-blue-400 hover:text-blue-300 transition-colors">
               BestRicky Web Agency
             </Link>
           </p>
