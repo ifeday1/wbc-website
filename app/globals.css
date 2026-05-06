@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blue: #106fb8;
+  --perspective-1000: 1000px;
+}
+
+body {
+  background: #ffffff;
+  color: #171717;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.rotate-y-45 {
+  transform: rotateY(45deg);
+}
+
+.rotate-y--45 {
+  transform: rotateY(-45deg);
+}
+
+.rotate-y-0 {
+  transform: rotateY(0deg);
+}
+
+.clip-path-inset-0 {
+  clip-path: inset(0% 0% 0% 0%);
+}
+
+.clip-path-inset-full {
+  clip-path: inset(100% 100% 100% 100%);
+}
+
+.-skew-x-12 {
+  transform: skewX(-12deg);
+}
+
+.skew-x-12 {
+  transform: skewX(12deg);
+}
+
+.-translate-y-full {
+  transform: translateY(-100%);
+}
+
+.translate-y-full {
+  transform: translateY(100%);
+}
+
+.blur-md {
+  filter: blur(8px);
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.-rotate-180 {
+  transform: rotate(-180deg);
+}
+
+.scale-150 {
+  transform: scale(1.5);
+}
+
+.clip-path-diamond-0 {
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.clip-path-diamond-full {
+  clip-path: polygon(50% 0%, 50% 0%, 50% 100%, 50% 100%);
+}
+
+.-translate-x-\[120\%\] {
+  transform: translateX(-120%);
+}
+
+.translate-x-\[120\%\] {
+  transform: translateX(120%);
+}
