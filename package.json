@@ -2,12 +2,12 @@
   "name": "wbc-website",
   "version": "0.1.0",
   "private": true,
-"scripts": {
-  "dev": "set NODE_OPTIONS=--openssl-legacy-provider && next dev",
-  "build": "set NODE_OPTIONS=--openssl-legacy-provider && next build",
-  "start": "set NODE_OPTIONS=--openssl-legacy-provider && next start",
-  "lint": "echo 'Linting skipped for deployment'"
-},
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "echo 'Linting skipped for deployment'"
+  },
   "dependencies": {
     "autoprefixer": "^10.4.20",
     "next": "^14.2.35",
