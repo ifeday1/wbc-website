@@ -96,12 +96,22 @@ const WorshipOnline = () => {
                     {platform.description}
                   </p>
                   
-                  <div className={`inline-flex items-center gap-2 ${colors.text} font-semibold group-hover:gap-3 transition-all`}>
-                    Click here to join
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                    </svg>
-                  </div>
+                  <div className={`inline-flex items-center ${colors.text} font-semibold transition-all duration-300`}>
+  Click here to join
+  
+  <span className="inline-block overflow-hidden max-w-0 opacity-0 group-hover:max-w-[40px] group-hover:opacity-100 group-hover:ml-2 transition-all duration-500 ease-out">
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      fill="none" 
+      viewBox="0 0 24 24" 
+      strokeWidth={2} 
+      stroke="currentColor" 
+      className="w-4 h-4 translate-x-[-10px] group-hover:translate-x-0 transition-transform duration-500"
+    >
+      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+    </svg>
+  </span>
+</div>
                 </div>
 
                 {/* Hover Glow Effect */}

@@ -36,7 +36,7 @@ export default function Home() {
       <div className="max-w-4xl mx-auto px-4 py-16 text-center">
         <Typewriter />
         <p className="mt-6 text-xl md:text-2xl text-gray-600">
-          Sundays at 8:00 AM - Miracle Square
+          Sundays at - Miracle Square
         </p>
         <div className="mt-8">
           <ReadMore text={loremIpsum} maxLength={150} />

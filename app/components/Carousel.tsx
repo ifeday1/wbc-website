@@ -39,7 +39,6 @@ const Carousel = () => {
     'slice-vertical',
     'dissolve',
     'spiral-reveal',
-    'diamond-open',
     'curtain-reveal',
     'crossfade'
   ];
@@ -85,10 +84,6 @@ const Carousel = () => {
       case 'spiral-reveal':
         if (isActive) return 'opacity-100 rotate-0 scale-100';
         return normalizedOffset > 0 ? 'opacity-0 rotate-180 scale-150' : 'opacity-0 -rotate-180 scale-150';
-        
-      case 'diamond-open':
-        if (isActive) return 'opacity-100 clip-path-diamond-0';
-        return 'opacity-0 clip-path-diamond-full';
         
       case 'curtain-reveal':
         if (isActive) return 'opacity-100 translate-x-0';
@@ -164,7 +159,7 @@ const Carousel = () => {
                 />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
               <div className="absolute inset-0 flex items-center justify-center">
-                <div className={`text-center text-white px-4 transition-all duration-700 ${
+                <div className={`flex flex-col items-center text-center text-white px-4 transition-all duration-700 ${
                   isActive ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
                 }`}>
                   {slide.title && (
@@ -173,7 +168,7 @@ const Carousel = () => {
                     </h3>
                   )}
                   {slide.subtitle && (
-                    <p className="mt-4 text-sm md:text-lg lg:text-xl max-w-2xl font-light opacity-90">
+                    <p className="mt-4 text-sm md:text-lg lg:text-xl max-w-2xl mx-auto text-center font-light opacity-90">
                       <span className="inline-block">{slide.subtitle}</span>
                     </p>
                   )}

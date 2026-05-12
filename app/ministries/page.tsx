@@ -1,6 +1,5 @@
 import Image from 'next/image';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+
 
 export const metadata = {
   title: 'Ministries - Winners Baptist Church',
@@ -10,13 +9,13 @@ export const metadata = {
 const Ministries = () => {
   return (
     <>
-      <Navbar />
+     
 
       {/* Hero Section */}
-      <div className='relative h-[250px] md:h-[350px]'>
-        <Image src='/ministry.webp' alt='Church building' fill sizes="100vw" className='w-full h-full object-cover' />
+      <div className='relative h-[250px] md:h-[350px] animate-fadeIn'>
+        <Image src='/ministry.webp' alt='Church building' fill sizes="100vw" className='w-full h-full object-cover animate-scaleIn' />
         <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center text-center'>
-          <div className='text-center text-white px-4'>
+          <div className='text-center text-white px-4 animate-slideInUp'>
             <h2 className='text-1xl font-bold md:text-4xl'>MINISTRIES</h2>
             <p className='mt-2 text-[10px] md:text-[15px]'>
               <span className='text-4xl font-semibold'>T</span>
@@ -31,10 +30,10 @@ const Ministries = () => {
       </div>
 
       {/* Teenagers Ministry */}
-      <div className='flex flex-col md:flex-row pt-10 p-4 px-4 md:px-16'>
-        <div className='md:w-1/2 p-4'>
-          <h4 className='text-lg font-bold text-blue-600'>TEENAGERS MINISTRY</h4>
-          <p className='mt-2 text-left text-gray-700'>
+      <div className='flex flex-col md:flex-row pt-10 p-4 px-4 md:px-16 animate-fadeIn'>
+        <div className='md:w-1/2 p-4 animate-slideInLeft'>
+          <h4 className='text-lg font-bold text-blue-600 animate-slideInUp'>TEENAGERS MINISTRY</h4>
+          <p className='mt-2 text-left text-gray-700 animate-slideInUp' style={{ animationDelay: '0.1s' }}>
             Raising a Generation of trailblazers between ages 13-18,
             Intellectuals and hearts who longs for the things of God and as the
             presence of God never leaves our midst, we welcome all secondary
@@ -42,23 +41,23 @@ const Ministries = () => {
             word of the Lord remains in our hearts.
           </p>
         </div>
-        <div className='md:w-1/2 p-4'>
-          <div className='relative w-full h-[300px]'>
+        <div className='md:w-1/2 p-4 animate-slideInRight'>
+          <div className='relative w-full h-[300px] animate-scaleIn'>
             <Image src='/teen.webp' alt='Teenagers ministry' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
           </div>
         </div>
       </div>
 
       {/* Children Ministry */}
-      <div className='flex flex-col md:flex-row pt-10 p-4 px-4 md:px-16'>
-        <div className='md:w-1/2 p-4'>
-          <div className='relative w-full h-[300px]'>
+      <div className='flex flex-col md:flex-row pt-10 p-4 px-4 md:px-16 animate-fadeIn'>
+        <div className='md:w-1/2 p-4 animate-slideInLeft'>
+          <div className='relative w-full h-[300px] animate-scaleIn'>
             <Image src='/youth.webp' alt='Children ministry' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
           </div>
         </div>
-        <div className='md:w-1/2 p-4'>
-          <h4 className='text-lg font-bold text-blue-600'>CHILDREN MINISTRY</h4>
-          <p className='mt-2 text-left text-gray-700'>
+        <div className='md:w-1/2 p-4 animate-slideInRight'>
+          <h4 className='text-lg font-bold text-blue-600 animate-slideInUp'>CHILDREN MINISTRY</h4>
+          <p className='mt-2 text-left text-gray-700 animate-slideInUp' style={{ animationDelay: '0.1s' }}>
             Vision: To nurture a generation of children who love and follow
             Jesus, cultivating a foundation of faith, character, and service.
             <br></br>
@@ -80,10 +79,10 @@ const Ministries = () => {
       </div>
 
       {/* Youth Ministry */}
-      <div className='flex flex-col md:flex-row pt-10 p-4 px-4 md:px-16'>
-        <div className='md:w-1/2 p-4'>
-          <h4 className='text-lg font-bold text-blue-600'>YOUTH MINISTRY</h4>
-          <p className='mt-2 text-left text-gray-700'>
+      <div className='flex flex-col md:flex-row pt-10 p-4 px-4 md:px-16 animate-fadeIn'>
+        <div className='md:w-1/2 p-4 animate-slideInLeft'>
+          <h4 className='text-lg font-bold text-blue-600 animate-slideInUp'>YOUTH MINISTRY</h4>
+          <p className='mt-2 text-left text-gray-700 animate-slideInUp' style={{ animationDelay: '0.1s' }}>
             Welcome to Winning Youth - Where Champions Are Forged! Winning Youth
             Family We are thrilled to welcome you to the Winning Youth
             department, a dynamic and empowering community where champions are
@@ -98,23 +97,23 @@ const Ministries = () => {
             beyond, Winning Youth!
           </p>
         </div>
-        <div className='md:w-1/2 p-4'>
-          <div className='relative w-full h-[300px]'>
+        <div className='md:w-1/2 p-4 animate-slideInRight'>
+          <div className='relative w-full h-[300px] animate-scaleIn'>
             <Image src='/teen.webp' alt='Youth ministry' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
           </div>
         </div>
       </div>
 
       {/* MMU Ministry */}
-      <div className='flex flex-col md:flex-row pt-10 p-4 px-4 md:px-16'>
-        <div className='md:w-1/2 p-4'>
-          <div className='relative w-full h-[300px]'>
+      <div className='flex flex-col md:flex-row pt-10 p-4 px-4 md:px-16 animate-fadeIn'>
+        <div className='md:w-1/2 p-4 animate-slideInLeft'>
+          <div className='relative w-full h-[300px] animate-scaleIn'>
             <Image src='/mmu.webp' alt='MMU ministry' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
           </div>
         </div>
-        <div className='md:w-1/2 p-4'>
-          <h4 className='text-lg font-bold text-blue-600'>MMU MINISTRY</h4>
-          <p className='mt-2 text-left text-gray-700'>
+        <div className='md:w-1/2 p-4 animate-slideInRight'>
+          <h4 className='text-lg font-bold text-blue-600 animate-slideInUp'>MMU MINISTRY</h4>
+          <p className='mt-2 text-left text-gray-700 animate-slideInUp' style={{ animationDelay: '0.1s' }}>
             Welcome to MMU Ministry, Committed to nurturing faith, fostering
             fellowship, and serving with compassion, MMU Ministry stands as a
             beacon of spiritual growth and empowerment. Through meaningful
@@ -126,10 +125,10 @@ const Ministries = () => {
       </div>
 
       {/* WMU Ministry */}
-      <div className='flex flex-col md:flex-row pt-10 p-4 px-4 md:px-16'>
-        <div className='md:w-1/2 p-4'>
-          <h4 className='text-lg font-bold text-blue-600'>WMU MINISTRY</h4>
-          <p className='mt-2 text-left text-gray-700'>
+      <div className='flex flex-col md:flex-row pt-10 p-4 px-4 md:px-16 animate-fadeIn'>
+        <div className='md:w-1/2 p-4 animate-slideInLeft'>
+          <h4 className='text-lg font-bold text-blue-600 animate-slideInUp'>WMU MINISTRY</h4>
+          <p className='mt-2 text-left text-gray-700 animate-slideInUp' style={{ animationDelay: '0.1s' }}>
             Her purpose is to build lives who will emulate the spirit of our
             Lord and Savior Jesus Christ and promote Christian Mission through
             WMU Organizations SUNBEAM BAND, GIRL AUXILLARY, LYDIA AUXILLARY, and
@@ -146,23 +145,23 @@ const Ministries = () => {
             humanity.
           </p>
         </div>
-        <div className='md:w-1/2 p-4'>
-          <div className='relative w-full h-[300px]'>
+        <div className='md:w-1/2 p-4 animate-slideInRight'>
+          <div className='relative w-full h-[300px] animate-scaleIn'>
             <Image src='/wmu.webp' alt='WMU ministry' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
           </div>
         </div>
       </div>
 
       {/* Evangelism Ministry */}
-      <div className='flex flex-col md:flex-row pt-10 p-4 px-4 md:px-16'>
-        <div className='md:w-1/2 p-4'>
-          <div className='relative w-full h-[300px]'>
+      <div className='flex flex-col md:flex-row pt-10 p-4 px-4 md:px-16 animate-fadeIn'>
+        <div className='md:w-1/2 p-4 animate-slideInLeft'>
+          <div className='relative w-full h-[300px] animate-scaleIn'>
              <Image src='/envangelism.webp' alt='Evangelism ministry' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
           </div>
         </div>
-        <div className='md:w-1/2 p-4'>
-          <h4 className='text-lg font-bold text-blue-600'>EVANGELISM MINISTRY</h4>
-          <p className='mt-2 text-left text-gray-700'>
+        <div className='md:w-1/2 p-4 animate-slideInRight'>
+          <h4 className='text-lg font-bold text-blue-600 animate-slideInUp'>EVANGELISM MINISTRY</h4>
+          <p className='mt-2 text-left text-gray-700 animate-slideInUp' style={{ animationDelay: '0.1s' }}>
             Embracing the spirit of outreach and spreading the message of faith,
             our Evangelism Ministry at Winners Baptist Church stands as a beacon
             of hope and compassion in our community. Committed to sharing the
@@ -179,10 +178,10 @@ const Ministries = () => {
       </div>
 
       {/* Baptist Student Fellowship */}
-      <div className='flex flex-col md:flex-row pt-10 p-4 px-4 md:px-16'>
-        <div className='md:w-1/2 p-4'>
-          <h4 className='text-lg font-bold text-blue-600'>BAPTIST STUDENT FELLOWSHIP</h4>
-          <p className='mt-2 text-left text-gray-700'>
+      <div className='flex flex-col md:flex-row pt-10 p-4 px-4 md:px-16 animate-fadeIn'>
+        <div className='md:w-1/2 p-4 animate-slideInLeft'>
+          <h4 className='text-lg font-bold text-blue-600 animate-slideInUp'>BAPTIST STUDENT FELLOWSHIP</h4>
+          <p className='mt-2 text-left text-gray-700 animate-slideInUp' style={{ animationDelay: '0.1s' }}>
             Baptist Student Fellowship (BSF) is a division under missionary
             organization department of Nigeria Baptist Convention that is
             responsible for ministering to students. To lead students to a
@@ -193,23 +192,23 @@ const Ministries = () => {
             another (John 13:35).
           </p>
         </div>
-        <div className='md:w-1/2 p-4'>
-          <div className='relative w-full h-[300px]'>
+        <div className='md:w-1/2 p-4 animate-slideInRight'>
+          <div className='relative w-full h-[300px] animate-scaleIn'>
              <Image src='/bsf.webp' alt='Baptist Student Fellowship' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
           </div>
         </div>
       </div>
 
       {/* Royal Ambassador */}
-      <div className='flex flex-col md:flex-row pt-10 p-4 px-4 md:px-16'>
-        <div className='md:w-1/2 p-4'>
-          <div className='relative w-full h-[300px]'>
+      <div className='flex flex-col md:flex-row pt-10 p-4 px-4 md:px-16 animate-fadeIn'>
+        <div className='md:w-1/2 p-4 animate-slideInLeft'>
+          <div className='relative w-full h-[300px] animate-scaleIn'>
              <Image src='/ra.webp' alt='Royal Ambassadors' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
           </div>
         </div>
-        <div className='md:w-1/2 p-4'>
-          <h4 className='text-lg font-bold text-blue-600'>ROYAL AMBASSADOR</h4>
-          <p className='mt-2 text-left text-gray-700'>
+        <div className='md:w-1/2 p-4 animate-slideInRight'>
+          <h4 className='text-lg font-bold text-blue-600 animate-slideInUp'>ROYAL AMBASSADOR</h4>
+          <p className='mt-2 text-left text-gray-700 animate-slideInUp' style={{ animationDelay: '0.1s' }}>
             The royal ambassador is a ministry under the Men Missionary Union of
             the Nigeria Baptist Convention. This ministry is mostly for boys
             under the ages of 10-25 years which is divided into the intermediate
@@ -222,10 +221,10 @@ const Ministries = () => {
       </div>
 
       {/* Girls Auxiliary */}
-      <div className='flex flex-col md:flex-row pt-10 p-4 px-4 md:px-16'>
-        <div className='md:w-1/2 p-4'>
-          <h4 className='text-lg font-bold text-blue-600'>GIRLS AUXILIARY</h4>
-          <p className='mt-2 text-left text-gray-700'>
+      <div className='flex flex-col md:flex-row pt-10 p-4 px-4 md:px-16 animate-fadeIn'>
+        <div className='md:w-1/2 p-4 animate-slideInLeft'>
+          <h4 className='text-lg font-bold text-blue-600 animate-slideInUp'>GIRLS AUXILIARY</h4>
+          <p className='mt-2 text-left text-gray-700 animate-slideInUp' style={{ animationDelay: '0.1s' }}>
             Baptist Student Fellowship (BSF) is a division under missionary
             organization department of Nigeria Baptist Convention that is
             responsible for ministering to students. To lead students to a
@@ -236,23 +235,23 @@ const Ministries = () => {
             have love one to another.
           </p>
         </div>
-        <div className='md:w-1/2 p-4'>
-          <div className='relative w-full h-[300px]'>
+        <div className='md:w-1/2 p-4 animate-slideInRight'>
+          <div className='relative w-full h-[300px] animate-scaleIn'>
              <Image src='/ga.webp' alt='Girls Auxiliary' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
           </div>
         </div>
       </div>
 
       {/* Lydia Auxiliary */}
-      <div className='flex flex-col mb-10 md:flex-row pt-10 p-4 px-4 md:px-16'>
-        <div className='md:w-1/2 p-4'>
-          <div className='relative w-full h-[300px]'>
+      <div className='flex flex-col mb-10 md:flex-row pt-10 p-4 px-4 md:px-16 animate-fadeIn'>
+        <div className='md:w-1/2 p-4 animate-slideInLeft'>
+          <div className='relative w-full h-[300px] animate-scaleIn'>
              <Image src='/lydia.webp' alt='Lydia Auxiliary' fill sizes="(max-width: 768px) 100vw, 50vw" className='object-cover' />
           </div>
         </div>
-        <div className='md:w-1/2 p-4'>
-          <h4 className='text-lg font-bold text-blue-600'>LYDIA AUXILIARY</h4>
-          <p className='mt-2 text-left text-gray-700'>
+        <div className='md:w-1/2 p-4 animate-slideInRight'>
+          <h4 className='text-lg font-bold text-blue-600 animate-slideInUp'>LYDIA AUXILIARY</h4>
+          <p className='mt-2 text-left text-gray-700 animate-slideInUp' style={{ animationDelay: '0.1s' }}>
             The Lydia Auxiliary is a dynamic ministry operating under the
             umbrella of the Women Missionary Union within the Nigeria Baptist
             Convention. Dedicated to nurturing young women from adolescence

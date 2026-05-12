@@ -86,45 +86,9 @@ const Navbar = () => {
 
   return (
     <>
-      {/* Top Bar */}
-      <div className={`fixed top-0 w-full z-50 bg-blue-600 text-white py-1 px-2 md:px-12 transition-transform duration-300 ${scrolled ? '-translate-y-full' : 'translate-y-0'}`}>
-        <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-center md:justify-between text-xs md:text-sm gap-1 md:gap-0">
-          <div className="flex flex-col md:flex-row items-center gap-1 md:gap-4">
-            <div className="flex items-center gap-1">
-              <svg className="w-3 h-3 md:w-4 md:h-4" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd"/>
-              </svg>
-              <span className="hidden md:inline">5, Adebayo Adekoya street New Garage, Bariga, Lagos</span>
-              <span className="md:hidden text-[10px]">Bariga, Lagos</span>
-            </div>
-            <div className="flex items-center gap-1">
-              <svg className="w-3 h-3 md:w-4 md:h-4" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
-                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
-              </svg>
-              <span className="hidden md:inline">winnersbaptistchurch5@gmail.com</span>
-              <span className="md:hidden text-[10px]">Email</span>
-            </div>
-          </div>
-          <div className="flex items-center gap-2 md:gap-3">
-            <a href="https://www.instagram.com/winnersbaptistchurch" target="_blank" rel="noopener noreferrer" className="hover:text-gray-200">
-              <InstagramIcon />
-            </a>
-            <a href="https://www.facebook.com/winnersbaptistchurch" target="_blank" rel="noopener noreferrer" className="hover:text-gray-200">
-              <FacebookIcon />
-            </a>
-            <a href="https://x.com/BaptistWinners" target="_blank" rel="noopener noreferrer" className="hover:text-gray-200">
-              <TwitterIcon />
-            </a>
-             <a href="https://youtube.com/@winnersbaptistchurch1" target="_blank" rel="noopener noreferrer" className="hover:text-gray-200">
-              <YoutubeIcon />
-            </a>
-          </div>
-        </div>
-      </div>
-
+    
       {/* Main Navigation */}
-      <nav className={`fixed w-full z-40 h-16 md:h-20 px-4 md:px-12 transition-all duration-300 ${scrolled ? 'top-0 bg-white shadow-md' : 'top-[30px] md:top-[36px] lg:top-[36px] bg-white'} bg-white`}>
+      <nav className={`fixed w-full z-40 h-12 md:h-16 px-4 md:px-12 transition-all duration-300 bg-white`}>
         <div className="flex items-center justify-between h-full max-w-7xl mx-auto">
           <Link href="/">
             <div className="w-12 h-12 md:w-16 md:h-16 relative">
@@ -148,7 +112,7 @@ const Navbar = () => {
                 <Link href="/diaconates" className="block px-4 py-2 hover:text-blue-600 text-gray-800">Diaconate</Link>
               </div>
             </li>
-            <li className="relative group">
+            {/* <li className="relative group">
               <div className="flex items-center gap-1 cursor-pointer font-medium text-gray-700 hover:text-blue-600 py-5">
                 SERMONS
                 <ChevronDownIcon className="w-3 h-3" />
@@ -158,7 +122,7 @@ const Navbar = () => {
                 <Link href="/events" className="block px-4 py-2 hover:text-blue-600 text-gray-800">Wednesday Teaching</Link>
                 <Link href="/events" className="block px-4 py-2 hover:text-blue-600 text-gray-800">Special Programmes</Link>
               </div>
-            </li>
+            </li> */}
             <li className="cursor-pointer font-medium text-gray-700 hover:text-blue-600 py-5">
               <Link href="/events">EVENTS</Link>
             </li>
@@ -167,7 +131,7 @@ const Navbar = () => {
             </li>
             <li className="relative group">
               <div className="flex items-center gap-1 cursor-pointer font-medium text-gray-700 hover:text-blue-600 py-5">
-                MORE
+                Winners BC Communities
                 <ChevronDownIcon className="w-3 h-3" />
               </div>
               <div className="absolute top-full left-0 mt-0 bg-white shadow-lg rounded-lg w-48 py-2 z-50 hidden group-hover:block">

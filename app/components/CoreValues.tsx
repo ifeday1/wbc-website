@@ -97,7 +97,7 @@ const CoreValues = () => {
           <blockquote className="text-xl md:text-2xl text-white font-medium italic max-w-3xl mx-auto">
             "We are one body in Christ, relating in brotherly love and living as Christ has taught us."
           </blockquote>
-          <p className="text-blue-200 mt-4">— Winners Baptist Church Mission</p>
+          {/* <p className="text-blue-200 mt-4">— Winners Baptist Church Mission</p> */}
         </div>
       </div>
     </section>

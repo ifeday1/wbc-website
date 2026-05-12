@@ -90,7 +90,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex flex-col md:flex-row items-center gap-4 text-lg">
               <p className="text-white font-medium">
-                5, Adebayo Adekoya street, New Garage, Bariga, Lagos
+                5, Adebayo Adekoya street, New Garage, Gbagada, Lagos
               </p>
               <span className="hidden md:inline text-gray-500">|</span>
               <p className="text-white font-medium">+234 913 9402 485</p>
@@ -123,12 +123,16 @@ const Footer = () => {
                 href="https://x.com/BaptistWinners?t=koTxXLFTs0KciGhHFJqpOw&s=09"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 bg-white hover:bg-gray-200 rounded-lg transition-colors"
+                className="p-2 bg-black hover:bg-opacity-70 rounded-lg transition-colors"
                 aria-label="X (Twitter)"
               >
-                <svg viewBox="0 0 24 24" fill="black" className="w-5 h-5">
-                  <path d="M18.244 2.25h3.308l-7.227 8.26h5.304l.826-8.26H2.652l6.88 7.824-7.824 9.126h6.304l11.264-12.756L18.244 2.25zm-1.616 16.176h1.456L5.628 3.574H6.88l11.748 14.852z"/>
-                </svg>
+                <svg 
+    viewBox="0 0 24 24" 
+    fill="white" 
+    className="w-6 h-6"
+  >
+    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+  </svg>
               </a>
               <a
                 href="https://youtube.com/@winnersbaptistchurch1"
@@ -159,7 +163,7 @@ const Footer = () => {
               BestRicky Web Agency
             </Link>
           </p>
-          <div className="flex gap-6">
+          {/* <div className="flex gap-6">
             <Link href="/terms" className="text-sm text-gray-500 hover:text-gray-400 transition-colors">
               Terms of Use
             </Link>
@@ -169,7 +173,7 @@ const Footer = () => {
             <Link href="/cookies" className="text-sm text-gray-500 hover:text-gray-400 transition-colors">
               Cookie Preferences
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
