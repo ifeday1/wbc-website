@@ -44,14 +44,14 @@ const WinnersFC = () => {
                 </p>
 
                 {/* Optional CTA */}
-                <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                {/* <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                   <button className="px-8 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
                     Join the Team
                   </button>
                   <button className="px-8 py-3 border-2 border-blue-600 text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-colors duration-300">
                     Learn More
                   </button>
-                </div>
+                </div> */}
               </div>
 
               {/* Image Content */}
