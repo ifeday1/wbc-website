@@ -53,7 +53,6 @@ const YoutubeIcon = () => (
 );
 
 const Navbar = () => {
-  const [resourcesDisplay, setResourcesDisplay] = useState(false);
   const [eventDisplay, setEventDisplay] = useState(false);
   const [aboutDisplay, setAboutDisplay] = useState(false);
   const [navMenu, setNavMenu] = useState(false);
@@ -68,19 +67,12 @@ const Navbar = () => {
   }, []);
 
   const toggleNavbar = () => setNavMenu(!navMenu);
-  const toggleResources = () => {
-    setAboutDisplay(false);
-    setEventDisplay(false);
-    setResourcesDisplay(!resourcesDisplay);
-  };
   const toggleEvent = () => {
     setAboutDisplay(false);
-    setResourcesDisplay(false);
     setEventDisplay(!eventDisplay);
   };
   const toggleAbout = () => {
     setEventDisplay(false);
-    setResourcesDisplay(false);
     setAboutDisplay(!aboutDisplay);
   };
 
@@ -88,7 +80,7 @@ const Navbar = () => {
     <>
     
       {/* Main Navigation */}
-      <nav className={`fixed w-full z-40 h-12 md:h-16 px-4 md:px-12 transition-all duration-300 bg-white`}>
+      <nav className="fixed inset-x-0 top-0 z-40 h-12 md:h-16 px-4 md:px-12 transition-all duration-300 bg-white border-b border-transparent">
         <div className="flex items-center justify-between h-full max-w-7xl mx-auto">
           <Link href="/">
             <div className="w-12 h-12 md:w-16 md:h-16 relative">
@@ -157,7 +149,7 @@ const Navbar = () => {
       </nav>
 
       {navMenu && (
-        <div className="fixed inset-0 z-50 bg-gray-900 overflow-y-auto">
+        <div className="fixed inset-0 z-50 bg-gray-900 overflow-y-auto overflow-x-hidden">
           {/* Header with Logo and Close */}
           <div className="flex items-center justify-between p-4">
             <Link href="/" onClick={() => setNavMenu(false)}>
@@ -202,21 +194,6 @@ const Navbar = () => {
               )}
             </div>
 
-            {/* SERMONS Accordion */}
-            <div className="border-b border-gray-700">
-              <button onClick={toggleResources} className="flex items-center justify-between w-full text-white text-lg font-medium py-4 px-4">
-                <span className={resourcesDisplay ? 'text-blue-400' : ''}>SERMONS</span>
-                <ChevronDownIcon className={`w-5 h-5 transition-transform ${resourcesDisplay ? 'rotate-180' : ''}`} />
-              </button>
-              {resourcesDisplay && (
-                <div className="pl-4 pb-4 space-y-3">
-                  <Link href="/events" onClick={() => setNavMenu(false)} className="block text-gray-300 py-2 hover:text-white">Sunday Sermons</Link>
-                  <Link href="/events" onClick={() => setNavMenu(false)} className="block text-gray-300 py-2 hover:text-white">Wednesday Teaching</Link>
-                  <Link href="/events" onClick={() => setNavMenu(false)} className="block text-gray-300 py-2 hover:text-white">Special Programmes</Link>
-                </div>
-              )}
-            </div>
-
             <Link href="/events" onClick={() => setNavMenu(false)} className="block w-full text-left text-white text-lg font-medium py-4 px-4 border-b border-gray-700">
               EVENTS
             </Link>
@@ -225,10 +202,10 @@ const Navbar = () => {
               CONTACT
             </Link>
 
-            {/* MORE Accordion */}
+            {/* Winners BC Communities Accordion */}
             <div className="border-b border-gray-700">
               <button onClick={toggleEvent} className="flex items-center justify-between w-full text-white text-lg font-medium py-4 px-4">
-                <span className={eventDisplay ? 'text-blue-400' : ''}>MORE</span>
+                <span className={eventDisplay ? 'text-blue-400' : ''}>Winners BC Communities</span>
                 <ChevronDownIcon className={`w-5 h-5 transition-transform ${eventDisplay ? 'rotate-180' : ''}`} />
               </button>
               {eventDisplay && (

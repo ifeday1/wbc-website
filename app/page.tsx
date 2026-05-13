@@ -31,7 +31,7 @@ export default function Home() {
   ];
 
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Carousel />
       <div className="max-w-4xl mx-auto px-4 py-16 text-center">
         <Typewriter />
