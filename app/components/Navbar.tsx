@@ -219,7 +219,7 @@ const Navbar = () => {
 
           {/* Bottom Contact Info */}
           <div className="px-4 py-6 mt-4 border-t border-gray-700">
-            <p className="text-gray-400 text-sm text-center">5, Adebayo Adekoya street<br />New Garage, Bariga, Lagos</p>
+            <p className="text-gray-400 text-sm text-center">5, Adebayo Adekoya street<br />New Garage, Gbagada, Lagos</p>
           </div>
         </div>
       )}
