@@ -15,7 +15,7 @@ const JoinFamily = () => {
               <span className="text-green-600">Family!</span>
             </h2>
             <blockquote className="text-lg text-gray-600 mb-8 italic">
-              "For everyone born of God overcomes the world. This is the victory that has overcome the world."
+              &ldquo;For everyone born of God overcomes the world. This is the victory that has overcome the world.&rdquo;
               <span className="block mt-2 font-semibold text-green-600 not-italic">— 1 John 5:4</span>
             </blockquote>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">

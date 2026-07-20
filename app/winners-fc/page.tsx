@@ -1,6 +1,11 @@
 import React from 'react';
+import Image from 'next/image';
 import Navbar from '../components/Navbar';
 
+export const metadata = {
+  title: 'Winners FC - Winners Baptist Church',
+  description: 'Reaching out to lives through football - Winners Football Club, the evangelism arm of Winners Baptist Church, Bariga',
+};
 
 const Winners_fc = () => {
   return (
@@ -18,13 +23,13 @@ const Winners_fc = () => {
         </div>
 
         <div className='flex justify-center items-center mx-4 my-2 md:w-1/2 lg:w-1/3'>
-          <img src="/winnfc.webp" alt="Your " className='w-[600px] h-auto' />
+          <Image src="/winnfc.webp" alt="Winners Football Club team" width={1920} height={1652} className='w-[600px] h-auto' />
         </div>
       </div>
 
       <div className='flex flex-wrap justify-center items-center pt-14 md:gap-44'>
         <div className='flex justify-center items-center mx-4 my-2 md:w-1/2 lg:w-1/3'>
-          <img src="/win1.webp" alt="Your " className='max-w-full h-auto' />
+          <Image src="/win1.webp" alt="Winners Football Club players on the pitch" width={1920} height={2150} className='max-w-full h-auto' />
         </div>
         <div className='flex flex-col justify-center  mx-4 my-2 md:w-1/2 lg:w-1/3'>
           <p className='text-lg mb-4'>
@@ -32,7 +37,7 @@ const Winners_fc = () => {
             Baptist Church, part of the Winners Community Group. The major
             objective of the club is to engage young and adult guys by offering
             a platform based on Christ-centered beliefs. Beyond the confines of
-            the football pitch, the club's aim goes beyond traditional sporting
+            the football pitch, the club&apos;s aim goes beyond traditional sporting
             goals.
           </p>
         </div>
@@ -51,7 +56,7 @@ const Winners_fc = () => {
           </p>
         </div>
         <div className='flex justify-center items-center mx-4 my-2 md:w-1/2 lg:w-1/3'>
-          <img src="/win2.webp" alt="Your " className='max-w-full h-auto' />
+          <Image src="/win2.webp" alt="Winners Football Club mentorship session" width={1920} height={2150} className='max-w-full h-auto' />
         </div>
       </div>
 
@@ -63,17 +68,17 @@ const Winners_fc = () => {
 
         <div className='flex flex-wrap justify-center mt-14 mb-10'>
           <div className='w-full md:w-1/2 lg:w-1/4 p-4'>
-            <img src="/Wcar.webp" alt="carol" />
+            <Image src="/Wcar.webp" alt="Winners FC training session" width={600} height={600} />
           </div>
 
           <div className='w-full md:w-1/2 lg:w-1/4 p-4'>
-            <img src="/Wcar1.webp" alt="carol" />
+            <Image src="/Wcar1.webp" alt="Winners FC training session" width={600} height={600} />
           </div>
           <div className='w-full md:w-1/2 lg:w-1/4 p-4'>
-            <img src="/Wcar2.webp" alt="carol" />
+            <Image src="/Wcar2.webp" alt="Winners FC training session" width={600} height={600} />
           </div>
           <div className='w-full md:w-1/2 lg:w-1/4 p-4'>
-            <img src="/Wcar3.webp" alt="carol" />
+            <Image src="/Wcar3.webp" alt="Winners FC training session" width={600} height={600} />
           </div>
         </div>
       </div>

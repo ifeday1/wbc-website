@@ -56,7 +56,7 @@ const WorshipOnline = () => {
             Worship with Us
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Can't make it to church? Join us online and experience the presence of God from anywhere in the world.
+            Can&apos;t make it to church? Join us online and experience the presence of God from anywhere in the world.
           </p>
         </div>
 

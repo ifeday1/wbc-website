@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import ScrollToTopButton from "./components/ScrollToTopButton";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://winnersbaptistchurch.org"),
   title: "Winners Baptist Church, Bariga",
   description: "Winners Baptist Church, Bariga - A body devoted to the work of God",
 };

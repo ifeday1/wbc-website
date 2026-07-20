@@ -27,7 +27,7 @@ export default function Giving() {
         <div className="grid md:grid-cols-2 gap-6">
           <div className="bg-white shadow-lg rounded-lg p-6">
             <h4 className="text-xl font-bold text-blue-600 mb-4">Tithe</h4>
-            <p className="text-gray-600">Bring the whole tithe into the storehouse, that there may be food in my house. Test me in this," says the Lord Almighty, "and see if I will not throw open the floodgates of heaven and pour out so much blessing that there will not be room enough to store it." - Malachi 3:10</p>
+            <p className="text-gray-600">Bring the whole tithe into the storehouse, that there may be food in my house. Test me in this,&rdquo; says the Lord Almighty, &ldquo;and see if I will not throw open the floodgates of heaven and pour out so much blessing that there will not be room enough to store it.&rdquo; - Malachi 3:10</p>
           </div>
 
           <div className="bg-white shadow-lg rounded-lg p-6">
@@ -37,7 +37,7 @@ export default function Giving() {
 
           <div className="bg-white shadow-lg rounded-lg p-6">
             <h4 className="text-xl font-bold text-blue-600 mb-4"> seed</h4>
-            <p className="text-gray-600">Bring the whole tithe into the storehouse, that there may be food in my house. Test me in this," says the Lord Almighty, "and see if I will not throw open the floodgates of heaven and pour out so much blessing that there will not be room enough to store it." - Malachi 3:10</p>
+            <p className="text-gray-600">Bring the whole tithe into the storehouse, that there may be food in my house. Test me in this,&rdquo; says the Lord Almighty, &ldquo;and see if I will not throw open the floodgates of heaven and pour out so much blessing that there will not be room enough to store it.&rdquo; - Malachi 3:10</p>
           </div>
 
           <div className="bg-white shadow-lg rounded-lg p-6">

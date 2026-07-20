@@ -26,7 +26,7 @@ export default function Contact() {
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
           <h1 className="text-3xl md:text-5xl font-bold text-white mb-2 md:mb-3">Contact Us</h1>
           <blockquote className="text-sm md:text-lg text-white/90 italic max-w-2xl mx-auto mb-4 md:mb-6">
-            "For where two or three gather in my name, there am I with them."
+            &ldquo;For where two or three gather in my name, there am I with them.&rdquo;
             <span className="block mt-1 md:mt-2 not-italic font-semibold text-blue-300">— Matthew 18:20</span>
           </blockquote>
 
@@ -65,7 +65,7 @@ export default function Contact() {
               <div className="mb-6">
                 <span className="inline-block bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-semibold mb-2">Get in Touch</span>
                 <h2 className="text-3xl font-bold text-gray-800">Send us a Message</h2>
-                <p className="text-gray-600 mt-2">We'd love to hear from you. Fill out the form below and we'll get back to you soon.</p>
+                <p className="text-gray-600 mt-2">We&apos;d love to hear from you. Fill out the form below and we&apos;ll get back to you soon.</p>
               </div>
               <ContactForm />
             </div>
@@ -183,7 +183,7 @@ export default function Contact() {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Join Us This Sunday</h2>
           <p className="text-xl text-white/90 mb-8">
             Experience the power of community and worship at Winners Baptist Church.
-            We'd love to have you join our family.
+            We&apos;d love to have you join our family.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

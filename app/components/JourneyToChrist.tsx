@@ -51,7 +51,7 @@ const JourneyToChrist = () => {
             Discover the Journey to Christ
           </h2>
           <blockquote className="text-lg text-gray-600 max-w-3xl mx-auto italic">
-            "God so loved the world that He gave His only begotten Son, that whoever believes in Him shall not perish but have eternal life."
+            &ldquo;God so loved the world that He gave His only begotten Son, that whoever believes in Him shall not perish but have eternal life.&rdquo;
             <span className="block mt-2 text-blue-600 font-semibold not-italic">— John 3:16</span>
           </blockquote>
         </div>

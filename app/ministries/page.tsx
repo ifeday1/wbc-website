@@ -66,7 +66,7 @@ const Ministries = () => {
             relationship with God through age-appropriate teaching, engaging
             activities, and a loving community. Core Values: Love and Grace.
             <br></br>
-            Faith Formation: Fostering a deep understanding of God's love and
+            Faith Formation: Fostering a deep understanding of God&apos;s love and
             biblical principles, laying the groundwork for a lifelong faith
             journey.<br></br> Engaging Curriculum: Children Department is part
             of of the Family Life Education Division of the Nigerian Baptist
@@ -88,12 +88,12 @@ const Ministries = () => {
             Family We are thrilled to welcome you to the Winning Youth
             department, a dynamic and empowering community where champions are
             forged, dreams are realized, and excellence is celebrated. Our
-            department is more than just a fellowship; it's a gateway to a world
+            department is more than just a fellowship; it&apos;s a gateway to a world
             of opportunities, growth, and the limitless potential that resides
             within each of our youth members Winning Youth is not just an
-            organization; it's a movement. It's a call to embrace your
+            organization; it&apos;s a movement. It&apos;s a call to embrace your
             potential, pursue your dreams, and stand as a testament to the
-            extraordinary capabilities within each one of us. Together, let's
+            extraordinary capabilities within each one of us. Together, let&apos;s
             continue to redefine what it means to be a champion! To victory and
             beyond, Winning Youth!
           </p>
@@ -133,14 +133,14 @@ const Ministries = () => {
             Her purpose is to build lives who will emulate the spirit of our
             Lord and Savior Jesus Christ and promote Christian Mission through
             WMU Organizations SUNBEAM BAND, GIRL AUXILLARY, LYDIA AUXILLARY, and
-            WOMEN'S MISSIONARY SOCIETY. Our aim and objectives is soul winning
+            WOMEN&apos;S MISSIONARY SOCIETY. Our aim and objectives is soul winning
             for JESUS CHRIST. Our Fundamentals are Prayer, Bible and Mission
             study, stewardship and service. The women, young ladies, and
             children gather on their meeting day to learn how to fellowship with
             God through prayer and studying Gods word. This is the organization
             of baptized married women of all ages. The WMS objectives are
             achieved through meetings in churches, camp, leadership workshop and
-            retreats. The WMS watchword is 'laborers together with God' (1
+            retreats. The WMS watchword is &lsquo;laborers together with God&rsquo; (1
             Corinthians 3:9). Our colors are purple, white and blue. Purple
             signifies royalty, white for purity and blue for love of God and
             humanity.
@@ -166,13 +166,13 @@ const Ministries = () => {
             Embracing the spirit of outreach and spreading the message of faith,
             our Evangelism Ministry at Winners Baptist Church stands as a beacon
             of hope and compassion in our community. Committed to sharing the
-            transformative power of God's love, we embark on a journey of
+            transformative power of God&apos;s love, we embark on a journey of
             service and discipleship, reaching out to hearts seeking solace and
             salvation. Through prayer, fellowship, and unwavering dedication, we
             strive to illuminate paths with the light of Christ, inviting all to
             experience His grace and mercy. Join us as we walk hand in hand,
             sharing the Gospel and nurturing souls on their spiritual journey.
-            Together, let's shine brightly as ambassadors of faith, embodying
+            Together, let&apos;s shine brightly as ambassadors of faith, embodying
             the love that knows no bounds.
           </p>
         </div>
@@ -216,7 +216,7 @@ const Ministries = () => {
             and the senior royal ambassador with the aim of touching life of
             boys and impacting the eternity of men. The motto of the Royal
             Ambassador can be found in the book of 2 Corinthians 5:20 which says
-            "WE ARE AMBASSADORS FOR CHRIST".
+            &ldquo;WE ARE AMBASSADORS FOR CHRIST&rdquo;.
           </p>
         </div>
       </div>

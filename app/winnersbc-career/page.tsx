@@ -1,5 +1,11 @@
 import React from 'react';
+import Image from 'next/image';
 import Navbar from '../components/Navbar';
+
+export const metadata = {
+  title: 'Winners BC Career - Winners Baptist Church',
+  description: 'Empowering professional advancement - Winners BC Career fosters career growth through training, seminars, and job opportunities',
+};
 
 const Wbc_careers = () => {
   return (
@@ -19,7 +25,7 @@ const Wbc_careers = () => {
           </h2>
           <div className=' flex flex-row text-center justify-center md:text-left md:justify-start'>
             <div>
-              <img src="/Link.webp" alt="icon" className=' bg-white ' />
+              <Image src="/Link.webp" alt="Followers icon" width={40} height={40} className=' bg-white ' />
             </div>
             <p className='text-lg mb-8 px-8 bg-white rounded-xl'>
               4k+ <br></br> followers online
@@ -28,13 +34,13 @@ const Wbc_careers = () => {
         </div>
 
         <div className='flex justify-center items-center mx-4 my-2 md:w-1/2 lg:w-1/3'>
-          <img src="/car.webp" alt="Your " className='w-[600px] h-auto' />
+          <Image src="/car.webp" alt="Winners BC Careers professionals" width={1920} height={1652} className='w-[600px] h-auto' />
         </div>
       </div>
 
       <div className='flex flex-wrap justify-center items-center pt-14 md:gap-44'>
         <div className='flex justify-center items-center mx-4 my-2 md:w-1/2 lg:w-1/3'>
-          <img src="/s.webp" alt="Your " className='max-w-full h-auto' />
+          <Image src="/s.webp" alt="Winners BC Career training session" width={1920} height={2150} className='max-w-full h-auto' />
         </div>
         <div className='flex flex-col justify-center  mx-4 my-2 md:w-1/2 lg:w-1/3'>
           <p className='text-lg mb-4'>
@@ -47,7 +53,7 @@ const Wbc_careers = () => {
       <div className='flex flex-wrap justify-center items-center pt-14 md:gap-44'>
         <div className='flex flex-col justify-center  mx-4 my-2 md:w-1/2 lg:w-1/3'>
           <p className='text-lg mb-4'>
-            The platform's cornerstone lies in its meticulously curated
+            The platform&apos;s cornerstone lies in its meticulously curated
             quarterly training sessions and seminars. These events are
             meticulously crafted to harness the expertise of industry leaders,
             providing attendees with unparalleled access to cutting-edge
@@ -55,7 +61,7 @@ const Wbc_careers = () => {
           </p>
         </div>
         <div className='flex justify-center items-center mx-4 my-2 md:w-1/2 lg:w-1/3'>
-          <img src="/o.webp" alt="Your " className='max-w-full h-auto' />
+          <Image src="/o.webp" alt="Winners BC Career seminar" width={1920} height={2150} className='max-w-full h-auto' />
         </div>
       </div>
 
@@ -72,9 +78,11 @@ const Wbc_careers = () => {
           <div className='w-full md:w-1/2 lg:w-1/4 p-4'>
             <div className=' outline-orange outline outline-offset-2 outline-2 rounded-lg p-4 flex items-center justify-center w-auto h-80'>
               <div className='mx-4  text-darkblue text-center items-center'>
-                <img
+                <Image
                   src="/ava.webp"
-                  alt="ava"
+                  alt="Arab Agbaje-Salami"
+                  width={174}
+                  height={174}
                   className=' w-12 h-auto items-center m-auto'
                 />
                 <h4 className='text-lg font-bold pt-5'> Arab Agbaje-Salami</h4>
@@ -93,9 +101,11 @@ const Wbc_careers = () => {
           <div className='w-full md:w-1/2 lg:w-1/4 p-4'>
             <div className=' outline-orange outline outline-offset-2 outline-2 rounded-lg p-4 flex items-center justify-center w-auto h-80'>
               <div className='mx-4  text-darkblue text-center items-center'>
-                <img
+                <Image
                   src="/ava1.webp"
-                  alt="ava1"
+                  alt="Oluwatomisin Sodeinde"
+                  width={174}
+                  height={174}
                   className=' w-12 h-auto items-center m-auto'
                 />
                 <h4 className='text-lg font-bold pt-5'> Oluwatomisin Sodeinde</h4>
@@ -129,9 +139,11 @@ const Wbc_careers = () => {
           </p>
         </div>
         <div className='md:w-1/2 p-4'>
-          <img
+          <Image
             src="/m.webp"
-            alt="Man"
+            alt="Winners BC Career professional"
+            width={360}
+            height={499}
             className='w-[600px] h-auto pb-1 pl-1 md:pl-20 mb:pb-48'
           />
         </div>
@@ -150,17 +162,17 @@ const Wbc_careers = () => {
 
         <div className='flex flex-wrap justify-center mt-14'>
           <div className='w-full md:w-1/2 lg:w-1/4 p-4'>
-            <img src="/carol1.webp" alt="carol" />
+            <Image src="/carol1.webp" alt="Winners BC Career Fair 2024" width={600} height={600} />
           </div>
 
           <div className='w-full md:w-1/2 lg:w-1/4 p-4'>
-            <img src="/carol2.webp" alt="carol" />
+            <Image src="/carol2.webp" alt="Winners BC Career Fair 2024" width={600} height={600} />
           </div>
           <div className='w-full md:w-1/2 lg:w-1/4 p-4'>
-            <img src="/carol3.webp" alt="carol" />
+            <Image src="/carol3.webp" alt="Winners BC Career Fair 2024" width={600} height={600} />
           </div>
           <div className='w-full md:w-1/2 lg:w-1/4 p-4'>
-            <img src="/carola4.webp" alt="carol" />
+            <Image src="/carola4.webp" alt="Winners BC Career Fair 2024" width={600} height={600} />
           </div>
         </div>
       </div>

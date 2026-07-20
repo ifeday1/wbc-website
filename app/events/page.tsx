@@ -106,7 +106,7 @@ export default function Events() {
           <div className="text-center text-white px-4 max-w-4xl">
             <h1 className="text-3xl md:text-5xl font-bold mb-2 md:mb-3">Our Services & Events</h1>
             <blockquote className="text-sm md:text-lg text-white/90 italic max-w-2xl mx-auto">
-              "Not forsaking the assembling of ourselves together, as the manner of some is, but exhorting one another: and so much the more, as ye see the day approaching."
+              &ldquo;Not forsaking the assembling of ourselves together, as the manner of some is, but exhorting one another: and so much the more, as ye see the day approaching.&rdquo;
               <span className="block mt-1 md:mt-2 not-italic font-semibold">— Hebrews 10:25</span>
             </blockquote>
           </div>
@@ -218,8 +218,8 @@ export default function Events() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Plan Your Visit</h2>
           <p className="text-xl text-white/90 mb-8">
-            We'd love to welcome you this Sunday. Whether you're new or have been coming for years, 
-            there's a place for you in our church family.
+            We&apos;d love to welcome you this Sunday. Whether you&apos;re new or have been coming for years,
+            there&apos;s a place for you in our church family.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

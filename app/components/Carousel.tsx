@@ -5,6 +5,21 @@ import Image from 'next/image';
 
 type TransitionStyle = 'fade-scale' | 'slide-parallax' | 'ken-burns' | 'cover-flow' | 'zoom-reveal' | 'slice-horizontal' | 'slice-vertical' | 'dissolve' | 'spiral-reveal' | 'diamond-open' | 'curtain-reveal' | 'crossfade';
 
+const transitionStyles: TransitionStyle[] = [
+  'fade-scale',
+  'slide-parallax',
+  'ken-burns',
+  'cover-flow',
+  'zoom-reveal',
+  'slice-horizontal',
+  'slice-vertical',
+  'dissolve',
+  'spiral-reveal',
+  'diamond-open',
+  'curtain-reveal',
+  'crossfade'
+];
+
 const Carousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
@@ -27,21 +42,6 @@ const Carousel = () => {
       title: 'THE WINNING FAMILY',
       subtitle: 'In His presence there is fullness of joy',
     },
-  ];
-
-  const transitionStyles: TransitionStyle[] = [
-    'fade-scale', 
-    'slide-parallax', 
-    'ken-burns', 
-    'cover-flow', 
-    'zoom-reveal', 
-    'slice-horizontal', 
-    'slice-vertical',
-    'dissolve',
-    'spiral-reveal',
-    'diamond-open',
-    'curtain-reveal',
-    'crossfade'
   ];
 
   const getTransitionClass = (index: number, isActive: boolean): string => {

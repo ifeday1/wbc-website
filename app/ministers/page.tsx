@@ -47,7 +47,7 @@ const Ministers = () => {
             Th) from The Nigerian Baptist Theological Seminary, Ogbomoso. He
             coordinates MARFAM Life Counselling Ministry International (MLCMI),
             a ministry that is focused on marriage enrichment and marital
-            Counselling; other counselling services and lots more. He's married
+            Counselling; other counselling services and lots more. He&apos;s married
             to his heart-throb Esther Adegbenjo and they are blessed with
             biological children and many spiritual children.
           </p>
@@ -64,7 +64,7 @@ const Ministers = () => {
         <div className='lg:w-1/2 p-4'>
           <p className='mt-2 text-gray-700 leading-relaxed'>
             Revd. Adegbenjo Esther Oladeni is a Baptist-trained pastor. She is
-            currently the Teenagers' Pastor of Winners Baptist Church, Bariga
+            currently the Teenagers&apos; Pastor of Winners Baptist Church, Bariga
             Lagos. She is a trained teacher and counsellor. She attended Ilorin
             Teachers College. In addition to Nigeria Certificate in Education
             (NCE), she holds her Bachelor of Education (B.Ed) in counselling

@@ -38,7 +38,7 @@ export default function AboutTheChurch() {
           <div className="max-w-4xl mx-auto mb-12">
             <blockquote className="bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-blue-600 p-6 md:p-8 rounded-r-lg">
               <p className="text-gray-700 italic text-lg md:text-xl leading-relaxed">
-                "Then Jesus came to them and said, 'All authority in heaven and on earth has been given to me. Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end of the age.'"
+                &ldquo;Then Jesus came to them and said, &lsquo;All authority in heaven and on earth has been given to me. Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end of the age.&rsquo;&rdquo;
               </p>
               <cite className="block mt-4 text-blue-600 font-semibold not-italic">— Matthew 28:16-20</cite>
             </blockquote>
@@ -140,7 +140,7 @@ export default function AboutTheChurch() {
               </div>
               <h2 className="text-2xl md:text-3xl font-bold mb-4">Our Mission</h2>
               <p className="text-xl leading-relaxed opacity-90">
-                Bringing people to Jesus and membership in His family; developing them to Christ-like maturity, and equipping them for the ministries in the Church, and their life's missions in the world in order to glorify the Lord's name now and in future.
+                Bringing people to Jesus and membership in His family; developing them to Christ-like maturity, and equipping them for the ministries in the Church, and their life&apos;s missions in the world in order to glorify the Lord&apos;s name now and in future.
               </p>
             </div>
           </div>

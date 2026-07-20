@@ -48,7 +48,7 @@ const Diaconates = () => {
             Treasurer. He is a Sunday teacher and a thoroughly discipled leader
             with Master Life certificate. He became a deacon under the
             ordination of Revd Dr Oladeni in 2017 at Winners Baptist Church, New
-            Garage, Bariga. He's presently the Chief Auditor and Deaconate
+            Garage, Bariga. He&apos;s presently the Chief Auditor and Deaconate
             Chairperson in Winners Baptist Church, New Garage, Bariga.
           </p>
         </div>
@@ -61,8 +61,8 @@ const Diaconates = () => {
           </div>
           <p className='mt-8 text-center text-white px-12'>
             A retired headteacher. A Sunday School, DTM teacher, undergone
-            Discipleship training, "Christ dwelling in me, and Serve the
-            Master". Have once served as WMU Coordinator, Deaconate
+            Discipleship training, &ldquo;Christ dwelling in me, and Serve the
+            Master&rdquo;. Have once served as WMU Coordinator, Deaconate
             Chairperson, and presently serving as Chairman School Board.
             She became a deaconess under the Ordination of Rev Dr Sola, Oladeni,
             in 2015 at Winners Baptist Church, New Garage, Bariga, Lagos.
@@ -107,8 +107,8 @@ const Diaconates = () => {
             Lydia Adviser, WMU Treasurer, DTM Teacher, DTM Coordinator,
             Visitation Coordinator. She has also served at the Associational
             level as the DTM Secretary, DTM Director and a member of the current
-            Nominating Committee of Gideon 2 Baptist Association. She's
-            currently serving as the church's Visitation Coordinator.
+            Nominating Committee of Gideon 2 Baptist Association. She&apos;s
+            currently serving as the church&apos;s Visitation Coordinator.
           </p>
         </div>
       </div>
@@ -144,7 +144,7 @@ const Diaconates = () => {
             Is a Business Enthusiast, Entrepreneur and Financial Advisor. She
             has worn various caps at the local church and Associational level.
             She is a DTM Teacher, an Encourager, prayer intercessor and a
-            lover of God's music. She got ordained as a deaconess by Revd Dr
+            lover of God&apos;s music. She got ordained as a deaconess by Revd Dr
             Sola Oladeni in 2019 at Winners Baptist Church, New Garage Bariga.
             Prior to this, she had served in various committees and various
             capacities ranging from the WMU Evangelism chairperson to GA
