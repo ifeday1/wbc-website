@@ -19,25 +19,25 @@ const services = [
     color: 'green',
     services: [
       { name: 'Victory Hour', time: '6:00 PM', type: 'Midweek Service', icon: '⚔' },
-      { name: 'Bible Study', time: '7:00 PM', type: 'Discipleship', icon: '📖' },
+      
     ]
   },
-  {
-    day: 'FRI',
-    fullDay: 'Friday',
-    color: 'purple',
-    services: [
-      { name: 'Evangelism', time: '6:00 PM', type: 'Outreach', icon: '📢' },
-    ]
-  },
-  {
-    day: 'SAT',
-    fullDay: 'Saturday',
-    color: 'orange',
-    services: [
-      { name: 'Choir Practice', time: '4:00 PM', type: 'Worship Team', icon: '🎵' },
-    ]
-  },
+  // {
+  //   day: 'FRI',
+  //   fullDay: 'Friday',
+  //   color: 'purple',
+  //   services: [
+  //     { name: 'Evangelism', time: '6:00 PM', type: 'Outreach', icon: '📢' },
+  //   ]
+  // },
+  // {
+  //   day: 'SAT',
+  //   fullDay: 'Saturday',
+  //   color: 'orange',
+  //   services: [
+  //     { name: 'Choir Practice', time: '4:00 PM', type: 'Worship Team', icon: '🎵' },
+  //   ]
+  // },
 ];
 
 const colorClasses = {

@@ -90,7 +90,7 @@ export default function Contact() {
                     <div>
                       <p className="font-semibold">Address</p>
                       <p className="text-blue-100 text-sm">5, Adebayo Adekoya Street</p>
-                      <p className="text-blue-100 text-sm">New Garage, Bariga, Lagos</p>
+                      <p className="text-blue-100 text-sm">New Garage, Gbagada, Lagos</p>
                     </div>
                   </div>
 

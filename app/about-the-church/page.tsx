@@ -76,7 +76,7 @@ export default function AboutTheChurch() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* 1964 */}
-            <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            {/* <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
               <div className="absolute -top-4 left-8 bg-blue-600 text-white px-4 py-1 rounded-full font-bold">1964</div>
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4 mt-2">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-8 h-8 text-blue-600">
@@ -85,10 +85,10 @@ export default function AboutTheChurch() {
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">Church Founded</h3>
               <p className="text-gray-600">Started in a shop at Shogbamu Street through the Church Training Programme</p>
-            </div>
+            </div> */}
 
             {/* 1972 */}
-            <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            {/* <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
               <div className="absolute -top-4 left-8 bg-green-600 text-white px-4 py-1 rounded-full font-bold">1972</div>
               <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4 mt-2">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-8 h-8 text-green-600">
@@ -97,7 +97,7 @@ export default function AboutTheChurch() {
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">New Location</h3>
               <p className="text-gray-600">Moved to permanent site at No 5, Adebayo Adekoya Street</p>
-            </div>
+            </div> */}
 
             {/* Present */}
             <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">

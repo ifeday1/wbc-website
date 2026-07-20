@@ -36,40 +36,30 @@ const JoinFamily = () => {
               </Link>
             </div>
 
-            {/* Stats */}
-            {/* <div className="grid grid-cols-3 gap-4 mt-10 pt-6 border-t border-gray-200">
-              {[
-                { number: '50+', label: 'Years' },
-                { number: '500+', label: 'Members' },
-                { number: '8+', label: 'Ministries' },
-              ].map((stat, index) => (
-                <div key={index} className="text-center">
-                  <div className="text-2xl md:text-3xl font-bold text-green-600">{stat.number}</div>
-                  <div className="text-sm text-gray-500">{stat.label}</div>
-                </div>
-              ))}
-            </div> */}
+           
           </div>
 
           {/* Image */}
           <div className="relative">
-            <div className="relative w-full h-[300px] md:h-[400px] lg:h-[450px] rounded-2xl overflow-hidden shadow-2xl">
+            <div className="relative w-full h-[300px] md:h-[50px] lg:h-[500px] rounded-2xl overflow-hidden">
                 <Image
                   src="/join.webp"
                   alt="Join the Winners Family"
                   fill
                   sizes="100vw"
-                  className="object-cover"
+                  className="object-contain"
                 />
               {/* Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-green-900/60 via-transparent to-transparent" />
+              <div className="absolute inset-0 " />
               
               {/* Floating Message */}
               <div className="absolute bottom-6 left-6 right-6">
-                <p className="text-white text-lg font-medium">
-                  Become part of something greater
-                </p>
-              </div>
+  <div className="bg-black/30 backdrop-blur-md border border-white/10 p-4 rounded-xl inline-block">
+    <p className="text-white text-lg font-medium">
+      Become part of something greater
+    </p>
+  </div>
+</div>
             </div>
 
             {/* Decorative Elements */}
