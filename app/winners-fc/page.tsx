@@ -31,14 +31,14 @@ const WinnersFC = () => {
               {/* Text Content */}
               <div className="flex-1 text-center lg:text-left max-w-2xl">
                 <div className="inline-flex items-center justify-center lg:justify-start mb-6">
-                  <span className="text-sm font-semibold tracking-wide px-6 py-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-full shadow-lg">
+                  <span className="text-sm font-semibold tracking-wide px-6 py-2 bg-gradient-to-r from-blue-600 via-fuchsia-600 to-purple-600 text-white rounded-full shadow-lg">
                     Winners FC
                   </span>
                 </div>
 
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-gray-800 leading-tight">
                   Reaching out to
-                  <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
+                  <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-fuchsia-600 to-purple-600">
                     Lives through Football
                   </span>
                 </h1>
@@ -50,7 +50,7 @@ const WinnersFC = () => {
 
                 {/* Optional CTA */}
                 {/* <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                  <button className="px-8 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                  <button className="px-8 py-3 bg-gradient-to-r from-blue-600 via-fuchsia-600 to-purple-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
                     Join the Team
                   </button>
                   <button className="px-8 py-3 border-2 border-blue-600 text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-colors duration-300">
@@ -126,7 +126,7 @@ const WinnersFC = () => {
 
         {/* Gallery Section */}
         <section className="py-20 px-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-darkblue text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-16">
             Picture excerpts from our training session
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">

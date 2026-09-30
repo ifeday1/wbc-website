@@ -87,7 +87,7 @@ const WorshipSchedule = () => {
         </div>
 
         {/* Service Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 items-start">
           {services.map((service, index) => {
             const colors = colorClasses[service.color as keyof typeof colorClasses];
             return (
@@ -148,7 +148,7 @@ const WorshipSchedule = () => {
         <div className="text-center mt-12">
           <Link 
             href="/events"
-            className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors"
+            className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-fuchsia-600 hover:from-blue-700 hover:to-fuchsia-700 text-white font-semibold py-3 px-8 rounded-lg shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-fuchsia-500/30 transition-all duration-300"
           >
             View Full Schedule
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4">

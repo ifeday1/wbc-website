@@ -14,7 +14,7 @@ const ScrollToTopButton = () => {
       }
     };
 
-    window.addEventListener('scroll', toggleVisibility);
+    window.addEventListener('scroll', toggleVisibility, { passive: true });
     return () => window.removeEventListener('scroll', toggleVisibility);
   }, []);
 
@@ -25,15 +25,14 @@ const ScrollToTopButton = () => {
     });
   };
 
-  if (!isVisible) {
-    return null;
-  }
-
   return (
     <button
       onClick={scrollToTop}
-      className="fixed bottom-8 right-8 bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition-colors z-50"
+      className={`fixed bottom-6 right-6 z-50 rounded-full bg-gradient-to-br from-blue-600 to-fuchsia-600 p-3 text-white shadow-lg shadow-blue-500/30 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl ${
+        isVisible ? 'opacity-100 translate-y-0' : 'pointer-events-none opacity-0 translate-y-4'
+      }`}
       aria-label="Scroll to top"
+      tabIndex={isVisible ? 0 : -1}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

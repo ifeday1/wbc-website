@@ -23,7 +23,7 @@ const ReadMore: React.FC<ReadMoreProps> = ({ text, maxLength }) => {
       {shouldTruncate && (
         <button
           onClick={toggleReadMore}
-          className="text-blue-600 hover:text-blue-800 font-medium mt-2"
+          className="mt-3 inline-flex items-center gap-1 font-semibold text-blue-600 underline-offset-4 hover:text-fuchsia-600 hover:underline"
         >
           {isExpanded ? 'Read Less' : 'Read More'}
         </button>

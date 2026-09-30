@@ -1,7 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 
 export const metadata = {
   title: 'Diaconates - Winners Baptist Church',
@@ -241,8 +239,6 @@ export default function Diaconates() {
           </div>
         </div>
       </div>
-
-      <Footer />
     </div>
   );
 }

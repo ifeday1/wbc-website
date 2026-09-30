@@ -30,7 +30,7 @@ export default function AboutTheChurch() {
       <section className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <span className="inline-block bg-blue-100 text-blue-600 px-4 py-1 rounded-full text-sm font-semibold mb-4">Our Story</span>
+            <span className="inline-block bg-gradient-to-r from-blue-600 to-fuchsia-600 text-white px-4 py-1 rounded-full text-sm font-semibold mb-4 shadow-md shadow-blue-500/30">Our Story</span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">Our History</h2>
           </div>
 
@@ -70,7 +70,7 @@ export default function AboutTheChurch() {
       <section className="py-16 md:py-24 bg-gradient-to-b from-gray-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <span className="inline-block bg-green-100 text-green-600 px-4 py-1 rounded-full text-sm font-semibold mb-4">Our Journey</span>
+            <span className="inline-block bg-gradient-to-r from-emerald-500 to-green-600 text-white px-4 py-1 rounded-full text-sm font-semibold mb-4 shadow-md shadow-green-500/30">Our Journey</span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">Milestones</h2>
           </div>
 
@@ -151,7 +151,7 @@ export default function AboutTheChurch() {
       <section className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <span className="inline-block bg-amber-100 text-amber-600 px-4 py-1 rounded-full text-sm font-semibold mb-4">What We Believe</span>
+            <span className="inline-block bg-gradient-to-r from-amber-500 to-orange-600 text-white px-4 py-1 rounded-full text-sm font-semibold mb-4 shadow-md shadow-amber-500/30">What We Believe</span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">Our Core Values</h2>
           </div>
 

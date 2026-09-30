@@ -63,7 +63,7 @@ export default function Contact() {
             {/* Contact Form - Takes 2 columns */}
             <div className="lg:col-span-2 bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
               <div className="mb-6">
-                <span className="inline-block bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-semibold mb-2">Get in Touch</span>
+                <span className="inline-block bg-gradient-to-r from-blue-600 to-fuchsia-600 text-white px-3 py-1 rounded-full text-sm font-semibold mb-2 shadow-md shadow-blue-500/30">Get in Touch</span>
                 <h2 className="text-3xl font-bold text-gray-800">Send us a Message</h2>
                 <p className="text-gray-600 mt-2">We&apos;d love to hear from you. Fill out the form below and we&apos;ll get back to you soon.</p>
               </div>
@@ -175,7 +175,7 @@ export default function Contact() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-blue-600 to-purple-600 relative overflow-hidden">
+      <section className="py-16 bg-gradient-to-r from-blue-600 via-fuchsia-600 to-purple-700 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <Image src="/deacon.webp" alt="Background" fill sizes="100vw" className="object-cover" />
         </div>
@@ -197,7 +197,7 @@ export default function Contact() {
             </a>
             <a
               href="/giving"
-              className="bg-blue-700 text-white hover:bg-blue-800 font-semibold py-3 px-8 rounded-lg transition-colors border border-blue-400"
+              className="bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 font-semibold py-3 px-8 rounded-lg transition-all duration-300 border-2 border-white/40"
             >
               Support Our Ministry
             </a>

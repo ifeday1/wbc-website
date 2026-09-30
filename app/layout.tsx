@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Outfit } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ScrollToTopButton from "./components/ScrollToTopButton";
+import ScrollReveal from "./components/ScrollReveal";
 
-const inter = Inter({ subsets: ["latin"] });
+const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://winnersbaptistchurch.org"),
@@ -20,11 +21,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} min-h-screen bg-gray-50 text-gray-900 flex flex-col overflow-x-hidden`}>
+      <body className={`${outfit.variable} font-sans min-h-screen bg-gray-50 text-gray-900 antialiased flex flex-col overflow-x-hidden`}>
         <Navbar />
         <main className="flex-grow pt-[5.5rem] md:pt-24">{children}</main>
         <Footer />
         <ScrollToTopButton />
+        <ScrollReveal />
       </body>
     </html>
   );

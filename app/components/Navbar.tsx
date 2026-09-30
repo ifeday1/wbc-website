@@ -3,68 +3,79 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-
-const ChevronUpIcon = ({ className }: { className?: string }) => (
-  <svg className={className} viewBox="0 0 20 20" fill="currentColor">
-    <path fillRule="evenodd" d="M5.293 9.707a1 1 0 010-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 01-1.414 1.414L11 7.414V15a1 1 0 11-2 0V7.414L6.707 9.707a1 1 0 01-1.414 0z" clipRule="evenodd"/>
-  </svg>
-);
+import { usePathname } from 'next/navigation';
 
 const ChevronDownIcon = ({ className }: { className?: string }) => (
-  <svg className={className} viewBox="0 0 20 20" fill="currentColor">
+  <svg className={className} viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
     <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"/>
   </svg>
 );
 
 const MenuIcon = ({ className }: { className?: string }) => (
-  <svg className={className} viewBox="0 0 20 20" fill="currentColor">
+  <svg className={className} viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
     <path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"/>
   </svg>
 );
 
 const CloseIcon = ({ className }: { className?: string }) => (
-  <svg className={className} viewBox="0 0 20 20" fill="currentColor">
+  <svg className={className} viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
     <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd"/>
   </svg>
 );
 
-const InstagramIcon = () => (
-  <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
-    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.012-3.584.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.346.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.346 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.346-.2 6.78-2.618 6.98-6.98.058-1.28.072-1.689.072-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.346-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.95-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
-  </svg>
-);
+const aboutLinks = [
+  { href: '/about-the-church', label: 'About the Church' },
+  { href: '/ministries', label: 'Ministries' },
+  { href: '/ministers', label: 'Leadership' },
+  { href: '/diaconates', label: 'Diaconate' },
+];
 
-const FacebookIcon = () => (
-  <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
-    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.637H7.078v-3.497h3.047v-2.275c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.262 2.686.262v2.955h-1.514c-1.514 0-1.99.943-1.99 1.913v2.479h3.312l-.532 3.497h-2.78v8.637C19.612 23.027 24 18.062 24 12.073z"/>
-  </svg>
-);
+const communityLinks = [
+  { href: '/winnersbc-career', label: 'Winners BC Careers' },
+  { href: '/winners-fc', label: 'Winners FC' },
+];
 
-const TwitterIcon = () => (
-  <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
-    <path d="M18.244 2.25h3.308l-7.227 8.26h5.304l.826-8.26H2.652l6.88 7.824-7.824 9.126h6.304l11.264-12.756L18.244 2.25zm-1.616 16.176h1.456L5.628 3.574H6.88l11.748 14.852z"/>
-  </svg>
-);
+const aboutRoutes = aboutLinks.map((link) => link.href);
+const communityRoutes = communityLinks.map((link) => link.href);
 
-const YoutubeIcon = () => (
-  <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
-    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
-  </svg>
+const ActiveBar = () => (
+  <span className="absolute bottom-3 left-3 right-3 h-0.5 rounded-full bg-gradient-to-r from-blue-600 to-fuchsia-600" />
 );
 
 const Navbar = () => {
+  const pathname = usePathname();
   const [eventDisplay, setEventDisplay] = useState(false);
   const [aboutDisplay, setAboutDisplay] = useState(false);
   const [navMenu, setNavMenu] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
+  const isActive = (href: string) => pathname === href;
+  const isAboutActive = aboutRoutes.includes(pathname);
+  const isCommunityActive = communityRoutes.includes(pathname);
+
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 60);
+      setScrolled(window.scrollY > 20);
     };
-    window.addEventListener('scroll', handleScroll);
+    handleScroll();
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  useEffect(() => {
+    setNavMenu(false);
+    if (isAboutActive) setAboutDisplay(true);
+    if (isCommunityActive) setEventDisplay(true);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pathname]);
+
+  // Lock page scroll behind the mobile menu
+  useEffect(() => {
+    document.body.style.overflow = navMenu ? 'hidden' : '';
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [navMenu]);
 
   const toggleNavbar = () => setNavMenu(!navMenu);
   const toggleEvent = () => {
@@ -76,150 +87,199 @@ const Navbar = () => {
     setAboutDisplay(!aboutDisplay);
   };
 
+  const topLinkClass = (active: boolean) =>
+    `relative flex items-center gap-1 px-3 py-6 text-sm font-medium tracking-wide transition-colors ${
+      active ? 'text-blue-700 font-semibold' : 'text-gray-700 hover:text-blue-600'
+    }`;
+
+  const dropdown = (links: { href: string; label: string }[]) => (
+    <div className="invisible absolute left-0 top-full z-50 w-56 translate-y-2 opacity-0 transition-all duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:visible group-focus-within:translate-y-0 group-focus-within:opacity-100">
+      <div className="rounded-2xl border border-gray-100 bg-white/95 p-2 shadow-xl shadow-blue-900/10 backdrop-blur">
+        {links.map((link) => (
+          <Link
+            key={link.href}
+            href={link.href}
+            className={`block rounded-xl px-4 py-2.5 text-sm transition-colors ${
+              isActive(link.href) ? 'bg-blue-50 font-semibold text-blue-700' : 'text-gray-700 hover:bg-gray-50 hover:text-blue-600'
+            }`}
+          >
+            {link.label}
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+
+  const mobileSubLink = (link: { href: string; label: string }) => (
+    <Link
+      key={link.href}
+      href={link.href}
+      onClick={() => setNavMenu(false)}
+      className={`block rounded-lg px-3 py-2 ${isActive(link.href) ? 'bg-white/5 font-semibold text-fuchsia-400' : 'text-gray-300 hover:text-white'}`}
+    >
+      {link.label}
+    </Link>
+  );
+
+  const mobileTopClass = (active: boolean) =>
+    `flex items-center gap-2 w-full text-left text-lg font-medium py-4 px-4 border-b border-white/10 ${
+      active ? 'text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-fuchsia-400' : 'text-white'
+    }`;
+
   return (
     <>
-    
       {/* Main Navigation */}
-      <nav className="fixed inset-x-0 top-0 z-40 h-12 md:h-16 px-4 md:px-12 transition-all duration-300 bg-white border-b border-transparent">
+      <nav
+        className={`fixed inset-x-0 top-0 z-40 h-16 md:h-20 px-4 md:px-12 transition-all duration-300 ${
+          scrolled
+            ? 'bg-white/85 backdrop-blur-lg border-b border-gray-200/70 shadow-[0_8px_30px_-12px_rgba(30,64,175,0.18)]'
+            : 'bg-white border-b border-transparent'
+        }`}
+      >
         <div className="flex items-center justify-between h-full max-w-7xl mx-auto">
-          <Link href="/">
-            <div className="w-12 h-12 md:w-16 md:h-16 relative">
-               <Image src="/logo.webp" alt="logo" fill sizes="(max-width: 768px) 48px, 64px" className="object-contain" />
+          <Link href="/" aria-label="Winners Baptist Church home">
+            <div className={`relative transition-all duration-300 ${scrolled ? 'w-11 h-11 md:w-14 md:h-14' : 'w-12 h-12 md:w-16 md:h-16'}`}>
+              <Image src="/logo.webp" alt="logo" fill sizes="(max-width: 768px) 48px, 64px" className="object-contain" priority />
             </div>
           </Link>
 
-          <ul className="hidden lg:flex items-center list-none gap-6">
-            <li className="cursor-pointer font-medium text-gray-700 hover:text-blue-600">
-              <Link href="/">HOME</Link>
+          <ul className="hidden lg:flex items-center list-none gap-1">
+            <li>
+              <Link href="/" className={topLinkClass(isActive('/'))}>
+                HOME
+                {isActive('/') && <ActiveBar />}
+              </Link>
             </li>
             <li className="relative group">
-              <div className="flex items-center gap-1 cursor-pointer font-medium text-gray-700 hover:text-blue-600 py-5">
+              <button type="button" className={topLinkClass(isAboutActive)} aria-haspopup="true">
                 ABOUT
-                <ChevronDownIcon className="w-3 h-3" />
-              </div>
-              <div className="absolute top-full left-0 mt-0 bg-white shadow-lg rounded-lg w-48 py-2 z-50 hidden group-hover:block">
-                <Link href="/about-the-church" className="block px-4 py-2 hover:text-blue-600 text-gray-800">About the Church</Link>
-                <Link href="/ministries" className="block px-4 py-2 hover:text-blue-600 text-gray-800">Ministries</Link>
-                <Link href="/ministers" className="block px-4 py-2 hover:text-blue-600 text-gray-800">Leadership</Link>
-                <Link href="/diaconates" className="block px-4 py-2 hover:text-blue-600 text-gray-800">Diaconate</Link>
-              </div>
+                <ChevronDownIcon className="w-3.5 h-3.5 transition-transform duration-200 group-hover:rotate-180" />
+                {isAboutActive && <ActiveBar />}
+              </button>
+              {dropdown(aboutLinks)}
             </li>
-            {/* <li className="relative group">
-              <div className="flex items-center gap-1 cursor-pointer font-medium text-gray-700 hover:text-blue-600 py-5">
-                SERMONS
-                <ChevronDownIcon className="w-3 h-3" />
-              </div>
-              <div className="absolute top-full left-0 mt-0 bg-white shadow-lg rounded-lg w-48 py-2 z-50 hidden group-hover:block">
-                <Link href="/events" className="block px-4 py-2 hover:text-blue-600 text-gray-800">Sunday Sermons</Link>
-                <Link href="/events" className="block px-4 py-2 hover:text-blue-600 text-gray-800">Wednesday Teaching</Link>
-                <Link href="/events" className="block px-4 py-2 hover:text-blue-600 text-gray-800">Special Programmes</Link>
-              </div>
-            </li> */}
-            <li className="cursor-pointer font-medium text-gray-700 hover:text-blue-600 py-5">
-              <Link href="/events">EVENTS</Link>
+            <li>
+              <Link href="/events" className={topLinkClass(isActive('/events'))}>
+                EVENTS
+                {isActive('/events') && <ActiveBar />}
+              </Link>
             </li>
-            <li className="cursor-pointer font-medium text-gray-700 hover:text-blue-600 py-5">
-              <Link href="/contact">CONTACT</Link>
+            <li>
+              <Link href="/contact" className={topLinkClass(isActive('/contact'))}>
+                CONTACT
+                {isActive('/contact') && <ActiveBar />}
+              </Link>
             </li>
             <li className="relative group">
-              <div className="flex items-center gap-1 cursor-pointer font-medium text-gray-700 hover:text-blue-600 py-5">
+              <button type="button" className={topLinkClass(isCommunityActive)} aria-haspopup="true">
                 Winners BC Communities
-                <ChevronDownIcon className="w-3 h-3" />
-              </div>
-              <div className="absolute top-full left-0 mt-0 bg-white shadow-lg rounded-lg w-48 py-2 z-50 hidden group-hover:block">
-                <Link href="/winnersbc-career" className="block px-4 py-2 hover:text-blue-600 text-gray-800">Winners BC Careers</Link>
-                <Link href="/winners-fc" className="block px-4 py-2 hover:text-blue-600 text-gray-800">Winners FC</Link>
-              </div>
+                <ChevronDownIcon className="w-3.5 h-3.5 transition-transform duration-200 group-hover:rotate-180" />
+                {isCommunityActive && <ActiveBar />}
+              </button>
+              {dropdown(communityLinks)}
             </li>
           </ul>
 
-          <div className="flex items-center gap-4">
-            <Link href="/giving" className="hidden lg:block bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium py-2 px-4 rounded transition-colors">
+          <div className="flex items-center gap-3">
+            <Link
+              href="https://youtube.com/@winnersbaptistchurch1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden xl:inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-medium text-gray-700 hover:text-red-600 transition-colors"
+            >
+              <span className="relative flex h-2 w-2">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-500 opacity-60" />
+                <span className="relative inline-flex h-2 w-2 rounded-full bg-red-500" />
+              </span>
+              Watch Live
+            </Link>
+            <Link href="/giving" className="hidden lg:inline-flex btn-primary !px-5 !py-2 text-sm">
               GIVING
             </Link>
-            <div onClick={toggleNavbar} className="lg:hidden text-2xl cursor-pointer text-blue-600">
-              {navMenu ? (
-                <CloseIcon className="w-6 h-6" />
-              ) : (
-                <MenuIcon className="w-6 h-6" />
-              )}
-            </div>
+            <button
+              type="button"
+              onClick={toggleNavbar}
+              aria-label={navMenu ? 'Close menu' : 'Open menu'}
+              aria-expanded={navMenu}
+              className="lg:hidden rounded-full p-2 text-blue-600 hover:bg-blue-50 transition-colors"
+            >
+              {navMenu ? <CloseIcon className="w-6 h-6" /> : <MenuIcon className="w-6 h-6" />}
+            </button>
           </div>
         </div>
       </nav>
 
       {navMenu && (
-        <div className="fixed inset-0 z-50 bg-gray-900 overflow-y-auto overflow-x-hidden">
+        <div className="fixed inset-0 z-50 overflow-y-auto overflow-x-hidden bg-gradient-to-b from-gray-950 via-gray-900 to-blue-950 animate-fadeIn [animation-duration:250ms]">
           {/* Header with Logo and Close */}
           <div className="flex items-center justify-between p-4">
-            <Link href="/" onClick={() => setNavMenu(false)}>
+            <Link href="/" onClick={() => setNavMenu(false)} aria-label="Winners Baptist Church home">
               <div className="w-12 h-12 relative">
-                <Image src="/logo.webp" alt="logo" fill sizes="(max-width: 768px) 48px, 64px" className="object-contain" />
+                <Image src="/logo.webp" alt="logo" fill sizes="48px" className="object-contain" />
               </div>
             </Link>
-            <button onClick={() => setNavMenu(false)} className="text-white p-2">
-              <CloseIcon className="w-8 h-8" />
+            <button type="button" onClick={() => setNavMenu(false)} aria-label="Close menu" className="rounded-full p-2 text-white hover:bg-white/10">
+              <CloseIcon className="w-7 h-7" />
             </button>
           </div>
 
           {/* Quick Action Cards */}
-          <div className="px-4 py-4 grid grid-cols-2 gap-4">
-            <Link href="/giving" onClick={() => setNavMenu(false)} className="bg-blue-600 hover:bg-blue-700 rounded-lg p-4 text-center transition-colors">
-              <span className="text-white font-semibold">Give Online</span>
+          <div className="px-4 py-4 grid grid-cols-2 gap-3">
+            <Link href="/giving" onClick={() => setNavMenu(false)} className="rounded-2xl bg-gradient-to-r from-blue-600 to-fuchsia-600 p-4 text-center font-semibold text-white shadow-lg shadow-blue-500/30">
+              Give Online
             </Link>
-             <a href="https://youtube.com/@winnersbaptistchurch1" target="_blank" rel="noopener noreferrer" className="bg-green-600 hover:bg-green-700 rounded-lg p-4 text-center transition-colors">
-              <span className="text-white font-semibold">Watch Live</span>
+            <a href="https://youtube.com/@winnersbaptistchurch1" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 rounded-2xl border border-white/15 bg-white/5 p-4 font-semibold text-white">
+              <span className="h-2 w-2 rounded-full bg-red-500 animate-pulse" />
+              Watch Live
             </a>
           </div>
 
           {/* Navigation Links */}
-          <div className="px-4 py-4 space-y-2">
-            <Link href="/" onClick={() => setNavMenu(false)} className="block w-full text-left text-white text-lg font-medium py-4 px-4 border-b border-gray-700">
+          <div className="px-4 py-2 space-y-1">
+            <Link href="/" onClick={() => setNavMenu(false)} className={mobileTopClass(isActive('/'))}>
+              {isActive('/') && <span className="w-1.5 h-1.5 rounded-full bg-gradient-to-r from-blue-400 to-fuchsia-400 shrink-0" />}
               HOME
             </Link>
-            
+
             {/* ABOUT Accordion */}
-            <div className="border-b border-gray-700">
-              <button onClick={toggleAbout} className="flex items-center justify-between w-full text-white text-lg font-medium py-4 px-4">
-                <span className={aboutDisplay ? 'text-blue-400' : ''}>ABOUT</span>
+            <div className="border-b border-white/10">
+              <button type="button" onClick={toggleAbout} aria-expanded={aboutDisplay} className="flex items-center justify-between w-full text-white text-lg font-medium py-4 px-4">
+                <span className={`flex items-center gap-2 ${isAboutActive ? 'text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-fuchsia-400' : aboutDisplay ? 'text-blue-400' : ''}`}>
+                  {isAboutActive && <span className="w-1.5 h-1.5 rounded-full bg-gradient-to-r from-blue-400 to-fuchsia-400 shrink-0" />}
+                  ABOUT
+                </span>
                 <ChevronDownIcon className={`w-5 h-5 transition-transform ${aboutDisplay ? 'rotate-180' : ''}`} />
               </button>
-              {aboutDisplay && (
-                <div className="pl-4 pb-4 space-y-3">
-                  <Link href="/about-the-church" onClick={() => setNavMenu(false)} className="block text-gray-300 py-2 hover:text-white">About the Church</Link>
-                  <Link href="/ministries" onClick={() => setNavMenu(false)} className="block text-gray-300 py-2 hover:text-white">Ministries</Link>
-                  <Link href="/ministers" onClick={() => setNavMenu(false)} className="block text-gray-300 py-2 hover:text-white">Leadership</Link>
-                  <Link href="/diaconates" onClick={() => setNavMenu(false)} className="block text-gray-300 py-2 hover:text-white">Diaconate</Link>
-                </div>
-              )}
+              {aboutDisplay && <div className="pl-4 pb-4 space-y-1">{aboutLinks.map(mobileSubLink)}</div>}
             </div>
 
-            <Link href="/events" onClick={() => setNavMenu(false)} className="block w-full text-left text-white text-lg font-medium py-4 px-4 border-b border-gray-700">
+            <Link href="/events" onClick={() => setNavMenu(false)} className={mobileTopClass(isActive('/events'))}>
+              {isActive('/events') && <span className="w-1.5 h-1.5 rounded-full bg-gradient-to-r from-blue-400 to-fuchsia-400 shrink-0" />}
               EVENTS
             </Link>
 
-            <Link href="/contact" onClick={() => setNavMenu(false)} className="block w-full text-left text-white text-lg font-medium py-4 px-4 border-b border-gray-700">
+            <Link href="/contact" onClick={() => setNavMenu(false)} className={mobileTopClass(isActive('/contact'))}>
+              {isActive('/contact') && <span className="w-1.5 h-1.5 rounded-full bg-gradient-to-r from-blue-400 to-fuchsia-400 shrink-0" />}
               CONTACT
             </Link>
 
             {/* Winners BC Communities Accordion */}
-            <div className="border-b border-gray-700">
-              <button onClick={toggleEvent} className="flex items-center justify-between w-full text-white text-lg font-medium py-4 px-4">
-                <span className={eventDisplay ? 'text-blue-400' : ''}>Winners BC Communities</span>
+            <div className="border-b border-white/10">
+              <button type="button" onClick={toggleEvent} aria-expanded={eventDisplay} className="flex items-center justify-between w-full text-white text-lg font-medium py-4 px-4">
+                <span className={`flex items-center gap-2 ${isCommunityActive ? 'text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-fuchsia-400' : eventDisplay ? 'text-blue-400' : ''}`}>
+                  {isCommunityActive && <span className="w-1.5 h-1.5 rounded-full bg-gradient-to-r from-blue-400 to-fuchsia-400 shrink-0" />}
+                  Winners BC Communities
+                </span>
                 <ChevronDownIcon className={`w-5 h-5 transition-transform ${eventDisplay ? 'rotate-180' : ''}`} />
               </button>
-              {eventDisplay && (
-                <div className="pl-4 pb-4 space-y-3">
-                  <Link href="/winnersbc-career" onClick={() => setNavMenu(false)} className="block text-gray-300 py-2 hover:text-white">Winners BC Careers</Link>
-                  <Link href="/winners-fc" onClick={() => setNavMenu(false)} className="block text-gray-300 py-2 hover:text-white">Winners FC</Link>
-                </div>
-              )}
+              {eventDisplay && <div className="pl-4 pb-4 space-y-1">{communityLinks.map(mobileSubLink)}</div>}
             </div>
           </div>
 
           {/* Bottom Contact Info */}
-          <div className="px-4 py-6 mt-4 border-t border-gray-700">
-            <p className="text-gray-400 text-sm text-center">5, Adebayo Adekoya street<br />New Garage, Gbagada, Lagos</p>
+          <div className="px-4 py-6 mt-4 border-t border-white/10 text-center">
+            <p className="text-gray-400 text-sm">5, Adebayo Adekoya street<br />New Garage, Gbagada, Lagos</p>
+            <a href="tel:+2349139402485" className="mt-2 inline-block text-sm font-medium text-blue-300">+234 913 9402 485</a>
           </div>
         </div>
       )}

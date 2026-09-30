@@ -118,7 +118,7 @@ export default function Events() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Section Header */}
           <div className="text-center mb-12">
-            <span className="inline-block bg-blue-100 text-blue-600 px-4 py-1 rounded-full text-sm font-semibold mb-4">
+            <span className="inline-block bg-gradient-to-r from-blue-600 to-fuchsia-600 text-white px-4 py-1 rounded-full text-sm font-semibold mb-4 shadow-md shadow-blue-500/30">
               Weekly Gatherings
             </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
@@ -214,7 +214,7 @@ export default function Events() {
       </section>
 
       {/* Call to Action */}
-      <section className="py-16 bg-gradient-to-r from-blue-600 to-purple-600">
+      <section className="py-16 bg-gradient-to-r from-blue-600 via-fuchsia-600 to-purple-700">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Plan Your Visit</h2>
           <p className="text-xl text-white/90 mb-8">
@@ -235,7 +235,7 @@ export default function Events() {
                href="https://youtube.com/@winnersbaptistchurch1"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-blue-700 text-white hover:bg-blue-800 font-semibold py-3 px-8 rounded-lg transition-colors border border-blue-400 inline-flex items-center justify-center gap-2"
+              className="bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 font-semibold py-3 px-8 rounded-lg transition-all duration-300 border-2 border-white/40 inline-flex items-center justify-center gap-2"
             >
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
                 <path d="M8 5v14l11-7z"/>

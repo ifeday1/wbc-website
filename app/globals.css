@@ -2,8 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
 body {
   margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: rgb(192 38 211 / 0.18);
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid theme('colors.blue.600');
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-blue-600 to-fuchsia-600 px-7 py-3 font-semibold text-white shadow-lg shadow-blue-500/25 transition-all duration-300 hover:-translate-y-0.5 hover:from-blue-700 hover:to-fuchsia-700 hover:shadow-xl hover:shadow-fuchsia-500/30 active:translate-y-0;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-fuchsia-600/80 bg-white/70 px-7 py-3 font-semibold text-fuchsia-700 backdrop-blur transition-all duration-300 hover:-translate-y-0.5 hover:border-fuchsia-600 hover:bg-fuchsia-600 hover:text-white active:translate-y-0;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full border border-blue-100 bg-white/80 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-blue-700 shadow-sm backdrop-blur;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-blue-600 via-fuchsia-600 to-purple-600 bg-clip-text text-transparent;
+  }
+}
+
+/* Scroll reveal — only hides content once JS has opted in (see ScrollReveal.tsx) */
+.reveal-ready [data-reveal] {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s ease-out, transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.reveal-ready [data-reveal].is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+h1, h2, h3, h4 {
+  letter-spacing: -0.02em;
 }
 
 .perspective-1000 {
@@ -90,7 +142,7 @@ body {
 
 @keyframes slideInLeft {
   from {
-    transform: translateX(-100%);
+    transform: translateX(-40px);
     opacity: 0;
   }
   to {
@@ -101,7 +153,7 @@ body {
 
 @keyframes slideInRight {
   from {
-    transform: translateX(100%);
+    transform: translateX(40px);
     opacity: 0;
   }
   to {
@@ -112,7 +164,7 @@ body {
 
 @keyframes slideInUp {
   from {
-    transform: translateY(50px);
+    transform: translateY(30px);
     opacity: 0;
   }
   to {
@@ -123,7 +175,7 @@ body {
 
 @keyframes scaleIn {
   from {
-    transform: scale(0.8);
+    transform: scale(0.94);
     opacity: 0;
   }
   to {
@@ -166,4 +218,23 @@ body {
 
 .animate-bounce {
   animation: bounce 2s infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .reveal-ready [data-reveal] {
+    opacity: 1;
+    transform: none;
+  }
 }

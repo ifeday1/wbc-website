@@ -85,7 +85,7 @@ const Location = () => {
 
               <Link
                 href="https://www.google.com/maps/place/Winners+Baptist+Church+(Miracle+Square)/@6.5474605,3.3911729,17z/data=!3m1!4b1!4m6!3m5!1s0x103b8d31dbe5a22f:0xe8057f7d3f4dc808!8m2!3d6.5474605!4d3.3937478!16s%2Fg%2F11gmbpxwxz?hl=en&entry=ttu"
-                className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors inline-flex items-center justify-center gap-2"
+                className="w-full bg-gradient-to-r from-blue-600 to-fuchsia-600 hover:from-blue-700 hover:to-fuchsia-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-fuchsia-500/30 transition-all duration-300 inline-flex items-center justify-center gap-2"
                 target="_blank"
                 rel="noopener noreferrer"
               >

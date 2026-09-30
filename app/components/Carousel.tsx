@@ -33,7 +33,7 @@ const Carousel = () => {
       subtitle: 'Bringing souls to the heart of Christ',
     },
     {
-      image: '/slide4.webp',
+      image: '/slide4.jpeg',
       title: '',
       subtitle: '',
     },

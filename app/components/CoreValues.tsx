@@ -93,7 +93,7 @@ const CoreValues = () => {
         </div>
 
         {/* Quote Section */}
-        <div className="mt-16 bg-blue-600 rounded-2xl p-8 md:p-12 text-center">
+        <div className="mt-16 bg-gradient-to-r from-blue-600 via-fuchsia-600 to-purple-700 rounded-2xl p-8 md:p-12 text-center">
           <blockquote className="text-xl md:text-2xl text-white font-medium italic max-w-3xl mx-auto">
             &ldquo;We are one body in Christ, relating in brotherly love and living as Christ has taught us.&rdquo;
           </blockquote>
