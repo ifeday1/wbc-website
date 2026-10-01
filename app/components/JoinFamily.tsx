@@ -5,66 +5,36 @@ import Link from 'next/link';
 
 const JoinFamily = () => {
   return (
-    <section className="bg-gradient-to-b from-green-50 to-white py-16 md:py-24">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Content */}
-          <div className="text-center lg:text-left">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-6">
-              Join the Winning<br />
-              <span className="text-green-600">Family!</span>
-            </h2>
-            <blockquote className="text-lg text-gray-600 mb-8 italic">
+    <section className="px-3 md:px-4">
+      <div className="grid items-center gap-10 overflow-hidden rounded-4xl bg-paper p-3 lg:grid-cols-2 lg:gap-16">
+        <div className="relative aspect-[4/3] overflow-hidden rounded-3xl bg-white">
+          <Image
+            src="/join.webp"
+            alt="Join the Winners Family"
+            fill
+            sizes="(max-width: 1024px) 100vw, 50vw"
+            className="object-contain p-6"
+          />
+        </div>
+
+        <div className="px-4 pb-10 lg:px-0 lg:pb-0 lg:pr-14">
+          <p className="eyebrow mb-5">Become part of something greater</p>
+          <h2 className="heading-xl">
+            Join the winning <span className="text-gold-500">family.</span>
+          </h2>
+          <figure className="mt-8">
+            <blockquote className="text-xl leading-relaxed text-stone-600">
               &ldquo;For everyone born of God overcomes the world. This is the victory that has overcome the world.&rdquo;
-              <span className="block mt-2 font-semibold text-green-600 not-italic">— 1 John 5:4</span>
             </blockquote>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Link 
-                href="/contact"
-                className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors inline-flex items-center justify-center gap-2"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
-                  <path d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.917C4.182 12.875 3.5 10.652 3.5 8.455c0-3.128 1.493-6.455 5.327-8.477A25.152 25.152 0 0112 3.5c2.213 0 4.326.568 6.167 1.527a25.16 25.16 0 014.245 3.918c.32.11.613.247.884.404a25.175 25.175 0 013.917 4.244c.87 1.652 1.593 3.832 1.593 6.064 0 2.197-.682 4.418-2.182 6.04a25.214 25.214 0 01-3.918 4.245 25.176 25.176 0 01-4.244 3.917 25.178 25.178 0 01-.884.404l-.022.012-.007.003-.003.001a.752.752 0 01-.695 0z"/>
-                </svg>
-                Join Us Today
-              </Link>
-              <Link 
-                href="/giving"
-                className="bg-white border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-semibold py-3 px-8 rounded-lg transition-colors"
-              >
-                Give Online
-              </Link>
-            </div>
-
-           
-          </div>
-
-          {/* Image */}
-          <div className="relative">
-            <div className="relative w-full h-[300px] md:h-[50px] lg:h-[500px] rounded-2xl overflow-hidden">
-                <Image
-                  src="/join.webp"
-                  alt="Join the Winners Family"
-                  fill
-                  sizes="100vw"
-                  className="object-contain"
-                />
-              {/* Overlay */}
-              <div className="absolute inset-0 " />
-              
-              {/* Floating Message */}
-              <div className="absolute bottom-6 left-6 right-6">
-  <div className="bg-black/30 backdrop-blur-md border border-white/10 p-4 rounded-xl inline-block">
-    <p className="text-white text-lg font-medium">
-      Become part of something greater
-    </p>
-  </div>
-</div>
-            </div>
-
-            {/* Decorative Elements */}
-            <div className="absolute -top-4 -right-4 w-24 h-24 bg-green-100 rounded-full opacity-50" />
-            <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-green-200 rounded-full opacity-50" />
+            <figcaption className="mt-3 text-sm font-medium text-stone-400">1 John 5:4</figcaption>
+          </figure>
+          <div className="mt-10 flex flex-col gap-3 sm:flex-row">
+            <Link href="/contact" className="btn-primary !px-7 !py-3.5">
+              Join us today
+            </Link>
+            <Link href="/giving" className="btn-light !px-7 !py-3.5 shadow-card">
+              Give online
+            </Link>
           </div>
         </div>
       </div>

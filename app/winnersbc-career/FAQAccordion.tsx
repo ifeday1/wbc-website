@@ -35,7 +35,7 @@ export default function FAQAccordion() {
         </div>
         <div className="space-y-4">
           {faqs.map((faq, index) => (
-            <div key={index} className="border border-gray-200 rounded-lg">
+            <div key={index} className="border border-gray-200 rounded-2xl">
               <button
                 className="w-full text-left p-6 focus:outline-none focus:ring-2 focus:ring-emerald-500"
                 onClick={() => toggleAccordion(index)}

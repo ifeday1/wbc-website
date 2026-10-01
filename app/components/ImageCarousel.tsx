@@ -62,7 +62,7 @@ const ImageCarousel = () => {
                   height: '320px',
                 }}
               >
-                <div className="relative w-full h-full rounded-lg overflow-hidden shadow-2xl">
+                <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-2xl">
                   <Image
                     src={slide.image}
                     alt={slide.alt}

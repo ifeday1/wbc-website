@@ -1,77 +1,45 @@
 'use client';
 
 import Image from 'next/image';
+import { SectionHeading } from './ui';
+
+const gallery = [
+  { src: '/church1.webp', alt: 'Worship Service' },
+  { src: '/slide3.webp', alt: 'Congregation' },
+  { src: '/Preach1.webp', alt: 'Preaching' },
+  { src: '/youth.webp', alt: 'Youth Service' },
+];
 
 const ChurchPictures = () => {
   return (
-    <section className="bg-white py-16 md:py-24">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Header */}
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-            Church in Pictures
-          </h2>
-          <p className="text-lg text-gray-600">
-            Have a glimpse of what our worship service looks like
-          </p>
-        </div>
+    <section className="section">
+      <div className="container-page">
+        <SectionHeading
+          eyebrow="Gallery"
+          title="Church in pictures"
+          lead="Have a glimpse of what our worship service looks like"
+        />
 
-        {/* Main Image */}
-        <div className="relative w-full">
-          <div className="relative w-full h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px] rounded-2xl overflow-hidden shadow-2xl">
+        <div className="mt-12 grid grid-cols-2 gap-3 md:grid-cols-4 md:grid-rows-2 md:gap-4">
+          <div className="relative col-span-2 aspect-[4/3] overflow-hidden rounded-4xl bg-stone-200 md:row-span-2 md:aspect-auto">
             <Image
               src="/Pic.webp"
               alt="Winners Baptist Church Service"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"
-              priority
             />
-            
-            {/* Overlay Gradient */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
           </div>
-
-          {/* Floating Stats Card */}
-          {/* <div className="hidden lg:block absolute -bottom-6 left-1/2 transform -translate-x-1/2 bg-white rounded-xl shadow-2xl p-6 z-10">
-            <div className="flex items-center gap-8">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">50+</div>
-                <div className="text-sm text-gray-500">Years</div>
-              </div>
-              <div className="w-px h-12 bg-gray-200" />
-              <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">500+</div>
-                <div className="text-sm text-gray-500">Members</div>
-              </div>
-              <div className="w-px h-12 bg-gray-200" />
-              <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">8+</div>
-                <div className="text-sm text-gray-500">Ministries</div>
-              </div>
-            </div>
-          </div> */}
-        </div>
-
-        {/* Gallery Thumbnails */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-16">
-          {[
-            { src: '/church1.webp', alt: 'Worship Service' },
-            { src: '/slide3.webp', alt: 'Congregation' },
-            { src: '/Preach1.webp', alt: 'Preaching' },
-            { src: '/youth.webp', alt: 'Youth Service' },
-          ].map((img, index) => (
-            <div 
-              key={index}
-              className="relative h-32 md:h-40 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow cursor-pointer group"
-            >
-               <Image
-                 src={img.src}
-                 alt={img.alt}
-                 fill
-                 sizes="(max-width: 768px) 50vw, 25vw"
-                 className="object-cover group-hover:scale-110 transition-transform duration-300"
-               />
-              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors" />
+          {gallery.map((img) => (
+            <div key={img.src} className="group relative aspect-square overflow-hidden rounded-3xl bg-stone-200 md:aspect-[4/3]">
+              <Image
+                src={img.src}
+                alt={img.alt}
+                fill
+                sizes="(max-width: 768px) 50vw, 25vw"
+                className="object-cover transition-transform duration-700 group-hover:scale-105"
+              />
+              <span className="chip absolute bottom-3 left-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100">{img.alt}</span>
             </div>
           ))}
         </div>

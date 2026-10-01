@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -53,14 +52,14 @@ export default function ContactForm() {
 
   if (submitSuccess) {
     return (
-      <div className="text-center py-12">
-        <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-8 h-8 text-green-600">
+      <div className="card text-center px-6 py-14">
+        <div className="w-16 h-16 bg-brand-50 rounded-full flex items-center justify-center mx-auto mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-8 h-8 text-brand-800">
             <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
           </svg>
         </div>
-        <h3 className="text-2xl font-bold text-gray-800 mb-2">Message Sent!</h3>
-        <p className="text-gray-600">Thank you for reaching out. We&apos;ll get back to you shortly.</p>
+        <h3 className="font-display text-3xl text-ink mb-2">Message Sent!</h3>
+        <p className="text-stone-600">Thank you for reaching out. We&apos;ll get back to you shortly.</p>
       </div>
     );
   }
@@ -70,7 +69,7 @@ export default function ContactForm() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Name */}
         <div className="space-y-2">
-          <label htmlFor="name" className="block text-sm font-semibold text-gray-700">Full Name</label>
+          <label htmlFor="name" className="block text-sm font-medium text-stone-700">Full Name</label>
           <input
             type="text"
             name="name"
@@ -78,14 +77,14 @@ export default function ContactForm() {
             onChange={handleChange}
             id="name"
             placeholder="John Doe"
-            className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all outline-none"
+            className="field"
             required
           />
         </div>
 
         {/* Email */}
         <div className="space-y-2">
-          <label htmlFor="email" className="block text-sm font-semibold text-gray-700">Email Address</label>
+          <label htmlFor="email" className="block text-sm font-medium text-stone-700">Email Address</label>
           <input
             type="email"
             name="email"
@@ -93,7 +92,7 @@ export default function ContactForm() {
             onChange={handleChange}
             id="email"
             placeholder="john@example.com"
-            className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all outline-none"
+            className="field"
             required
           />
           {errorMessage && (
@@ -104,7 +103,7 @@ export default function ContactForm() {
 
       {/* Phone */}
       <div className="space-y-2">
-        <label htmlFor="phone" className="block text-sm font-semibold text-gray-700">Phone Number (Optional)</label>
+        <label htmlFor="phone" className="block text-sm font-medium text-stone-700">Phone Number (Optional)</label>
         <input
           type="tel"
           name="phone"
@@ -112,13 +111,13 @@ export default function ContactForm() {
           value={formData.phone}
           onChange={handleChange}
           placeholder="+234 123 456 7890"
-          className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all outline-none"
+          className="field"
         />
       </div>
 
       {/* Message */}
       <div className="space-y-2">
-        <label htmlFor="message" className="block text-sm font-semibold text-gray-700">Your Message</label>
+        <label htmlFor="message" className="block text-sm font-medium text-stone-700">Your Message</label>
         <textarea
           name="message"
           value={formData.message}
@@ -126,14 +125,14 @@ export default function ContactForm() {
           id="message"
           rows={5}
           placeholder="How can we help you?"
-          className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all outline-none resize-none"
+          className="field resize-none"
           required
         />
       </div>
 
       {/* Submit Button */}
       <button
-        className="w-full bg-gradient-to-r from-blue-600 to-fuchsia-600 text-white font-semibold py-4 px-6 rounded-xl hover:from-blue-700 hover:to-fuchsia-700 transition-all duration-300 shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-fuchsia-500/40 transform hover:-translate-y-0.5 flex items-center justify-center gap-2"
+        className="btn-primary w-full !py-4 disabled:opacity-70 sm:w-auto sm:!px-10"
         type="submit"
         disabled={isSubmitting}
       >

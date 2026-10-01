@@ -28,7 +28,7 @@ const ScrollToTopButton = () => {
   return (
     <button
       onClick={scrollToTop}
-      className={`fixed bottom-6 right-6 z-50 rounded-full bg-gradient-to-br from-blue-600 to-fuchsia-600 p-3 text-white shadow-lg shadow-blue-500/30 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl ${
+      className={`fixed bottom-6 right-6 z-50 rounded-full bg-white p-3 text-ink shadow-float ring-1 ring-black/5 transition-all duration-300 hover:bg-stone-100 ${
         isVisible ? 'opacity-100 translate-y-0' : 'pointer-events-none opacity-0 translate-y-4'
       }`}
       aria-label="Scroll to top"
@@ -36,7 +36,7 @@ const ScrollToTopButton = () => {
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-6 w-6"
+        className="h-5 w-5"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"

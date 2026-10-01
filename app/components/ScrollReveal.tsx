@@ -11,7 +11,7 @@ const ScrollReveal = () => {
   useEffect(() => {
     const targets = Array.from(
       document.querySelectorAll<HTMLElement>('main section, main [data-reveal]')
-    ).filter((el) => !el.parentElement?.closest('main section'));
+    ).filter((el) => !el.parentElement?.closest('main section') && !el.hasAttribute('data-noreveal'));
 
     if (!('IntersectionObserver' in window)) return;
 

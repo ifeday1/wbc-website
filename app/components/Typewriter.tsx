@@ -53,13 +53,13 @@ const Typewriter = ({ prefix = 'A Place to' }: { prefix?: string }) => {
   }, []);
 
   return (
-    <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-gray-900 min-h-[2.5em] md:min-h-[1.2em]">
+    <h2 className="heading-xl min-h-[2.2em]">
       {prefix}{' '}
-      <span className="text-gradient">
+      <span className="text-gold-500">
         {currentText}
-        <span className={`inline-block w-1 h-8 md:h-10 bg-fuchsia-600 ml-1 align-middle transition-opacity ${showCursor ? 'opacity-100' : 'opacity-0'}`} />
+        <span className={`inline-block w-0.5 h-9 md:h-12 bg-gold-500 ml-1 align-middle transition-opacity ${showCursor ? 'opacity-100' : 'opacity-0'}`} />
       </span>
-    </h1>
+    </h2>
   );
 };
 
