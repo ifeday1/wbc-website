@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { CtaBand, PageHero, SectionHeading } from '../components/ui';
+import { ThisWeek, YearCalendar } from './EventsCalendar';
 
 export const metadata: Metadata = {
   title: 'Events - Winners Baptist Church',
@@ -55,12 +56,16 @@ export default function Events() {
         image={{ src: '/church.webp', alt: 'Winners Baptist Church' }}
       />
 
-      <section className="section">
+      <ThisWeek />
+
+      <YearCalendar />
+
+      <section className="section pt-0">
         <div className="container-page">
           <SectionHeading
-            eyebrow="Weekly Gatherings"
-            title="Upcoming Events"
-            lead="Join us for powerful worship services and events. Everyone is welcome!"
+            eyebrow="Every week"
+            title="Weekly services"
+            lead="Alongside the calendar, we gather every Sunday and Wednesday. Everyone is welcome!"
           />
 
           <div className="mt-12 grid gap-3 md:grid-cols-2 md:gap-4">

@@ -160,15 +160,15 @@ const HomeBento = () => {
         </Link>
 
         {/* Give */}
-        <Link href="/giving" className="tile group flex min-h-[300px] flex-col justify-between lg:col-span-3">
+        <Link href="/giving#bank-details" className="tile group flex min-h-[300px] flex-col justify-between lg:col-span-3">
           <span className="icon-tile">
             <Icon name="gift" className="h-5 w-5" />
           </span>
           <div>
             <p className="text-3xl font-semibold tracking-[-0.04em] text-ink">Give online</p>
-            <p className="mt-2 text-stone-500">Tithes, offerings, seeds and the building fund.</p>
+            <p className="mt-2 text-stone-500">Tithes, offerings, seeds and the building fund, by bank transfer in Naira or USD.</p>
             <span className="link-arrow mt-5">
-              Ways to give <ArrowIcon className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+              Bank details <ArrowIcon className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
             </span>
           </div>
         </Link>

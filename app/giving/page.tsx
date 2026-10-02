@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { CtaBand, PageHero } from '../components/ui';
+import BankAccounts from './BankAccounts';
 
 export const metadata = {
   title: 'Giving - Winners Baptist Church',
@@ -35,11 +36,17 @@ export default function Giving() {
         eyebrow="Support Our Ministry"
         title="Giving"
         intro="Sow generously into the kingdom of God and support the work of Winners Baptist Church. We believe in the principle of sowing and reaping. Your generous giving helps further the kingdom of God."
-      />
+      >
+        <a href="#bank-details" className="btn-light w-fit !px-7 !py-3.5">
+          See bank details
+        </a>
+      </PageHero>
 
-      <section className="section">
+      <BankAccounts />
+
+      <section className="section pt-0">
         <div className="container-page">
-          <h2 className="heading-lg">Ways to Give</h2>
+          <h2 className="heading-lg">What you can give towards</h2>
           <div className="mt-12 grid gap-6 sm:grid-cols-2">
             {givingOptions.map((option, index) => (
               <article key={option.title} className="card flex flex-col p-8 md:p-10">
