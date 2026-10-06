@@ -39,7 +39,6 @@ const ChurchPictures = () => {
                 sizes="(max-width: 768px) 50vw, 25vw"
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
               />
-              <span className="chip absolute bottom-3 left-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100">{img.alt}</span>
             </div>
           ))}
         </div>

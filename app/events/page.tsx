@@ -47,8 +47,8 @@ export default function Events() {
   return (
     <div>
       <PageHero
-        eyebrow="Services & Events"
-        title="Our Services & Events"
+        eyebrow="Events"
+        title="Our Events"
         scripture={{
           text: 'Not forsaking the assembling of ourselves together, as the manner of some is, but exhorting one another: and so much the more, as ye see the day approaching.',
           reference: 'Hebrews 10:25',
