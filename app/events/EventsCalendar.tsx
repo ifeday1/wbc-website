@@ -195,7 +195,7 @@ function FeaturedEvent({ item, wide }: { item: Upcoming; wide: boolean }) {
     return (
       <article className={`overflow-hidden rounded-4xl bg-ink text-white ${span}`}>
         <div className="relative aspect-video bg-stone-800">
-          <Image src={event.image.src} alt={event.image.alt} fill sizes="(max-width: 1024px) 100vw, 60vw" className="object-cover" />
+          <Image src={event.image.src} alt={event.image.alt} fill sizes="(max-width: 1024px) 100vw, 60vw" className="object-contain" />
         </div>
         <div className="p-7 md:p-10">
           <div className="mb-5">

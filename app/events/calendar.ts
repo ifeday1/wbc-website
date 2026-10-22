@@ -10,7 +10,7 @@ export type ChurchEvent = {
   otherDates?: string[];
   time?: string;
   detail?: string;
-  image?: { src: string; alt: string }; // flyer shown on the event, 16:9 works best
+  image?: { src: string; alt: string }; // flyer shown on the event; portrait flyers are letterboxed in the featured card
 };
 
 export type CalendarMonth = {
@@ -243,7 +243,13 @@ export const calendar: CalendarMonth[] = [
       reference: '1 Corinthians 15:58',
     },
     events: [
-      { title: 'Adult Harvest', start: '2026-11-01', time: `${COMBINED} · ${M}`, detail: 'Topic: Progressive Harvest' },
+      {
+        title: 'Annual Harvest Thanksgiving',
+        start: '2026-11-01',
+        time: `8:00 AM · ${COMBINED}`,
+        detail: 'Progressive Harvest (John 4:37), ministering Rev. Olusola Oladeni, Ph.D., with anointing for progressive harvest.',
+        image: { src: '/events/progressive-harvest.jpg', alt: 'Progressive Harvest, Annual Harvest Thanksgiving 2026 flyer with Rev. Olusola Oladeni, Sunday 1 November at 8 AM' },
+      },
       { title: "Pastors' and Deacons' Fellowship", start: '2026-11-08', time: E },
       { title: 'Foreign Mission Week of Prayer', start: '2026-11-08', otherDates: ['2026-11-11'], time: M },
       { title: '7 Days Prayer and Fasting', start: '2026-11-23', end: '2026-11-29', time: E },
